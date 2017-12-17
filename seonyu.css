@@ -1,0 +1,197 @@
+/* CSS RESET */
+* {padding: 0; border: 0; margin: 0;}
+a {text-decoration: none;}
+li {list-style: none;}
+
+
+
+
+/*
+ * Base structure
+ */
+
+html,body {
+  height: 100%;
+  background-color: #fff;
+}
+body {
+  color: #000;
+  text-align: center;
+  font-family: DIN;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'nunito'
+}
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 2rem;
+}
+
+
+/*
+ * Header
+ */
+
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(0,0,0,.5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(0,0,0,.25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #000;
+  border-bottom-color: #000;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 40em) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 62em) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 42rem;
+  }
+}
+
+/*album*/
+
+
+
+
+.album {width: 90%;
+        margin: 0 auto;}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;}
+
+
+.card{ 
+    float: left;
+    width: 100%;
+    height: 400px;
+    padding: 2%; 
+    display: table;
+    }
+       
+
+@media (min-width: 768px){
+    .card{width:46%;} 
+
+    
+    
+.card-wrapper {font-size: 30px;
+     text-align: center;
+     vertical-align: middle;
+     background-color: rgba(0,0,0,0.7);
+     display: table-cell;
+     opacity: 0;
+     transition: all 1s ease-in-out;}
+     
+    
+
+.card:hover .card-wrapper{
+    opacity: 1;}
+    
+
+    
+
+        
+    
