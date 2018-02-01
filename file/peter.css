@@ -1,0 +1,683 @@
+/*-------------
+ CSS RESET 
+--------------*/
+
+* {padding: 0; 
+    border: 0; 
+    margin: 0;}
+a {text-decoration: none;}
+li {list-style: none;}
+
+
+
+
+/*
+ * Base structure
+ */
+
+
+html,body {
+  height: 100%;
+  background-color: #F7F9FB;
+}
+body {
+  color: #000;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'source serif pro'
+}
+
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  width: 100%;
+  height: 100%; 
+}
+.site-wrapper-inner {
+  height: 100%;
+}
+
+/* Padding for spacing */
+
+
+
+/*---------------------
+ * Header
+----------------------*/
+
+
+.header_global {
+	width:100%;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.nav{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 3rem;
+    box-sizing: border-box;
+    opacity: 0.5;
+    
+}
+
+.header_global .logo{
+    float: left;
+    color: white;
+    font-weight: 500;
+}
+
+.header_global .nav_menu{
+    float: right;
+}
+
+.header_global .nav_menu li{
+    float: left;
+}
+
+.menu_list{
+    margin-left: 1.5rem;
+    color: white;
+    font-weight: 500;
+}
+
+.header_global:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.header_global nav:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+
+/*---------------------
+ * banner
+----------------------*/
+
+
+
+
+.banner{
+    height: 100%;
+	background-image: url(../imgs/img_peter_main.png) ;
+    background-size: cover; 
+    min-width: 1000px;
+    height: 680px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.banner-container{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.banner-image{
+    position: absolute;
+    top:100px;
+    left: 0;
+    width: 400px;
+}
+
+
+.intro-mockup{
+    padding-left: 70px;
+    width: 313px;
+}
+
+
+.banner-text{
+    position: absolute;
+    top:120px;
+    bottom:0;
+    right: 0;
+    width: 500px;
+}
+
+
+
+
+
+
+.intro1_title{
+    margin-top: 6rem;
+    font-family: 'lora';
+	font-size: 3rem;
+	font-weight: 600;
+	letter-spacing: -1.4px;
+	text-align: left;
+	color: #fcfdfe;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.intro1_description{
+	font-family: 'lora';
+	font-size: 1rem;
+	line-height: 1.83;
+	letter-spacing: -0.6px;
+	text-align: left;
+	color: #fcfdfe;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+
+/*---------------------
+ * intro2
+----------------------*/
+
+
+
+
+
+
+.intro2{ 
+    background-color: #011120;
+    display: block;
+    height: 25%;
+}
+
+
+.intro2-container{
+    margin: 0 auto;
+    display: inline-block;
+    width: 540px;
+    padding: 5rem;
+    
+}
+
+.intro2-content{
+    color: #7c7b86;
+    width: 180px;
+    height: 50px;
+    display: block;
+    float: left;
+    font-family: 'lora';
+    font-weight: 100;
+}
+
+
+.intro2-title{
+    font-family: 'oswald';
+	line-height: 1.34;
+    font-weight: 100;
+	letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+.intro2-body{
+    padding-top: 1rem;
+    
+}
+
+.intro2-container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+
+/*---------------------
+ * product-ideation
+----------------------*/
+
+
+
+
+.product-ideation{
+    background-color: #F7F9FB;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+
+.product-ideation-container{
+    margin: 3rem;
+    background-color: #ffffff;
+    padding: 2rem;}
+
+
+    
+.product-ideation-summary{
+    height: 245px;
+    max-width:500px;
+    margin: 0 auto;
+}
+
+
+
+.product-ideation-title{
+    margin-top: 4rem;
+    font-family: Oswald;
+    
+    font-weight: 100;
+	font-size: 1.5rem;
+	line-height: 1.34;
+	letter-spacing: -0.8px;
+	text-align: left;
+	color: #1d76bb;
+}
+
+
+.product-ideation-description{
+    margin-top: 1rem;
+	font-family: Lora;
+	font-size: 1rem;
+	line-height: 1.79;
+	letter-spacing: -0.6px;
+	text-align: left;
+	color: rgba(86, 91, 125, 0.6);
+}
+
+
+#graphic01{
+    max-width: 600px;
+    margin: 0 auto;
+    }
+
+
+
+#graphic02{
+    max-width: 100%;
+    margin: 0 auto;
+    }
+
+
+
+
+/*---------------------
+ * font style
+----------------------*/
+
+
+
+.font-style-container{
+    
+    width: 1080px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: white;
+    
+    margin-bottom: 50px;
+
+}
+
+
+.font-style-image{
+    width: 70%;
+    margin-top: 240px;
+}
+
+
+
+
+
+/*---------------------
+ * data
+----------------------*/
+
+.data-summary{
+    
+    padding: 2rem;
+    margin: 0 auto;
+    width: 400px;
+    padding-top: 150px;
+}
+
+
+
+.data-title{
+	font-family: Oswald;
+    font-weight: 100;
+	font-size: 1.5rem;
+	line-height: 1.34;
+	letter-spacing: -0.8px;
+	text-align: left;
+	color: #1d76bb;
+    
+}
+
+.data-description{
+    margin-top: 10px;
+	font-family: Lora;
+	line-height: 1.79;
+	letter-spacing: -0.6px;
+	text-align: left;
+	color: rgba(86, 91, 125, 0.6);
+    width: 300px;
+}
+    
+
+.data-visualization{
+    height: 800px;
+    background-image: url(../imgs/data_visualization.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------------
+ * streaming
+----------------------*/
+
+
+
+
+.music-streaming{
+    background-color: #01182C;
+    padding: 5rem;
+}
+
+
+
+.music-streaming-summary{
+    max-width: 500px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+
+
+.music-streaming-title{
+	font-family: Oswald;
+    font-weight: 100;
+	font-size: 1.5rem;
+	line-height: 1.34;
+	letter-spacing: -0.8px;
+	text-align: left;
+	color: #1d76bb;
+    
+}
+
+.music-streaming-description{
+	font-family: Lora;
+    margin-top: 10px;
+	line-height: 1.79;
+	letter-spacing: -0.6px;
+	text-align: left;
+	color: #C0C0C0;
+}
+    
+
+
+
+
+
+/*---------------------
+ * statistics
+----------------------*/
+
+
+.statistics{
+    background-color: #01182C;
+    padding: 5rem;
+}
+
+
+
+
+.statistics-summary{
+    max-width: 500px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+
+
+.statistics-title{
+	font-family: Oswald;
+    font-weight: 100;
+	font-size: 1.5rem;
+	line-height: 1.34;
+	letter-spacing: -0.8px;
+	text-align: left;
+	color: #1d76bb;
+    
+}
+
+.statistics-description{
+	font-family: Lora;
+    margin-top: 10px;
+	line-height: 1.79;
+	letter-spacing: -0.6px;
+	text-align: left;
+	color: #C0C0C0;
+}
+    
+
+
+.canvas-mobile-container{
+    display: inline-block;
+}
+
+.canvas-mobile{
+    margin: 0 auto;
+    width: 960px;
+    display: inline-block;}
+
+
+
+.mobile-title{
+    color: #72727D;
+    padding-bottom: 1rem;}
+
+
+.body3-mobile-pages{
+    float: left;
+    width: 296px;
+    padding: 12px;
+    margin-top: 8rem;
+}
+
+
+
+.body3-mobile:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.mobile-page-image{
+    width: 100%;
+}
+
+
+
+
+
+/*---------------------
+ * Insta
+----------------------*/
+
+
+.insta{
+    background-color: #042542;
+    padding: 5rem;
+}
+
+
+
+
+.insta-summary{
+    max-width: 500px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+
+
+.insta-title{
+	font-family: Oswald;
+    font-weight: 100;
+	font-size: 1.5rem;
+	line-height: 1.34;
+	letter-spacing: -0.8px;
+	text-align: left;
+	color: #1d76bb;
+    
+}
+
+.insta-description{
+	font-family: Lora;
+    margin-top: 10px;
+	line-height: 1.79;
+	letter-spacing: -0.6px;
+	text-align: left;
+	color: #C0C0C0;
+}
+    
+
+
+.insta-mobile-container{
+    display: inline-block;
+}
+
+.insta-mobile{
+    margin: 0 auto;
+    width: 664px;
+    display: inline-block;}
+
+
+
+.insta-mobile-title{
+    color: #72727D;
+    padding-bottom: 2rem;}
+
+
+.insta-mobile-pages{
+    
+    float: left;
+    width: 296px;
+    padding: 12px;
+    margin-top: 8rem;
+}
+
+
+
+.body3-mobile:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.insta-page-image{
+    width: 100%;
+
+
+}
+
+
+
+
+
+
+
+/*---------------------
+ * Insta-mockup
+----------------------*/
+
+
+
+
+.mockup-bundle-image{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/*---------------------
+ * facebook
+----------------------*/
+
+
+
+
+
+
+
+
+.fb{
+    background-color: #edf0f3;
+    padding: 5rem;
+}
+
+
+
+
+
+.fb-summary{
+    max-width: 500px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+
+
+.fb-title{
+	font-family: Oswald;
+    font-weight: 100;
+	font-size: 1.5rem;
+	line-height: 1.34;
+	letter-spacing: -0.8px;
+	text-align: left;
+	color: #1d76bb;
+    
+}
+
+.fb-description{
+	font-family: Lora;
+    margin-top: 10px;
+	line-height: 1.79;
+	letter-spacing: -0.6px;
+	text-align: left;
+	color: #575353;
+}
+    
+
+
+.fb-mockup-image{
+    width: 1000px;
+
+
+}
+
+
+
+
+
+
+
+        
+    

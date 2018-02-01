@@ -1,0 +1,696 @@
+/*-------------
+ CSS RESET 
+--------------*/
+
+* {padding: 0; 
+    border: 0; 
+    margin: 0;}
+a {text-decoration: none;}
+li {list-style: none;}
+
+
+
+
+/*
+ * Base structure
+ */
+
+
+html,body {
+  height: 100%;
+  background-color: #fff;
+}
+body {
+  color: #000;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'source serif pro'
+}
+
+
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  width: 100%;
+  height: 100%; 
+}
+.site-wrapper-inner {
+  height: 100%;
+}
+
+/* Padding for spacing */
+
+
+
+/*---------------------
+ * Header
+----------------------*/
+
+
+.header_global {
+	width:100%;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.nav{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 3rem;
+    box-sizing: border-box;
+    
+}
+.header_global .logo{
+    float: left;
+    color: black;
+    font-weight: 600;
+}
+
+.header_global .nav_menu{
+    float: right;
+}
+
+.header_global .nav_menu li{
+    float: left;
+}
+
+.menu_list{
+    margin-left: 1.5rem;
+    color: black;
+}
+
+.header_global:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.header_global nav:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+
+
+
+/*---------------------
+ * banner
+----------------------*/
+
+
+
+
+
+
+
+
+.banner{
+    height: 100%;
+	background-image: url(../imgs/arumi-bg.png) ;
+    background-size: cover; 
+    min-width: 1000px;
+    height: 680px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.banner-container{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+.intro-mockup{
+    padding-left: 70px;
+    width: 313px;
+}
+
+
+.banner-text{
+    position: absolute;
+    top:200px;
+    bottom:0;
+    width: 400px;
+    left: 50px;
+}
+
+
+
+.intro1_title{
+    font-family: 'lora';
+	font-size: 3rem;
+	font-weight: 600;
+	letter-spacing: -1.4px;
+	text-align: left;
+	color: black;
+}
+
+
+
+.intro1_description{
+    margin-top: 1rem;
+	font-family: 'nunito';
+	font-size: 1rem;
+	line-height: 1.83;
+	letter-spacing: -0.6px;
+	text-align: left;
+	color: black;
+}
+
+
+
+
+
+
+/*---------------------
+ * intro2
+----------------------*/
+
+
+
+
+
+
+.intro2{ 
+    background-color: #f9f9f9;
+    display: block;
+    height: 25%;
+}
+
+
+.intro2-container{
+    margin: 0 auto;
+    display: inline-block;
+    padding: 100px;
+    
+}
+
+.intro2-content{
+    color: #7c7b86;
+    width: 200px;
+    height: 50px;
+    display: block;
+    float: left;
+    font-family: 'lora';
+    font-weight: 100;
+}
+
+
+.intro2-title{
+	font-family: Lato;
+	letter-spacing: -0.6px;
+	color: #4e4e56;
+}
+
+
+.intro2-body{
+    padding-top: 1rem;
+    
+}
+
+.intro2-container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------
+ * landing
+----------------------*/
+
+
+
+.landing{
+    background-color: #f9f9f9; 
+}
+
+
+.landing-image{
+    margin-top: 100px;
+    width: 940px;
+    box-shadow: 0 2px 44px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------------
+ * style
+----------------------*/
+
+.style{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+
+.style-container{
+    margin: 3rem;
+    background-color: #ffffff;
+    padding: 2rem;}
+
+
+    
+.style-summary{
+    height: 245px;
+    max-width:500px;
+    margin: 0 auto;
+}
+
+
+
+.style-title{
+    margin-top: 4rem;
+    font-family: Oswald;
+	font-family: Lora;
+	font-size: 1.5rem;
+	font-weight: bold;
+	line-height: 1.34;
+	letter-spacing: -0.8px;
+	text-align: left;
+	color: #000000;
+}
+
+
+.style-description{
+    margin-top: 1rem;
+	font-family: OpenSans;
+	font-weight: 600;
+	line-height: 1.79;
+	letter-spacing: -0.6px;
+	text-align: left;
+	color: rgba(70, 70, 71, 0.6);
+}
+
+
+
+.color-palatte{
+    width:650px;
+}
+
+
+.style-palatte{
+    margin-top: 100px;
+    width:600px;
+}
+
+
+
+
+
+
+
+/*---------------------
+ *eco - bundle
+----------------------*/
+
+
+
+.eco{
+    margin: 0 auto;
+}
+
+
+.eco-bundle{
+    padding: 8rem;
+}
+
+
+.eco-bundle-container{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.eco-bundle-image{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.eco-text{
+    position: absolute;
+    width: 400px;
+    top: 100px;
+    left: 300px;
+    
+}
+
+
+
+
+.eco-bundle-title{
+	font-family: Lora;
+	font-size: 1.5rem;
+	font-weight: bold;
+	letter-spacing: -0.5px;
+	text-align: left;
+	color: #303036;
+}
+
+
+.eco-bundle-description{
+    margin-top: 10px;
+	font-family: Nunito;
+	line-height: 1.42;
+	letter-spacing: -0.4px;
+	text-align: left;
+	color: #8f8f95;
+}
+
+
+
+
+
+
+
+/*---------------------
+ *eco-product
+----------------------*/
+
+
+
+
+.eco-product{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+
+.eco-product-text{
+    width: 600px;
+    padding: 2rem;
+}
+
+.eco-product-title{
+	font-family: Lora;
+	font-size: 1.5rem;
+	font-weight: bold;
+	letter-spacing: -0.5px;
+	text-align: left;
+	color: #303036;
+}
+
+
+.eco-product-description{
+    margin-top: 10px;
+    margin-bottom: 30px;
+	font-family: Nunito;
+	line-height: 1.42;
+	letter-spacing: -0.4px;
+	text-align: left;
+	color: #8f8f95;
+}
+
+
+
+
+.eco-product-image{
+    width: 100%;
+    
+}
+
+
+
+
+
+/*---------------------
+ *category
+----------------------*/
+
+
+
+
+
+
+
+
+.category-summary-text{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 15rem;
+    padding: 3rem;
+}
+
+.category-summary-title{
+	font-family: Lora;
+	font-size: 1.5rem;
+	font-weight: bold;
+	letter-spacing: -0.5px;
+	text-align: left;
+	color: #303036;
+}
+
+
+.category-summary-description{
+    margin-top: 10px;
+	font-family: Nunito;
+	line-height: 1.42;
+	letter-spacing: -0.4px;
+	text-align: left;
+    font-weight: 400;
+	color: #8f8f95;
+}
+
+
+
+.category-image{
+    background-color: #F1F2F7;
+    margin: 0 auto;
+}
+
+.category-image02{
+    height: 200px;
+    background-color: white;
+}
+
+.category-image03{
+    position: relative;
+    height: 1400px;
+}
+
+.category-image-mockup{
+    position: relative;
+    top: -160px;
+    width: 1000px;
+    
+}
+
+
+
+
+
+
+
+
+/*---------------------
+ *product-details
+----------------------*/
+
+
+.product-detail-summary{
+    background-color: #F1F2F7;
+    padding-top: 100px;
+}
+
+
+
+.product-summary-text{
+    width: 500px;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.product-summary-title{
+	font-family: Lora;
+	font-size: 1.5rem;
+	font-weight: bold;
+	letter-spacing: -0.5px;
+	text-align: left;
+	color: #303036;
+}
+
+
+.product-summary-description{
+    margin-top: 10px;
+	font-family: Nunito;
+	line-height: 1.42;
+	letter-spacing: -0.4px;
+	text-align: left;
+    font-weight: 400;
+	color: #8f8f95;
+}
+
+
+
+.product-image{
+    background-color: white;
+    margin: 0 auto;
+}
+
+.product-image02{
+    height: 200px;
+    background-color: #F1F2F7;
+}
+
+.product-image03{
+    position: relative;
+    height: 500px;
+}
+
+.product-image-mockup{
+    position: relative;
+    top: -160px;
+    width: 1000px;
+    
+}
+
+
+
+
+
+.product-image-page02{
+    width: 1000px;
+    margin-bottom: 10rem;
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------------
+ *bundle
+----------------------*/
+
+
+
+
+
+
+.bundle{
+    background-color: #E7EBF4;
+}
+
+
+.bundle-summary-title{
+	font-family: Lora;
+	font-size: 1.5rem;
+	font-weight: bold;
+	letter-spacing: -0.5px;
+	text-align: left;
+	color: #303036;
+    margin: 0 auto;
+    width: 400px;
+    padding-top: 200px;
+}
+
+
+
+.bundle-image02{
+    height: 500px;
+    background-color: #E7EBF4;
+}
+
+
+.bundle-image03{
+    background-color: white;
+    position: relative;
+}
+
+.bundle-image-mockup{
+    top: -400px;
+    width: 1000px;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+/*---------------------
+ *quick+cart
+----------------------*/
+
+
+
+.quick-title{
+    
+	font-family: Lora;
+	font-size: 1.5rem;
+	font-weight: bold;
+	letter-spacing: -0.5px;
+	text-align: left;
+	color: #303036;
+    margin: 0 auto;
+    width: 400px;
+    padding: 3rem;
+}
+
+.quick-image{
+    width: 1000px;
+}
+
+
+
+.quick-container{
+    padding: 6rem;
+}
+
+
+.quick-view{
+    background-color: #FFF6F4;
+}
+
+
+
+
+
+.cart{
+    background-color: #EDEDED;
+}
+
+
+
+
+
+
+
+
+
+    

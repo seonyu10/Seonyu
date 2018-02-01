@@ -1,0 +1,265 @@
+/*-------------
+ CSS RESET 
+--------------*/
+
+* {padding: 0; 
+    border: 0; 
+    margin: 0;}
+a {text-decoration: none;}
+li {list-style: none;}
+
+
+/*
+ * Base structure
+ */
+
+
+html,body {
+  height: 100%;
+  background-color: #ffffff;
+}
+
+body {
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'source serif pro';
+  line-height: 1.8em;
+  letter-spacing: .02em;
+}
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  width: 100%;
+  height: 100%; 
+}
+.site-wrapper-inner {
+  height: 100%;
+}
+
+/* Padding for spacing */
+
+
+
+/*---------------------
+ * Header
+----------------------*/
+
+
+/*---------------------
+ * Header
+----------------------*/
+
+
+.header_global {
+	width:100%;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.nav{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 3rem;
+    box-sizing: border-box;
+    
+}
+
+.header_global .logo{
+    float: left;
+    color: white;
+    font-weight: 500;
+}
+
+.header_global .nav_menu{
+    float: right;
+    
+}
+
+.header_global .nav_menu li{
+    float: left;
+    color: white;
+    font-weight: 500;
+}
+
+.menu_list{
+    margin-left: 1.5rem;
+    color: white;
+}
+
+.header_global:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.header_global nav:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+/*---------------------
+ * banner
+----------------------*/
+
+
+
+.banner{
+    height: 100%;
+	background-image: url(../imgs/w2.jpg) ;
+    background-size: cover; 
+    min-width: 1000px;
+    height: 680px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.banner-container{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+.intro-mockup{
+    padding-left: 70px;
+    width: 313px;
+}
+
+
+.banner-text{
+    position: absolute;
+    top:200px;
+    bottom:0;
+    right: 0;
+    width: 500px;
+}
+
+
+
+.intro1_title{
+	font-size: 3rem;
+	font-weight: 600;
+	letter-spacing: -1.4px;
+	text-align: left;
+	color: white;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.intro1_description{
+    margin-top: 2rem;
+    font-weight: 100;
+	font-size: 1rem;
+    font-family: 'open sans';
+	line-height: 1.83;
+	letter-spacing: -0.6px;
+	text-align: left;
+	color: white;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+/*---main-----*/
+
+
+
+
+.intro2{ 
+    background-color: #FBFBFB;
+    display: block;
+    height: 25%;
+}
+
+
+.intro2-container{
+    margin: 0 auto;
+    width: 540px;
+    padding: 5rem;
+    
+}
+
+.intro2-content{
+    color: white;
+    width: 180px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    float: left;
+}
+
+.intro2-container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+.intro2-title{
+    color: #4E4E56;
+    font-weight: 100;
+}
+
+.intro2-body{
+    font-weight: 200;
+    color: #7c7b86;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.creative-solution{
+    width: 700px;
+    margin: 0 auto;
+    padding: 3rem;
+    margin-top: 5rem;
+    
+}
+
+
+
+
+.creative-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: 'lora';
+    margin-bottom: 0.5rem;
+}
+
+.creative-body{
+    font-family: 'open sans';}
+
+
+
+
+.mockup{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+.mockup-image{
+    padding: 2rem;
+    width: 100%;
+}

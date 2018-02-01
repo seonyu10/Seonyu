@@ -1,0 +1,273 @@
+/*-------------
+ CSS RESET 
+--------------*/
+
+* {padding: 0; 
+    border: 0; 
+    margin: 0;}
+a {text-decoration: none;}
+li {list-style: none;}
+
+
+/*
+ * Base structure
+ */
+
+
+html,body {
+  height: 100%;
+  background-color: #ffffff;
+}
+
+body {
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'source serif pro';
+  line-height: 1.8em;
+  letter-spacing: .02em;
+}
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  width: 100%;
+  height: 100%; 
+}
+.site-wrapper-inner {
+  height: 100%;
+}
+
+/* Padding for spacing */
+
+
+
+/*---------------------
+ * Header
+----------------------*/
+
+
+/*---------------------
+ * Header
+----------------------*/
+
+
+.header_global {
+	width:100%;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.nav{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 3rem;
+    box-sizing: border-box;
+    
+}
+
+.header_global .logo{
+    float: left;
+    color: white;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.header_global .nav_menu{
+    float: right;
+    
+}
+
+.header_global .nav_menu li{
+    float: left;
+    color: white;
+}
+
+.menu_list{
+    margin-left: 1.5rem;
+    color: white;    
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.header_global:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.header_global nav:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+/*---------------------
+ * banner
+----------------------*/
+
+
+
+.banner{
+    height: 100%;
+	background-image: url(../imgs/discover_seoul.jpeg) ;
+    background-size: cover; 
+    min-width: 1000px;
+    height: 680px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.banner-container{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+.intro-mockup{
+    padding-left: 70px;
+    width: 313px;
+}
+
+
+.banner-text{
+    position: absolute;
+    top:190px;
+    bottom:0;
+    left: 50px;
+    width: 460px;
+    
+
+}
+
+
+
+
+/*-----------------
+ main
+------------------*/
+
+
+
+
+.intro1{
+}
+
+.intro1_container{
+    
+}
+
+
+.intro1_title{
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+    text-align: left;
+    font-family: 'lora';
+    margin-bottom: 24px;
+}
+
+
+
+
+.intro1_description {
+    font-size: 16px;
+    color: white;
+    text-align: left;    
+    font-family: 'open sans';
+    font-weight: 500;
+    letter-spacing: 0.32px;
+    line-height: 28.8px;}
+
+
+
+
+/*---main-----*/
+
+
+
+
+.intro2{ 
+    background-color: #FBFBFB;
+    display: block;
+    height: 25%;
+}
+
+
+.intro2-container{
+    margin: 0 auto;
+    width: 540px;
+    padding: 5rem;
+    text-align: center;
+    
+}
+
+.intro2-content{
+    color: white;
+    width: 180px;
+    height: 50px;
+    display: block;
+    float: left;
+    font-family: 'open sans';
+}
+
+.intro2-container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+.intro2-title{
+    color: #4E4E56;
+    font-weight: 100;
+}
+
+.intro2-body{
+    font-weight: 200;
+    color: #7c7b86;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.creative-solution{
+    width: 700px;
+    margin: 0 auto;
+    padding: 7rem;
+    font-family: 'open sans';
+    
+}
+
+
+
+
+
+
+
+.mockup{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+.mockup-image{
+    padding: 2rem;
+    width: 100%;
+}

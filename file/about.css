@@ -1,0 +1,193 @@
+/*-------------
+ CSS RESET 
+--------------*/
+
+* {padding: 0; 
+    border: 0; 
+    margin: 0;}
+a {text-decoration: none;}
+li {list-style: none;}
+
+
+
+
+/*
+ * Base structure
+ */
+
+
+html,body {
+  height: 100%;
+  background-color: #ffffff;
+}
+body {
+  color: #000;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'source serif pro'
+}
+
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  width: 100%;
+  height: 100%; 
+}
+.site-wrapper-inner {
+  height: 100%;
+}
+
+/* Padding for spacing */
+
+
+
+/*---------------------
+ * Header
+----------------------*/
+
+
+.header_global {
+	width:100%;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.nav{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 3rem;
+    box-sizing: border-box;
+    color: black;
+    
+}
+.header_global .logo{
+    float: left;
+    color: white;
+    font-weight: 500;
+}
+
+.header_global .nav_menu{
+    float: right;
+}
+
+.header_global .nav_menu li{
+    float: left;
+}
+
+.menu_list{
+    margin-left: 1.5rem;
+    color: black;
+    font-weight: 500;
+    
+}
+
+.header_global:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.header_global nav:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+
+/*---------------------
+ * banner
+----------------------*/
+
+
+
+
+.intro1{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.intro1_container{
+    position: relative;
+    top: 200px;
+}
+
+
+.profile{
+    width: 350px;
+    position: absolute;
+    left: 100px;
+}
+
+
+.intro2{
+    width: 500px;
+    position: absolute;
+    right: 0;
+}
+
+
+.text-title{
+    text-align: left;
+    font-size:1.3rem;
+}
+
+.text-description{
+    font-size: 1rem;
+    margin-top: 1rem;
+    letter-spacing: -0.6px;
+	line-height: 1.8;
+    text-align: left;
+}
+
+
+
+
+
+.social{
+    width:90px;
+    padding-top: 100px;
+}
+
+.social-list{
+    float: left;
+    width: 30px;
+    height: 30px;
+
+}
+
+.social-icon{
+    width: 90%;
+}
+
+
+
+
+
+
+
+.more{
+    font-family: 'roboto';
+    text-align: left;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    

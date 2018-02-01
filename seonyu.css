@@ -1,5 +1,10 @@
-/* CSS RESET */
-* {padding: 0; border: 0; margin: 0;}
+/*-------------
+ CSS RESET 
+--------------*/
+
+* {padding: 0; 
+    border: 0; 
+    margin: 0;}
 a {text-decoration: none;}
 li {list-style: none;}
 
@@ -9,6 +14,7 @@ li {list-style: none;}
 /*
  * Base structure
  */
+
 
 html,body {
   height: 100%;
@@ -20,178 +26,321 @@ body {
   font-family: DIN;
   font-weight: 400;
   font-size: 16px;
-  font-family: 'nunito'
+  font-family: 'source serif pro'
 }
 
 
-/* Extra markup and styles for table-esque vertical and horizontal centering */
-.site-wrapper {
-  display: table;
-  width: 100%;
-  height: 100%; /* For at least Firefox */
-  min-height: 100%;
-}
-.site-wrapper-inner {
-  display: table-cell;
-  vertical-align: top;
-}
-.cover-container {
-  margin-right: auto;
-  margin-left: auto;
-}
 
-/* Padding for spacing */
-.inner {
-  padding: 2rem;
-}
-
-
-/*
+/*---------------------
  * Header
- */
+----------------------*/
 
-.masthead {
-  margin-bottom: 2rem;
+
+.header_global{
+    background-color: #ffffff;
+    width: 1000px;
+    padding: 3rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    
 }
 
-.masthead-brand {
-  margin-bottom: 0;
-}
-
-.nav-masthead .nav-link {
-  padding: .25rem 0;
-  font-weight: 700;
-  color: rgba(0,0,0,.5);
-  background-color: transparent;
-  border-bottom: .25rem solid transparent;
-}
-
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(0,0,0,.25);
-}
-
-.nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
-}
-
-.nav-masthead .active {
-  color: #000;
-  border-bottom-color: #000;
-}
-
-@media (min-width: 48em) {
-  .masthead-brand {
+.header_global .logo{
     float: left;
-  }
-  .nav-masthead {
+    color: black;
+    font-weight: 600;
+}
+
+.header_global .nav_menu{
     float: right;
-  }
+}
+
+.header_global .nav_menu li{
+    float: left;
+}
+
+.menu_list{
+    margin-left: 1.5rem;
+    color: black;
+}
+
+.header_global:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.header_global nav:after{
+    display: block;
+    clear: both;
+    content: "";
 }
 
 
-/*
- * Cover
- */
+.banner{
+    height: 100%;
+    background-color: white;
+    background-size: cover;
+    background-position: top center;
+    padding-bottom: 5rem;
 
-.cover {
-  padding: 0 1.5rem;
-}
-.cover .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
 }
 
+.intro1_container{
+    padding: 2rem;
+}
 
-/*
- * Footer
- */
-
-.mastfoot {
-  color: rgba(255,255,255,.5);
+.profile{
+    width: 200px;
 }
 
 
-/*
- * Affix and center
- */
+.cover-heading{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
 
-@media (min-width: 40em) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
 
-  /* Start the vertical centering */
-  .site-wrapper-inner {
+.lead{
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1rem;
+    margin-top: 1rem;
+    letter-spacing: -0.6px;
+	line-height: 1.8;
+}
+
+
+
+    
+    
+/*-----------------
+ card
+------------------*/
+    
+    
+h2{ font-size: 24px;}
+p { font-size:20px}
+    
+    
+#arumi{ 
+    display: table;
+    background-image: url(imgs/arumi.png);
+    background-size: cover;}
+
+#arumi-content{  
+    display: table-cell;
+    font-size: 30px;
+    text-align: center;
+    display: table-cell;
     vertical-align: middle;
-  }
+    background-color: white;
+    opacity: 0;
+    transition: all 1s ease-in-out;}
+     
+#arumi:hover #arumi-content{
+    opacity: 1;}
+    
+ 
+    
+    
 
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
-}
+    
+#beecanvas{ 
+    display: table;
+    background-image: url(imgs/bee_main.png);
+    background-size: cover;}
 
-@media (min-width: 62em) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 42rem;
-  }
-}
+#beecanvas-content{  
+    display: table-cell;
+    font-size: 30px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: white;
+    opacity: 0;
+    transition: all 1s ease-in-out;}
+     
+#beecanvas:hover #beecanvas-content{
+    opacity: 1;}
+    
+  
+    
+    
+    
+    
+    
+#done{ 
+    display: table;
+    background-image: url(imgs/done.jpg);
+    background-size: cover;}
+    
+#done-content{  
+    display: table-cell;
+    font-size: 30px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: white;
+    opacity: 0;
+    transition: all 1s ease-in-out;}
+    
+#done:hover #done-content{
+    opacity: 1;}
+    
+    
+    
+    
+   
+#town{ 
+    display: table;
+    background-image: url(imgs/townus.png);
+    background-size: cover;
+    }
+  
+#town-content{  
+    display: table-cell;
+    font-size: 30px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: white;
+    opacity: 0;
+    transition: all 1s ease-in-out;}
+      
+#town:hover #town-content{
+    opacity: 1;}
+    
+    
 
-/*album*/
+    
+    
+#peter{ 
+    display: table;
+    background-image: url(imgs/peter.png);
+    background-size: cover;
+    }
+  
+#peter-content{  
+    display: table-cell;
+    font-size: 30px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: white;
+    opacity: 0;
+    transition: all 1s ease-in-out;}
+      
+#peter:hover #peter-content{
+    opacity: 1;}
+        
+    
+  
+    
+#vryjam{ 
+    display: table;
+    background-image: url(imgs/vryjam.png);
+    background-size: cover;
+    }
+  
+#vryjam-content{  
+    display: table-cell;
+    font-size: 30px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: white;
+    opacity: 0;
+    transition: all 1s ease-in-out;}
+      
+#vryjam:hover #vryjam-content{
+    opacity: 1;}
+    
+
+    
+    
+
+#word{ 
+    display: table;
+    background-image: url(imgs/word_as_image.jpeg);
+    background-size: cover;
+    }
+  
+#word-content{  
+    display: table-cell;
+    font-size: 30px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: white;
+    opacity: 0;
+    transition: all 1s ease-in-out;}
+      
+#word:hover #word-content{
+    opacity: 1;}
+    
+    
+    
+    
+    
+#discover{ 
+    display: table;
+    background-image: url(imgs/discover_seoul.jpeg);
+    background-size: cover;
+    }
+  
+#discover-content{  
+    display: table-cell;
+    font-size: 30px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: white;
+    opacity: 0;
+    transition: all 1s ease-in-out;}
+      
+#discover:hover #discover-content{
+    opacity: 1;}
+    
 
 
 
 
-.album {width: 90%;
-        margin: 0 auto;}
+/*-----------------
+ album
+------------------*/
+
+
+
 
 .card-image {
+    color: black;
     width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center center;}
+
+ 
+
+.album {width: 100%;}
+
 
 
 .card{ 
     float: left;
     width: 100%;
     height: 400px;
-    padding: 2%; 
+    padding: 15px; 
     display: table;
     }
-       
+    
 
 @media (min-width: 768px){
-    .card{width:46%;} 
-
-    
-    
-.card-wrapper {font-size: 30px;
-     text-align: center;
-     vertical-align: middle;
-     background-color: rgba(0,0,0,0.7);
-     display: table-cell;
-     opacity: 0;
-     transition: all 1s ease-in-out;}
-     
-    
-
-.card:hover .card-wrapper{
-    opacity: 1;}
-    
-
-    
-
+    .card{width:470px;} 
         
     
+    
+@media (min-width: 768px){
+    .album{width:1000px;
+           margin: 0 auto;} 
+        
