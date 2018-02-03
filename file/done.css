@@ -21,11 +21,11 @@ html,body {
   background-color: #F7F9FB;
 }
 body {
-  color: #000;
-  text-align: center;
+color: #000;
   font-weight: 400;
   font-size: 16px;
-  font-family: 'source serif pro'
+  font-family: 'roboto';
+  text-align: center;
 }
 
 
@@ -103,7 +103,7 @@ body {
 
 .banner{
     height: 100%;
-	background-image: url(../imgs/done.jpg) ;
+	background-image: url(../imgs/index_done.png) ;
     background-size: cover; 
     min-width: 1000px;
     height: 680px;
@@ -150,7 +150,7 @@ body {
     margin-top: 6rem;
     font-family: 'lora';
 	font-size: 3rem;
-	font-weight: 600;
+	font-weight: 900;
 	letter-spacing: -1.4px;
 	text-align: left;
 	color: #fcfdfe;
@@ -160,7 +160,7 @@ body {
 
 
 .intro1_description{
-	font-family: 'lora';
+	font-family: 'roboto';
 	font-size: 1rem;
 	line-height: 1.83;
 	letter-spacing: -0.6px;

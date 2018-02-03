@@ -25,7 +25,7 @@ body {
   text-align: center;
   font-weight: 400;
   font-size: 16px;
-  font-family: 'source serif pro'
+  font-family: 'roboto'
 }
 
 
@@ -143,10 +143,11 @@ body {
 
 
 .intro1_title{
+
     font-family: 'lora';
 	font-size: 3rem;
-	font-weight: 600;
-	letter-spacing: -1.4px;
+	font-weight: 900;
+	letter-spacing: -0.8px;
 	text-align: left;
 	color: black;
 }
@@ -155,7 +156,7 @@ body {
 
 .intro1_description{
     margin-top: 1rem;
-	font-family: 'nunito';
+	font-family: 'roboto';
 	font-size: 1rem;
 	line-height: 1.83;
 	letter-spacing: -0.6px;

@@ -25,7 +25,7 @@ body {
   text-align: center;
   font-weight: 400;
   font-size: 16px;
-  font-family: 'source serif pro'
+  font-family: 'roboto'
 }
 
 
@@ -135,6 +135,9 @@ body {
 }
 
 .text-description{
+    color: #000000;
+    font-family: 'roboto';
+    opacity: 0.5;
     font-size: 1rem;
     margin-top: 1rem;
     letter-spacing: -0.6px;
@@ -146,15 +149,37 @@ body {
 
 
 
+
+
+.more{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    
+    color: red;
+    font-family: 'roboto';
+    opacity: 0.5;
+    font-size: 1rem;
+    margin-top: 1rem;
+    letter-spacing: -0.6px;
+	line-height: 1.8;
+    text-align: left;
+    text-decoration-line: underline;}
+
+
+.more-list{
+    display: block;
+}
+
+
+
 .social{
-    width:90px;
-    padding-top: 100px;
+    width:175px;
 }
 
 .social-list{
     float: left;
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
 
 }
 
@@ -167,14 +192,8 @@ body {
 
 
 
-
-.more{
-    font-family: 'roboto';
-    text-align: left;
-    margin: 10px;
+    
 }
-
-
 
 
 

@@ -25,7 +25,7 @@ body {
   text-align: center;
   font-weight: 400;
   font-size: 16px;
-  font-family: 'source serif pro'
+  font-family: 'roboto'
 }
 
 
@@ -124,13 +124,12 @@ body {
 .banner-image{
     position: absolute;
     top:100px;
-    left: 0;
+    right: 0;
     width: 400px;
 }
 
 
 .intro-mockup{
-    padding-left: 70px;
     width: 313px;
 }
 
@@ -139,7 +138,7 @@ body {
     position: absolute;
     top:120px;
     bottom:0;
-    right: 0;
+    left: 0;
     width: 500px;
 }
 
@@ -150,10 +149,10 @@ body {
 
 .intro1_title{
     margin-top: 6rem;
-    font-family: 'lora';
 	font-size: 3rem;
-	font-weight: 600;
-	letter-spacing: -1.4px;
+	font-weight: 900;
+	letter-spacing: -0.8px;
+	text-align: left;
 	text-align: left;
 	color: #fcfdfe;
 	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
@@ -162,12 +161,12 @@ body {
 
 
 .intro1_description{
-	font-family: 'lora';
+	font-family: 'roboto';
 	font-size: 1rem;
 	line-height: 1.83;
 	letter-spacing: -0.6px;
-	text-align: left;
-	color: #fcfdfe;
+    color: white;
+    text-align: left;
 	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     
 }
@@ -204,13 +203,11 @@ body {
     height: 50px;
     display: block;
     float: left;
-    font-family: 'lora';
     font-weight: 100;
 }
 
 
 .intro2-title{
-    font-family: 'oswald';
 	line-height: 1.34;
     font-weight: 100;
 	letter-spacing: 1px;
@@ -277,8 +274,7 @@ body {
 
 
 .product-ideation-description{
-    margin-top: 1rem;
-	font-family: Lora;
+    margin-top: 1rem; 
 	font-size: 1rem;
 	line-height: 1.79;
 	letter-spacing: -0.6px;

@@ -23,10 +23,9 @@ html,body {
 body {
   color: #000;
   text-align: center;
-  font-family: DIN;
   font-weight: 400;
   font-size: 16px;
-  font-family: 'source serif pro'
+  font-family: 'roboto'
 }
 
 
@@ -86,6 +85,10 @@ body {
 
 }
 
+
+
+
+
 .intro1_container{
     padding: 2rem;
 }
@@ -96,7 +99,7 @@ body {
 
 
 .cover-heading{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 2rem;
 }
 
@@ -104,10 +107,14 @@ body {
 .lead{
     max-width: 600px;
     margin: 0 auto;
+    color: #000000;
+    font-family: 'roboto';
+    opacity: 0.5;
     font-size: 1rem;
     margin-top: 1rem;
     letter-spacing: -0.6px;
 	line-height: 1.8;
+    text-align: ;
 }
 
 
@@ -123,35 +130,18 @@ h2{ font-size: 24px;}
 p { font-size:20px}
     
     
-#arumi{ 
-    display: table;
-    background-image: url(imgs/arumi.png);
-    background-size: cover;}
 
-#arumi-content{  
-    display: table-cell;
-    font-size: 30px;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    background-color: white;
-    opacity: 0;
-    transition: all 1s ease-in-out;}
-     
-#arumi:hover #arumi-content{
-    opacity: 1;}
-    
  
     
     
 
     
-#beecanvas{ 
+#beecanvas01{ 
     display: table;
-    background-image: url(imgs/bee_main.png);
+    background-image: url(imgs/index_bee_1.png);
     background-size: cover;}
 
-#beecanvas-content{  
+#beecanvas01-content{  
     display: table-cell;
     font-size: 30px;
     text-align: center;
@@ -161,44 +151,20 @@ p { font-size:20px}
     opacity: 0;
     transition: all 1s ease-in-out;}
      
-#beecanvas:hover #beecanvas-content{
+#beecanvas01:hover #beecanvas01-content{
     opacity: 1;}
     
   
-    
-    
-    
-    
-    
-#done{ 
-    display: table;
-    background-image: url(imgs/done.jpg);
-    background-size: cover;}
-    
-#done-content{  
-    display: table-cell;
-    font-size: 30px;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    background-color: white;
-    opacity: 0;
-    transition: all 1s ease-in-out;}
-    
-#done:hover #done-content{
-    opacity: 1;}
-    
-    
-    
-    
    
-#town{ 
+
+
+   
+#beecanvas02{ 
     display: table;
-    background-image: url(imgs/townus.png);
-    background-size: cover;
-    }
-  
-#town-content{  
+    background-image: url(imgs/index_Bee.png);
+    background-size: cover;}
+
+#beecanvas02-content{  
     display: table-cell;
     font-size: 30px;
     text-align: center;
@@ -207,17 +173,26 @@ p { font-size:20px}
     background-color: white;
     opacity: 0;
     transition: all 1s ease-in-out;}
-      
-#town:hover #town-content{
+     
+#beecanvas02:hover #beecanvas02-content{
     opacity: 1;}
     
+
+
+
     
+    
+    
+    
+    
+    
+
 
     
     
 #peter{ 
     display: table;
-    background-image: url(imgs/peter.png);
+    background-image: url(imgs/index_peter.png);
     background-size: cover;
     }
   
@@ -235,15 +210,18 @@ p { font-size:20px}
     opacity: 1;}
         
     
+
+
+
   
+
     
-#vryjam{ 
+#done{ 
     display: table;
-    background-image: url(imgs/vryjam.png);
-    background-size: cover;
-    }
-  
-#vryjam-content{  
+    background-image: url(imgs/index_done.png);
+    background-size: cover;}
+    
+#done-content{  
     display: table-cell;
     font-size: 30px;
     text-align: center;
@@ -252,17 +230,45 @@ p { font-size:20px}
     background-color: white;
     opacity: 0;
     transition: all 1s ease-in-out;}
-      
-#vryjam:hover #vryjam-content{
+    
+#done:hover #done-content{
+    
+    background-color: white;
+    opacity: 0.5;}
+    
+
+
+
+
+
+#arumi{ 
+    display: table;
+    background-image: url(imgs/index_arumi.png);
+    background-size: cover;}
+
+#arumi-content{  
+    display: table-cell;
+    font-size: 30px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: white;
+    opacity: 0;
+    transition: all 1s ease-in-out;}
+     
+#arumi:hover #arumi-content{
     opacity: 1;}
     
 
-    
-    
+
+
+
+
+
 
 #word{ 
     display: table;
-    background-image: url(imgs/word_as_image.jpeg);
+    background-image: url(imgs/index_word.jpg);
     background-size: cover;
     }
   
@@ -281,11 +287,15 @@ p { font-size:20px}
     
     
     
-    
+
+
+
+
+
     
 #discover{ 
     display: table;
-    background-image: url(imgs/discover_seoul.jpeg);
+    background-image: url(imgs/index_discover.jpeg);
     background-size: cover;
     }
   

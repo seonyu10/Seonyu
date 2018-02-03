@@ -24,9 +24,7 @@ body {
   color: #000;
   font-weight: 400;
   font-size: 16px;
-  font-family: 'source serif pro';
-  line-height: 1.8em;
-  letter-spacing: .02em;
+  font-family: 'roboto';
   text-align: center;
 }
 
@@ -62,27 +60,23 @@ body {
     box-sizing: border-box;
     
 }
-
 .header_global .logo{
     float: left;
-    color: black;    
-    font-weight: 500;
+    color: black;
+    font-weight: 600;
 }
 
 .header_global .nav_menu{
     float: right;
-    
 }
 
 .header_global .nav_menu li{
     float: left;
-    color: black;
 }
 
 .menu_list{
     margin-left: 1.5rem;
     color: black;
-    font-weight: 500;
 }
 
 .header_global:after{
@@ -97,6 +91,26 @@ body {
     content: "";
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*---------------------
  * banner
 ----------------------*/
@@ -105,7 +119,7 @@ body {
 
 .banner{
     height: 100%;
-	background-image: url(../imgs/bee_main.png) ;
+	background-image: url(../imgs/bee03.png) ;
     background-size: cover; 
     min-width: 1000px;
     height: 680px;
@@ -116,33 +130,50 @@ body {
 
 .banner-container{
     width: 1000px;
+    height: 680px;
     margin: 0 auto;
     position: relative;
 }
 
 
 
-.intro-mockup{
-    padding-left: 70px;
-    width: 313px;
+.banner-text{
+    position: absolute;
+    top:190px;
+    left: 0px;
+    width: 400px;
 }
 
 
-.banner-text{
+
+.banner-image{
     position: absolute;
     top:200px;
-    bottom:0;
-    left: 50px;
-    width: 460px;
+    width:900px;
+    right: -200px;
+}
+
+.intro-mockup{
+    width:100%;
+
 }
 
 
 
 .intro1_title{
-    font-family: 'rubik';
+    font-family: 'roboto';
 	font-size: 3rem;
-	font-weight: 600;
-	letter-spacing: -1.4px;
+	font-weight: 900;
+	letter-spacing: -0.8px;
+	text-align: left;
+	color: black;
+}
+
+.intro2_title{
+    font-family: 'roboto';
+	font-size: 1.5rem;
+	font-weight: 900;
+	letter-spacing: -0.8px;
 	text-align: left;
 	color: black;
 }
@@ -150,7 +181,7 @@ body {
 
 
 .intro1_description{
-    margin-top:2rem;
+    margin-top:1rem;
 	font-family: 'roboto';
 	font-size: 1rem;
 	line-height: 1.83;
@@ -158,9 +189,6 @@ body {
 	text-align: left;
 	color: black;
 }
-
-
-
 
 
 
@@ -178,44 +206,41 @@ body {
 /*---intro2------*/
 
 .intro2{ 
-    background-color: #FBFBFB;
-    display: block;
-    height: 25%;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 
-.intro2-container{
-    margin: 0 auto;
-    display: inline-block;
-    width: 540px;
-    padding: 5rem;
+.intro02-container{
+    width: 1000px;
+    height: 330px;
+    padding: 3rem;
     
 }
 
+
 .intro2-content{
     color: white;
-    width: 180px;
+    width:300px;
     height: 50px;
     display: block;
-    float: left;
-}
-
-.intro2-container:after{
-    content: "";
-    display: block;
-    clear: both;
+    text-align: left;
+    padding: 1rem;
 }
 
 
 
 .intro2-title{
-    color: #4E4E56;
+    font-size: 1rem;
     font-weight: 100;
-    font-family: 'Roboto condensed';
+    color: #7c7b86;
+    opacity: 0.5;
+    font-family: 'roboto';
 }
 
 .intro2-body{
-    font-weight: 200;
+    font-size: 1rem;
+    font-weight: 500;
     color: #7c7b86;
     font-family: 'roboto';
     margin-top: 10px;
@@ -223,6 +248,28 @@ body {
 
 
 
+.intro02-text{
+    
+    padding: 1rem;
+    
+    text-align: left;
+    width: 500px;
+    font-size: 1rem;
+    font-weight: 500;
+    
+	line-height: 1.62;
+	letter-spacing: -0.6px;
+
+    color: #7c7b86;
+    font-family: 'roboto';
+}
+
+
+
+.intro02-list{
+    float: left;
+    width: 500px;
+}
 
 
 
@@ -282,13 +329,11 @@ body {
 .body1-title{
     margin-top: 14rem;
     display: inline-block;
-    font-family: rubik;
     color: #ffffff;
 }
 
 .body1-intro {
     padding: 2%;
-    font-family: roboto;
     font-weight: 100;
     color: white;
     max-width: 632px;
@@ -362,7 +407,6 @@ body {
     font-weight: 800;
     color: #050022;
     text-align: center;
-    font-family: 'rubik';
     font-weight: 800;
 }
 
@@ -400,39 +444,45 @@ body {
 
 
 .project-box{
+    
+    width: 600px;
     margin: 0 auto;
     margin-bottom: 2rem;
-    text-align: center;
+    text-align: left;
     margin-top: 2rem;
     margin-bottom: 3rem;
+    position: relative;
 }
 
 .project-number{
+    position: absolute;
+    top:-60px;
+    left: 0px;
     width: 65px;
 	opacity: 0.05;
 	font-family: Roboto;
 	font-size: 60px;
 	letter-spacing: -1.4px;
 	color: #2b2b30;
-    margin-bottom: 1.5rem;
+    margin-bottom: rem;
     display: inline-block;
 }
 
 
 .project-title{
-	font-family: Rubik;
+    text-align: left;
 	font-size: 1.5rem;
 	color: #121214;
+
 }
 
 
 .project-description{
-    width: 80%;
-	font-family: Roboto;
+    text-align: left;
 	font-size: 1rem;
 	line-height: 30px;
 	letter-spacing: -0.6px;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 	color: #121214;
     display: inline-block;
 }
@@ -574,7 +624,6 @@ body {
 }
 
 .body3-title{
-    font-family: Rubik;
 	font-size: 1.5rem;
 	font-weight: bold;
 	letter-spacing: -0.9px;
@@ -586,7 +635,6 @@ body {
 .body3-description{
     max-width: 500px;
     display: inline-block;
-	font-family: Roboto;
 	line-height: 1.58;
 	letter-spacing: -0.6px;
 	color: #1d1d20;
@@ -653,7 +701,6 @@ body {
 
 .canvas-title{
     padding-top: 10rem; 
-	font-family: Rubik;
 	font-size: 1.5rem;
 	font-weight: bold;
 	letter-spacing: -0.9px;
@@ -664,7 +711,6 @@ body {
 }
 .canvas-description{
     padding-top: 1rem;
-	font-family: Roboto;
 	font-size: 1rem;
     font-weight: 100;
 	line-height: 1.58;
