@@ -205,23 +205,24 @@ body {
 
 
 
-/*---intro2------*/
+/*---intro------*/
 
-.intro2{ 
-    width: 1000px;
-    margin: 0 auto;
+.intro{ 
 }
 
-
-.intro02-container{
+.intro-box{
+    display: inline-block;
     width: 1000px;
-    height: 330px;
-    padding: 3rem;
+    margin: 0 auto;
+    margin: 2rem;
+}
+.intro-container{
+    
     
 }
 
 
-.intro2-content{
+.intro-role{
     color: white;
     width:300px;
     height: 50px;
@@ -232,7 +233,7 @@ body {
 
 
 
-.intro2-title{
+.intro-title{
     font-size: 1rem;
     font-weight: 100;
     color: #7c7b86;
@@ -240,7 +241,7 @@ body {
     font-family: 'roboto';
 }
 
-.intro2-body{
+.intro-body{
     font-size: 1rem;
     font-weight: 500;
     color: #7c7b86;
@@ -250,7 +251,7 @@ body {
 
 
 
-.intro02-text{
+.intro-text{
     
     padding: 1rem;
     
@@ -268,44 +269,12 @@ body {
 
 
 
-.intro02-list{
+.intro-list{
     float: left;
     width: 500px;
 }
 
 
-
-
-
-
-
-/*---intro3------*/
-
-
-
-
-.intro3{
-}
-
-.intro3-1 {
-    background: #FBFBFB;
-    height: 400px;
-    }
-
-.intro3-2 .video{
-    position: relative;
-    bottom: 400px;
-}
-
-.intro3-2 {
-    background: #131315;
-    height: 300px;
-}
-
-
-.video_embed{
-    position: relative;
-    margin: 3rem;}
 
 
 
@@ -327,18 +296,23 @@ body {
     margin: 1rem;
 }
 
-
+.body1-content-text{
+    width: 600px;
+    margin: 0 auto;
+}
 .body1-title{
+    text-align: left;
     margin-top: 14rem;
-    display: inline-block;
     color: #ffffff;
+    width: 600px;
 }
 
 .body1-intro {
+    text-align: left;
     padding: 2%;
     font-weight: 100;
     color: white;
-    max-width: 632px;
+    width: 600px;
     margin: 0 auto;
     margin-bottom: 3rem;
     line-height: 160%;
@@ -579,13 +553,14 @@ body {
   animation-duration: 5s;
 }
 
+
 @keyframes pulse {
   from {
     transform: scale3d(1, 1, 1);
   }
 
-  10% {
-    transform: scale3d(1, 1, 1);
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
   }
 
   to {
@@ -596,7 +571,6 @@ body {
 .pulse {
   animation-name: pulse;
 }
-
 
 
 

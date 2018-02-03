@@ -181,50 +181,80 @@ color: #000;
 
 
 
-.intro2{ 
-    display: block;
-    height: 25%;
+
+
+
+/*---intro------*/
+
+.intro{ 
 }
 
-
-.intro2-container{
-    margin: 0 auto;
+.intro-box{
     display: inline-block;
-    width: 600px;
-    padding: 5rem;
+    width: 1000px;
+    margin: 0 auto;
+    margin: 2rem;
+}
+.intro-container{
+    
     
 }
 
-.intro2-content{
-    color: #7c7b86;
-    width: 200px;
+
+.intro-role{
+    color: white;
+    width:400px;
     height: 50px;
     display: block;
-    float: left;
-    font-family: 'lora';
-    font-weight: 100;
+    text-align: left;
+    padding: 1rem;
 }
 
 
-.intro2-title{
-    font-family: 'roboto condensed';
+
+.intro-title{
+    font-size: 1rem;
     font-weight: 100;
-	letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-
-.intro2-body{
-    padding-top: 1rem;
+    color: #7c7b86;
+    opacity: 0.5;
     font-family: 'roboto';
-    
 }
 
-.intro2-container:after{
-    content: "";
-    display: block;
-    clear: both;
+.intro-body{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #7c7b86;
+    font-family: 'roboto';
+    margin-top: 10px;
 }
+
+
+
+.intro-text{
+    
+    padding: 1rem;
+    
+    text-align: left;
+    width: 500px;
+    font-size: 1rem;
+    font-weight: 500;
+    
+	line-height: 1.62;
+	letter-spacing: -0.6px;
+
+    color: #7c7b86;
+    font-family: 'roboto';
+}
+
+
+
+.intro-list{
+    float: left;
+    width: 500px;
+}
+
+
+
 
 
 

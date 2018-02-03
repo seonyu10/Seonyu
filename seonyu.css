@@ -142,6 +142,7 @@ p { font-size:20px}
     background-size: cover;}
 
 #beecanvas01-content{  
+    
     display: table-cell;
     font-size: 30px;
     text-align: center;
@@ -152,12 +153,10 @@ p { font-size:20px}
     transition: all 1s ease-in-out;}
      
 #beecanvas01:hover #beecanvas01-content{
+    background-color: white rbga(0,0,0,0,0.5);
     opacity: 1;}
     
   
-   
-
-
    
 #beecanvas02{ 
     display: table;
