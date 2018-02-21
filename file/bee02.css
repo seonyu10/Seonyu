@@ -227,6 +227,7 @@ body {
     color: #7c7b86;
     opacity: 0.5;
     font-family: 'roboto';
+    text-align: left;
 }
 
 .intro-body{
@@ -323,7 +324,6 @@ body {
     display: block;}
 
 .body1-content{
-    margin: 1rem;
 }
 
 
@@ -331,17 +331,21 @@ body {
     margin-top: 14rem;
     display: inline-block;
     color: #ffffff;
+    text-align: left;
+    width: 600px;
+    margin-bottom: 1rem;
 }
 
+
 .body1-intro {
-    padding: 2%;
     font-weight: 100;
     color: white;
-    max-width: 632px;
     margin: 0 auto;
     margin-bottom: 3rem;
     line-height: 160%;
     color: #72727D;
+    text-align: left;
+    width: 600px;
 }
 
 

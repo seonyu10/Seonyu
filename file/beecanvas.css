@@ -287,34 +287,32 @@ body {
 
 
 .body1-container{
-    width: 90%;
     margin: 0 auto;
-    padding: 5%;
     display: block;}
 
 .body1-content{
-    margin: 1rem;
+    padding: 4rem;
 }
 
 .body1-content-text{
     width: 600px;
     margin: 0 auto;
+    margin-top: 8rem;
 }
 .body1-title{
     text-align: left;
-    margin-top: 14rem;
     color: #ffffff;
     width: 600px;
 }
 
 .body1-intro {
     text-align: left;
-    padding: 2%;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
     font-weight: 100;
     color: white;
     width: 600px;
     margin: 0 auto;
-    margin-bottom: 3rem;
     line-height: 160%;
     color: #72727D;
 }
@@ -324,6 +322,10 @@ body {
     max-width: 900px;
     margin-top: 3%;
     margin: 0 auto;
+}
+
+#body1-second{
+    background-color: #242428;
 }
 
 .usecase_container{
@@ -368,30 +370,40 @@ body {
 
 .summary-container{
     margin: 0 auto;
-    margin-top: 8rem;
-    margin-bottom: 2rem;
+    margin: 2rem;
     display: inline-block;
-    width: 70%;
     padding: 5rem;
+    width: 600px;
 }
 
-
+.sub-title{
+    font-size: 0.9rem;
+    line-height: 1.3em;
+    font-weight: 100;
+    font-family: 'roboto condensed';
+    color: #977FFF;
+    text-align: left;
+    width: 600px;
+    margin-bottom: 0.5rem;
+}
 
 .summary-text-title{
     font-size: 1.6rem;
     line-height: 1.3em;
     font-weight: 800;
     color: #050022;
-    text-align: center;
+    text-align: left;
     font-weight: 800;
+    width: 600px;
 }
 
 .summary-text-description{
-    text-align: center;
-    margin-left: 5%;
+    text-align: left;
     font-family: 'roboto';
     margin-top: 1rem;
+    line-height: 160%;
     color: #72727D;
+    width: 600px;
 }
 
 
@@ -405,16 +417,13 @@ body {
 
 .project-list{
     background-color: #EDEDF4;
-    width: 1080px;
-    border-radius: 4px;
     margin: 0 auto;
     }
 
 
 .project-container{
-    width: 90%;
     margin: 0 auto;
-    padding: 3rem;    
+    padding: 5rem;    
     text-align: center;
 }
 
@@ -440,7 +449,7 @@ body {
 	font-size: 60px;
 	letter-spacing: -1.4px;
 	color: #2b2b30;
-    margin-bottom: rem;
+    margin-bottom: 1rem;
     display: inline-block;
 }
 
@@ -471,6 +480,7 @@ body {
 
 .project-image01-container{
     width: 960px;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -489,12 +499,15 @@ body {
 
 
 
-
+#second-project{
+    background-color: #ffffff;
+}
 
 
 .project-image02-container{
     width: 960px;
     position: relative;
+    margin: 0 auto;
 }
 
 
@@ -585,29 +598,34 @@ body {
 }
 
 .body3-content{
-    margin: 10rem;
+    padding: 10rem;
+    width: 600px;
+    margin: 0 auto;
 }
 
 .body3-title{
 	font-size: 1.5rem;
 	font-weight: bold;
 	letter-spacing: -0.9px;
-	text-align: center;
-	color: #242327;
-    
+	text-align: left;
+	color: #ffffff;
 }
 
+
+
 .body3-description{
-    max-width: 500px;
     display: inline-block;
 	line-height: 1.58;
 	letter-spacing: -0.6px;
-	color: #1d1d20;
+	color: #ffffff;
+    text-align: left;
     margin-top: 1rem;
+    opacity: 0.5;
 }
 
 .body3-mockup{
     width: 500px;
+    padding-top: 4rem;
     margin: 0 auto;
 }
 
@@ -615,18 +633,10 @@ body {
     width: 100%;}
 
 .body3-summary-1{
-    background: #ffffff;
-    height: 500px;
-    position: relative;
+    background: #131315;
     }
 
 
-
-.body3-summary-2{
-    height: 500px;
-    background-color: #131315;
-    
-}
 
 
 .body3-summary-3{
@@ -661,16 +671,18 @@ body {
 }
 
 
-
+.canvas-container{
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
 
 
 .canvas-title{
-    padding-top: 10rem; 
 	font-size: 1.5rem;
 	font-weight: bold;
 	letter-spacing: -0.9px;
-	text-align: center;
-	color: #d0c4ff;
+	color: #FFFFff;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 
 }
@@ -680,11 +692,8 @@ body {
     font-weight: 100;
 	line-height: 1.58;
 	letter-spacing: -0.6px;
-	text-align: center;
 	color: #ffffff;
-    
-    max-width: 350px;
-    margin: 0 auto;
+    opacity: 0.5;
 }
 
 
@@ -738,7 +747,7 @@ body {
 
 
 .body3-ipad-image01{
-    width: 1000px;
+    width: 100%;
     padding-top: 10rem;}
 
 
@@ -766,13 +775,12 @@ body {
 
 
 .ipad_touch_title{
-    font-family: Rubik;
 	font-size: 1.5rem;;
 	font-weight: bold;
 	letter-spacing: -0.9px;
 	text-align: left;
-	color: #ddd3ff;
-	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5)}
+    color: #ffffff;}
+
 
 .ipad_touch_description{
     margin-top: 1rem;
@@ -780,7 +788,8 @@ body {
 	line-height: 1.58;
 	letter-spacing: -0.6px;
 	text-align: left;
-	color: #fcfcfc;
+	color: #ffffff;
+    opacity: 0.5;
     
 }
 
@@ -792,6 +801,82 @@ body {
     position: absolute;
     right: -50px;
 }
+
+
+
+
+
+
+
+/*---body5--*/
+
+
+
+
+
+.body5{
+    background-color: #EDEDF4;}
+
+
+.body5-container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    display: block;}
+
+.body5-content{
+    margin: 1rem;
+}
+
+.body5-content-text{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 8rem;
+}
+.body5-title{
+    text-align: left;
+    color: #000000;
+    width: 600px;
+}
+
+.body5-intro {
+    text-align: left;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    font-weight: 100;
+    color: white;
+    width: 600px;
+    margin: 0 auto;
+    line-height: 160%;
+    color: #72727D;
+}
+
+
+.body5-image1{
+    max-width: 900px;
+    margin-top: 3%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -813,14 +898,12 @@ body {
 
 .last{
     background-color: #131315;
-    padding: 4rem;
     
 }
 
 
 .last-image{
-    padding-top: 140px;
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
 }
@@ -836,7 +919,6 @@ body {
     position: absolute;
     top:300px;
     left: 100px;
-    font-family: Rubik;
 	font-size: 1.5rem;
 	font-weight: bold;
 	line-height: 1.53;
