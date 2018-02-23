@@ -137,41 +137,44 @@ p { font-size:20px}
 
     
 #beecanvas01{ 
-    display: table;
-    background-image: url(imgs/index_bee_1.png);
-    background-size: cover;}
+	background-image: url(imgs/index_bee_1.png);
+	background-size: cover;
+	background-position: top center;
+	display: table;}
 
 #beecanvas01-content{  
-    
-    display: table-cell;
-    font-size: 30px;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    background-color: white;
-    opacity: 0;
-    transition: all 1s ease-in-out;}
+	display: table-cell;
+    color: white;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgba(0,0,0,.5);
+	opacity: 0;
+	transition: all .5s ease-in-out;}
      
+
 #beecanvas01:hover #beecanvas01-content{
-    background-color: white rbga(0,0,0,0,0.5);
     opacity: 1;}
     
   
-   
+
+
+
+
 #beecanvas02{ 
-    display: table;
     background-image: url(imgs/index_Bee.png);
-    background-size: cover;}
+    background-size: cover;
+	background-position: top center;
+	display: table;}
+
 
 #beecanvas02-content{  
     display: table-cell;
-    font-size: 30px;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    background-color: white;
-    opacity: 0;
-    transition: all 1s ease-in-out;}
+    color: white;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgba(0,0,0,.5);
+	opacity: 0;
+	transition: all .5s ease-in-out;}
      
 #beecanvas02:hover #beecanvas02-content{
     opacity: 1;}
@@ -180,30 +183,24 @@ p { font-size:20px}
 
 
     
-    
-    
-    
-    
-    
-
 
     
     
 #peter{ 
-    display: table;
     background-image: url(imgs/index_peter.png);
     background-size: cover;
+    display: table;    
+	background-position: top center;
     }
   
 #peter-content{  
     display: table-cell;
-    font-size: 30px;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    background-color: white;
-    opacity: 0;
-    transition: all 1s ease-in-out;}
+    color: white;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgba(0,0,0,.5);
+	opacity: 0;
+	transition: all .5s ease-in-out;}
       
 #peter:hover #peter-content{
     opacity: 1;}
@@ -215,25 +212,25 @@ p { font-size:20px}
   
 
     
-#done{ 
-    display: table;
+#done{
     background-image: url(imgs/index_done.png);
-    background-size: cover;}
+    background-size: cover;
+    display: table;    
+	background-position: top center;
+    }
     
 #done-content{  
     display: table-cell;
-    font-size: 30px;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    background-color: white;
-    opacity: 0;
-    transition: all 1s ease-in-out;}
+    color: white;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgba(0,0,0,.5);
+	opacity: 0;
+	transition: all .5s ease-in-out;}
     
+
 #done:hover #done-content{
-    
-    background-color: white;
-    opacity: 0.5;}
+    opacity: 01;}
     
 
 
@@ -241,19 +238,20 @@ p { font-size:20px}
 
 
 #arumi{ 
-    display: table;
     background-image: url(imgs/index_arumi.png);
-    background-size: cover;}
+    background-size: cover;
+    display: table;    
+	background-position: top center;
+    }
 
 #arumi-content{  
     display: table-cell;
-    font-size: 30px;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    background-color: white;
-    opacity: 0;
-    transition: all 1s ease-in-out;}
+    color: white;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgba(0,0,0,.5);
+	opacity: 0;
+	transition: all .5s ease-in-out;}
      
 #arumi:hover #arumi-content{
     opacity: 1;}
@@ -266,21 +264,21 @@ p { font-size:20px}
 
 
 #word{ 
-    display: table;
     background-image: url(imgs/index_word.jpg);
     background-size: cover;
+    display: table;    
+	background-position: top center;
     }
   
 #word-content{  
     display: table-cell;
-    font-size: 30px;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    background-color: white;
-    opacity: 0;
-    transition: all 1s ease-in-out;}
-      
+    color: white;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgba(0,0,0,.5);
+	opacity: 0;
+	transition: all .5s ease-in-out;}
+
 #word:hover #word-content{
     opacity: 1;}
     
@@ -293,20 +291,20 @@ p { font-size:20px}
 
     
 #discover{ 
-    display: table;
     background-image: url(imgs/index_discover.jpeg);
+    display: table;
     background-size: cover;
+	background-position: top center;
     }
-  
+
 #discover-content{  
     display: table-cell;
-    font-size: 30px;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    background-color: white;
-    opacity: 0;
-    transition: all 1s ease-in-out;}
+    color: white;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgba(0,0,0,.5);
+	opacity: 0;
+	transition: all .5s ease-in-out;}
       
 #discover:hover #discover-content{
     opacity: 1;}
@@ -339,7 +337,7 @@ p { font-size:20px}
     float: left;
     width: 100%;
     height: 400px;
-    padding: 15px; 
+    margin: 15px; 
     display: table;
     }
     
@@ -353,3 +351,14 @@ p { font-size:20px}
     .album{width:1000px;
            margin: 0 auto;} 
         
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

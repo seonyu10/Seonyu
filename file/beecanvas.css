@@ -148,20 +148,6 @@ body {
 
 
 
-.banner-image{
-    position: absolute;
-    top:200px;
-    width:900px;
-    right: -200px;
-}
-
-.intro-mockup{
-    width:100%;
-
-}
-
-
-
 .intro1_title{
     font-family: 'roboto';
 	font-size: 3rem;
