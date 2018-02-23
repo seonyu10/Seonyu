@@ -290,34 +290,35 @@ body {
 .body1-content{
     margin: 0 auto;
     display: block;
+    padding: 4rem;
 }
 
+
+.body1-text{
+    padding: 4rem;
+}
 
 
 .body1-tag{
-    
-    display: inline-block;
-    color: #ffffff;
+    color: #B2B2B2;
     text-align: left;
+    margin: 0 auto;
     width: 633px;
-}
-
-
+    margin-bottom: 0.5rem;}
 
 
 .body1-title{
-    display: inline-block;
     text-align: left;
+    color: #4E4E4E;
     width: 633px;
-    margin-bottom: 1rem;
-}
+    margin: 0 auto;
+    margin-bottom: 1rem;}
 
 
 .body1-intro {
     font-weight: 100;
     color: white;
     margin: 0 auto;
-    margin-bottom: 3rem;
     line-height: 160%;
     color: #72727D;
     text-align: left;
@@ -327,7 +328,7 @@ body {
 
 .body1-image1{
     width: 633px;
-    margin-top: 3%;
+    margin-top: 1rem;
     margin: 0 auto;
 }
 
@@ -335,7 +336,44 @@ body {
 
 
 
-/*---body1-----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---body2-----*/
 
 
 
@@ -349,7 +387,7 @@ body {
     padding: 5%;
     display: block;}
 
-}
+
 
 
 .body2-tag{
