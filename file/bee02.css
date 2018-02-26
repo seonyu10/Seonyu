@@ -590,7 +590,11 @@ body {
 
 
 
-/*---body1-----*/
+/*---body2_b-----*/
+
+.body2_b{
+    background: #131315;
+}
 
 .intro3{
 }

@@ -120,14 +120,13 @@ body {
 
 .banner{
     height: 100%;
-	background-image: url(../imgs/bee03.png) ;
+	background-image: url(../imgs/index_bee_1.png) ;
     background-size: cover; 
     min-width: 1000px;
     height: 680px;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-
 }
 
 .banner-container{
@@ -140,43 +139,63 @@ body {
 
 
 .banner-text{
+    color: white;
     position: absolute;
-    top:190px;
     left: 0px;
-    width: 400px;
+    bottom: 50px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 3rem;
+    
+}
+
+
+
+.banner-image{
+    position: absolute;
+    top:200px;
+    width:900px;
+    right: -200px;
+}
+
+.intro-mockup{
+    width:100%;
+
 }
 
 
 
 .intro1_title{
-    font-family: 'roboto';
 	font-size: 3rem;
 	font-weight: 900;
 	letter-spacing: -0.8px;
 	text-align: left;
-	color: black;
+    
 }
 
 .intro2_title{
-    font-family: 'roboto';
 	font-size: 1.5rem;
 	font-weight: 900;
 	letter-spacing: -0.8px;
 	text-align: left;
-	color: black;
 }
 
 
 
 .intro1_description{
     margin-top:1rem;
-	font-family: 'roboto';
 	font-size: 1rem;
 	line-height: 1.83;
 	letter-spacing: -0.6px;
 	text-align: left;
 	color: black;
 }
+
+
+
+
+
+
+
 
 
 
