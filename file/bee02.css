@@ -284,18 +284,18 @@ body {
 
 
 .body1{
-    background-color: #F6F6F6;}
+    background-color: #1D1D20;}
 
 
 .body1-content{
     margin: 0 auto;
     display: block;
-    padding: 4rem;
+    padding: 2rem;
 }
 
 
 .body1-text{
-    padding: 4rem;
+    padding: 3rem;
 }
 
 
@@ -309,7 +309,7 @@ body {
 
 .body1-title{
     text-align: left;
-    color: #4E4E4E;
+    color: #ffffff;
     width: 633px;
     margin: 0 auto;
     margin-bottom: 1rem;}
@@ -328,8 +328,8 @@ body {
 
 .body1-image1{
     width: 633px;
-    margin-top: 1rem;
     margin: 0 auto;
+    padding-bottom: 3rem;
 }
 
 
@@ -342,8 +342,124 @@ body {
 
 
 
+/*---body2-----*/
 
 
+
+.body2_a{
+    background-color: #F0F0F0;}
+
+
+
+.body2{
+    background-color: #ffffff;}
+
+
+.body2-content{
+    margin: 0 auto;
+    display: block;
+    padding: 4rem;
+}
+
+
+.body2-text{
+    padding: 4rem;
+}
+
+
+.body2-tag{
+    color: #B2B2B2;
+    text-align: left;
+    margin: 0 auto;
+    width: 633px;
+    margin-bottom: 0.5rem;}
+
+
+.body2-title{
+    text-align: left;
+    color: #4E4E4E;
+    width: 633px;
+    margin: 0 auto;
+    margin-bottom: 1rem;}
+
+
+.body2-intro {
+    font-weight: 100;
+    color: white;
+    margin: 0 auto;
+    line-height: 160%;
+    color: #72727D;
+    text-align: left;
+    width: 633px;
+}
+
+
+.body2-image2{
+    width: 633px;
+    padding-bottom: 3rem;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+/*---body3-----*/
+
+
+
+
+
+.body3{
+    background-color: #1D1D20;}
+
+
+.body3-content{
+    margin: 0 auto;
+    display: block;
+    padding: 4rem;
+}
+
+
+.body3-text{
+    padding: 4rem;
+}
+
+
+.body3-tag{
+    color: #B2B2B2;
+    text-align: left;
+    margin: 0 auto;
+    width: 633px;
+    margin-bottom: 0.5rem;}
+
+
+.body3-title{
+    text-align: left;
+    color: #ffffff;
+    width: 633px;
+    margin: 0 auto;
+    margin-bottom: 1rem;}
+
+
+.body3-intro {
+    font-weight: 100;
+    color: white;
+    margin: 0 auto;
+    line-height: 160%;
+    color: #72727D;
+    text-align: left;
+    width: 633px;
+}
+
+
+.body3-image{
+    width: 1000px;
+    padding-bottom: 3rem;
+    margin: 0 auto;
+}
 
 
 
@@ -377,11 +493,11 @@ body {
 
 
 
-.body2{
+.body8{
     background-color: #131315;}
 
 
-.body2-content{
+.body8-content{
     width: 90%;
     margin: 0 auto;
     padding: 5%;
@@ -389,25 +505,27 @@ body {
 
 
 
+.body8-text{
+    margin: 3rem;
+}
 
-.body2-tag{
-    font-size: 0.8rem;
-    color: #ffffff;
+.body8-tag{
+    color: #B2B2B2;
     text-align: left;
     width: 600px;
-    
-}
-.body2-title{
-    margin-top: 14rem;
+    margin: 0 auto;}
+
+
+.body8-title{
+    margin-top: 0.5rem;
     display: inline-block;
     color: #ffffff;
     text-align: left;
     width: 600px;
-    margin-bottom: 1rem;
-}
+    margin-bottom: 1rem;}
 
 
-.body2-intro {
+.body8-intro {
     font-weight: 100;
     color: white;
     margin: 0 auto;
@@ -419,7 +537,7 @@ body {
 }
 
 
-.body2-image2{
+.body8-image8{
     max-width: 900px;
     margin-top: 3%;
     margin: 0 auto;

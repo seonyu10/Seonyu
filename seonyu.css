@@ -135,6 +135,38 @@ p { font-size:20px}
     
     
 
+#beecanvas02{ 
+    background-image: url(imgs/index_Bee.png);
+    background-size: cover;
+	background-position: top center;
+	display: table;}
+
+
+#beecanvas02-content{  
+    display: table-cell;
+    color: white;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgba(0,0,0,.5);
+	opacity: 0;
+	transition: all .5s ease-in-out;
+    }
+     
+#beecanvas02:hover #beecanvas02-content{
+    opacity: 1;}
+    
+
+.card_title{
+    font-size: 2rem;
+}
+
+.card_subtitle{
+    margin-top: 0.3rem;
+    font-size: 1rem;
+}
+
+
+
     
 #beecanvas01{ 
 	background-image: url(imgs/index_bee_1.png);
@@ -159,30 +191,6 @@ p { font-size:20px}
 
 
 
-
-#beecanvas02{ 
-    background-image: url(imgs/index_Bee.png);
-    background-size: cover;
-	background-position: top center;
-	display: table;}
-
-
-#beecanvas02-content{  
-    display: table-cell;
-    color: white;
-	text-align: center;
-	vertical-align: middle;
-	background-color: rgba(0,0,0,.5);
-	opacity: 0;
-	transition: all .5s ease-in-out;}
-     
-#beecanvas02:hover #beecanvas02-content{
-    opacity: 1;}
-    
-
-
-
-    
 
     
     
