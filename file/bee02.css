@@ -213,11 +213,11 @@ body {
 
 .intro-role{
     color: white;
-    width:300px;
-    height: 50px;
+    width:500px;
+    height: 60px;
     display: block;
     text-align: left;
-    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -229,6 +229,7 @@ body {
     opacity: 0.5;
     font-family: 'roboto';
     text-align: left;
+    margin-bottom: 0.5rem;
 }
 
 .intro-body{
@@ -236,23 +237,19 @@ body {
     font-weight: 500;
     color: #7c7b86;
     font-family: 'roboto';
+	line-height: 1.62;
     margin-top: 10px;
 }
 
 
 
 .intro-text{
-    
-    padding: 1rem;
-    
     text-align: left;
     width: 500px;
     font-size: 1rem;
     font-weight: 500;
-    
 	line-height: 1.62;
 	letter-spacing: -0.6px;
-
     color: #7c7b86;
     font-family: 'roboto';
 }
@@ -304,6 +301,7 @@ body {
     text-align: left;
     margin: 0 auto;
     width: 633px;
+    margin-top: 2rem;
     margin-bottom: 0.5rem;}
 
 
@@ -363,12 +361,13 @@ body {
 
 
 .body2-text{
-    padding: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
 }
 
 
 .body2-tag{
-    color: #B2B2B2;
+    color: #ADADAD;
     text-align: left;
     margin: 0 auto;
     width: 633px;
@@ -546,7 +545,6 @@ body {
 .usecase_container{
     width: 900px;
     margin: 0 auto;
-    margin-top: 1rem;
     display: block;
 }
 
@@ -581,7 +579,11 @@ body {
 
 
 
-
+.body4-image{
+    margin-top: 2rem;
+    width: 960px;
+    
+}
 
 
 
@@ -593,20 +595,51 @@ body {
 /*---body2_b-----*/
 
 .body2_b{
-    background: #131315;
+    background: #0F0F0F;
 }
 
-.intro3{
-}
 
-.intro3-2 .video{
-    bottom: 400px;
-}
-
-.intro3-2 {
+.body2_c{
     background: #131315;
 }
 
 
 .video_embed{
-    margin: 3rem;}
+    margin-top: 3rem;
+}
+
+
+
+
+
+
+
+.tutorial_container{
+    width: 960px;
+    margin: 0 auto;
+    
+}
+.tutorial{
+    float: left;
+    margin-top: 3rem;
+    padding: 20px;
+}
+
+.tutorial_container:after{
+    content: "";
+    clear: both;
+    display: block;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
