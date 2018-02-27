@@ -103,10 +103,9 @@ body {
 
 
 
-
 .banner{
     height: 100%;
-	background-image: url(../imgs/img_peter_main.png) ;
+	background-image: url(../imgs/index_peter.png) ;
     background-size: cover; 
     min-width: 1000px;
     height: 680px;
@@ -117,61 +116,56 @@ body {
 
 .banner-container{
     width: 1000px;
+    height: 680px;
     margin: 0 auto;
     position: relative;
 }
 
 
-.banner-image{
+
+.banner-text{
+    color: white;
     position: absolute;
-    top: 110px;
-    right: 130px;
-    width: 400px;
+    left: 0px;
+    bottom: 50px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 3rem;
     
 }
 
 
-.intro-mockup{
-    width: 313px;
-}
 
-
-.banner-text{
+.banner-image{
     position: absolute;
-    top:120px;
-    bottom:0;
-    left: 0;
-    width: 500px;
+    top:200px;
+    width:900px;
+    right: -200px;
 }
 
+.intro-mockup{
+    width:100%;
 
-
+}
 
 
 
 .intro1_title{
-    margin-top: 6rem;
 	font-size: 3rem;
 	font-weight: 900;
 	letter-spacing: -0.8px;
 	text-align: left;
-	text-align: left;
-	color: #fcfdfe;
-	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-
-
-.intro1_description{
-	font-family: 'roboto';
-	font-size: 1rem;
-	line-height: 1.83;
-	letter-spacing: -0.6px;
-    color: white;
-    text-align: left;
-	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     
 }
+
+.intro2_title{
+	font-size: 1.5rem;
+	font-weight: 900;
+	letter-spacing: -0.8px;
+	text-align: left;
+}
+
+
+
 
 
 
@@ -185,7 +179,6 @@ body {
 
 
 
-/*---intro------*/
 
 .intro{ 
 }
@@ -194,7 +187,7 @@ body {
     display: inline-block;
     width: 1000px;
     margin: 0 auto;
-    margin: 2rem;
+    margin: 3rem;
 }
 .intro-container{
     
@@ -204,11 +197,11 @@ body {
 
 .intro-role{
     color: white;
-    width:300px;
-    height: 50px;
+    width:500px;
+    height: 60px;
     display: block;
     text-align: left;
-    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -219,6 +212,8 @@ body {
     color: #7c7b86;
     opacity: 0.5;
     font-family: 'roboto';
+    text-align: left;
+    margin-bottom: 0.5rem;
 }
 
 .intro-body{
@@ -226,23 +221,19 @@ body {
     font-weight: 500;
     color: #7c7b86;
     font-family: 'roboto';
+	line-height: 1.62;
     margin-top: 10px;
 }
 
 
 
 .intro-text{
-    
-    padding: 1rem;
-    
     text-align: left;
     width: 500px;
     font-size: 1rem;
     font-weight: 500;
-    
 	line-height: 1.62;
 	letter-spacing: -0.6px;
-
     color: #7c7b86;
     font-family: 'roboto';
 }
