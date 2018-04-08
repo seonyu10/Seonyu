@@ -105,7 +105,7 @@ body {
 
 .banner{
     height: 100%;
-	background-image: url(../imgs/index_bee_1.png) ;
+	background-image: url(../imgs/index_Bee.png) ;
     background-size: cover; 
     min-width: 1000px;
     height: 680px;
@@ -366,99 +366,14 @@ body {
 
 
 
-.goals-container{
-  background-color: #1d76bb;
+
+
+
+
+
+#intro-text{
+    color: whitesmoke;
 }
-
-
-.goals-text-container{
-    padding: 110px;
-    text-align: left;
-}
-
-
-.goals-subheader{
-  padding-bottom: 40px;
-  width: 600px;
-  height: 29px;
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.07;
-  letter-spacing: 1.1px;
-  text-align: left;
-  color: #ffffff;
-}
-
-.goals-text-container{
-    width: 600px;
-    margin: 0 auto;
-}
-.goals-list{
-    width: 600px;
-    margin: 0 auto;
-}
-
-
-.goals-number{
-    width: 180px;
-    padding-right: 20px;
-    float: left;
-}
-
-.goals-list:after{
-    clear: both;
-    content: "";
-    display: block;
-}
-
-
-
-
-.goals-title{
-  width: 180px;
-  font-family: SourceSerifPro;
-  font-size: 18px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.61;
-  letter-spacing: -0.4px;
-  text-align: left;
-  color: #ffffff;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-
-
-.goals-body{
-  padding-top: 10px;
-  width: 180px;
-  font-family: SourceSerifPro;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.56;
-  letter-spacing: -0.4px;
-  text-align: left;
-  color: #ffffff;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #bg-introduction{
@@ -483,7 +398,7 @@ body {
 
 #bg-wire{
     
-    background-color: #131e27;
+    background-color: #242428;
 }
 
 
@@ -495,9 +410,20 @@ body {
     color: #b0b0cd;
 }
 
-#wire{
+
+
+
+#comparison{
+    width: 900px;
     margin-top: 80px;
 }
+
+
+#usecase{
+    background-color: #121214;
+}
+
+
 
 
 #research{
@@ -590,6 +516,52 @@ body {
 /*---------------------
  * data
 ----------------------*/
+
+
+
+
+
+
+
+/*---body2_b-----*/
+
+.body2_b{
+    background: #0F0F0F;
+}
+
+
+.body2_c{
+    background: #131315;
+}
+
+
+.video_embed{
+    margin-top: 3rem;
+}
+
+
+
+
+
+
+
+.tutorial_container{
+    width: 960px;
+    margin: 0 auto;
+    
+}
+.tutorial{
+    float: left;
+    margin-top: 3rem;
+    padding: 20px;
+}
+
+.tutorial_container:after{
+    content: "";
+    clear: both;
+    display: block;
+    
+}
 
 
 
