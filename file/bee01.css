@@ -105,7 +105,7 @@ body {
 
 .banner{
     height: 100%;
-	background-image: url(../imgs/bee02_cover.png) ;
+	background-image: url(../imgs/index_Bee.png) ;
     background-size: cover; 
     min-width: 1000px;
     height: 680px;
@@ -377,7 +377,7 @@ body {
 
 
 #bg-introduction{
-    background-color: #131315;
+    background-color: #000000;
 }
 
 #understanding{
