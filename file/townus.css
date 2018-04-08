@@ -1,0 +1,697 @@
+/*-------------
+ CSS RESET 
+--------------*/
+
+* {padding: 0; 
+    border: 0; 
+    margin: 0;}
+a {text-decoration: none;}
+li {list-style: none;}
+
+
+
+
+/*
+ * Base structure
+ */
+
+
+html,body {
+  height: 100%;
+  background-color: #F7F9FB;
+}
+body {
+  color: #000;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'roboto'
+}
+
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  width: 100%;
+  height: 100%; 
+}
+.site-wrapper-inner {
+  height: 100%;
+}
+
+/* Padding for spacing */
+
+
+
+/*---------------------
+ * Header
+----------------------*/
+
+
+.header_global {
+	width:100%;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 9;
+}
+
+.nav{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 3rem;
+    box-sizing: border-box;
+    opacity: 0.5;
+    
+}
+
+.header_global .logo{
+    float: left;
+    color: white;
+    font-weight: 500;
+}
+
+.header_global .nav_menu{
+    float: right;
+}
+
+.header_global .nav_menu li{
+    float: left;
+}
+
+.menu_list{
+    margin-left: 1.5rem;
+    color: white;
+    font-weight: 500;
+}
+
+.header_global:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.header_global nav:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+
+/*---------------------
+ * banner
+----------------------*/
+
+
+
+.banner{
+    height: 100%;
+	background-image: url(../imgs/index_peter.png) ;
+    background-size: cover; 
+    min-width: 1000px;
+    height: 680px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.banner-container{
+    width: 1000px;
+    height: 680px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+.banner-text{
+    color: white;
+    position: absolute;
+    left: 0px;
+    bottom: 50px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 3rem;
+    
+}
+
+
+
+.banner-image{
+    position: absolute;
+    top:200px;
+    width:900px;
+    right: -200px;
+}
+
+.intro-mockup{
+    width:100%;
+
+}
+
+
+
+.intro1_title{
+	font-size: 3rem;
+	font-weight: 900;
+	letter-spacing: -0.8px;
+	text-align: left;
+    
+}
+
+.intro2_title{
+	font-size: 1.5rem;
+	font-weight: 900;
+	letter-spacing: -0.8px;
+	text-align: left;
+}
+
+
+
+
+
+
+/*---------------------
+ * intro2
+----------------------*/
+
+
+
+
+
+
+
+
+.intro{ 
+}
+
+.intro-box{
+    display: inline-block;
+    width: 1000px;
+    margin: 0 auto;
+    margin: 3rem;
+}
+.intro-container{
+    
+    
+}
+
+
+.intro-role{
+    color: white;
+    width:500px;
+    height: 60px;
+    display: block;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+
+
+.intro-title{
+    font-size: 1rem;
+    font-weight: 100;
+    color: #7c7b86;
+    opacity: 0.5;
+    font-family: 'roboto';
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+.intro-body{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #7c7b86;
+    font-family: 'roboto';
+	line-height: 1.62;
+    margin-top: 10px;
+}
+
+
+
+.intro-text{
+    text-align: left;
+    width: 500px;
+    font-size: 1rem;
+    font-weight: 500;
+	line-height: 1.62;
+	letter-spacing: -0.6px;
+    color: #7c7b86;
+    font-family: 'roboto';
+}
+
+
+
+.intro-list{
+    float: left;
+    width: 500px;
+}
+
+
+
+
+
+/*---------------------
+ * product-ideation
+----------------------*/
+
+
+
+
+.product-ideation{
+    background-color: #F7F9FB;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+
+.product-ideation-container{
+    margin: 3rem;
+    background-color: #ffffff;
+    padding: 2rem;}
+
+
+    
+.product-ideation-summary{
+    height: 245px;
+    max-width:500px;
+    margin: 0 auto;
+}
+
+
+
+.product-ideation-title{
+    margin-top: 4rem;
+    font-family: Oswald;
+    
+    font-weight: 100;
+	font-size: 1.5rem;
+	line-height: 1.34;
+	letter-spacing: -0.8px;
+	text-align: left;
+	color: #1d76bb;
+}
+
+
+.product-ideation-description{
+    margin-top: 1rem; 
+	font-size: 1rem;
+	line-height: 1.79;
+	letter-spacing: -0.6px;
+	text-align: left;
+	color: rgba(86, 91, 125, 0.6);
+}
+
+
+#graphic01{
+    max-width: 600px;
+    margin: 0 auto;
+    }
+
+
+
+#graphic02{
+    max-width: 100%;
+    margin: 0 auto;
+    }
+
+
+
+
+/*---------------------
+ * font style
+----------------------*/
+
+
+
+.font-style-container{
+    
+    width: 1080px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: white;
+    
+    margin-bottom: 50px;
+
+}
+
+
+.font-style-image{
+    width: 70%;
+    margin-top: 240px;
+}
+
+
+
+
+
+/*---------------------
+ * data
+----------------------*/
+
+.data-summary{
+    
+    padding: 2rem;
+    margin: 0 auto;
+    width: 400px;
+    padding-top: 150px;
+}
+
+
+
+.data-title{
+	font-family: Oswald;
+    font-weight: 100;
+	font-size: 1.5rem;
+	line-height: 1.34;
+	letter-spacing: -0.8px;
+	text-align: left;
+	color: #1d76bb;
+    
+}
+
+.data-description{
+    margin-top: 10px;
+	font-family: Lora;
+	line-height: 1.79;
+	letter-spacing: -0.6px;
+	text-align: left;
+	color: rgba(86, 91, 125, 0.6);
+    width: 300px;
+}
+    
+
+.data-visualization{
+    height: 800px;
+    background-image: url(../imgs/data_visualization.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------------
+ * streaming
+----------------------*/
+
+
+
+
+.music-streaming{
+    background-color: #01182C;
+    padding: 5rem;
+}
+
+
+
+.music-streaming-summary{
+    max-width: 500px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+
+
+.music-streaming-title{
+	font-family: Oswald;
+    font-weight: 100;
+	font-size: 1.5rem;
+	line-height: 1.34;
+	letter-spacing: -0.8px;
+	text-align: left;
+	color: #1d76bb;
+    
+}
+
+.music-streaming-description{
+	font-family: Lora;
+    margin-top: 10px;
+	line-height: 1.79;
+	letter-spacing: -0.6px;
+	text-align: left;
+	color: #C0C0C0;
+}
+    
+
+
+
+
+
+/*---------------------
+ * statistics
+----------------------*/
+
+
+.statistics{
+    background-color: #01182C;
+    padding: 5rem;
+}
+
+
+
+
+.statistics-summary{
+    max-width: 500px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+
+
+.statistics-title{
+	font-family: Oswald;
+    font-weight: 100;
+	font-size: 1.5rem;
+	line-height: 1.34;
+	letter-spacing: -0.8px;
+	text-align: left;
+	color: #1d76bb;
+    
+}
+
+.statistics-description{
+	font-family: Lora;
+    margin-top: 10px;
+	line-height: 1.79;
+	letter-spacing: -0.6px;
+	text-align: left;
+	color: #C0C0C0;
+}
+    
+
+
+.canvas-mobile-container{
+    display: inline-block;
+}
+
+.canvas-mobile{
+    margin: 0 auto;
+    width: 960px;
+    display: inline-block;}
+
+
+
+.mobile-title{
+    color: #72727D;
+    padding-bottom: 1rem;}
+
+
+.body3-mobile-pages{
+    float: left;
+    width: 296px;
+    padding: 12px;
+    margin-top: 8rem;
+}
+
+
+
+.body3-mobile:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.mobile-page-image{
+    width: 100%;
+}
+
+
+
+
+
+/*---------------------
+ * Insta
+----------------------*/
+
+
+.insta{
+    background-color: #042542;
+    padding: 5rem;
+}
+
+
+
+
+.insta-summary{
+    max-width: 500px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+
+
+.insta-title{
+	font-family: Oswald;
+    font-weight: 100;
+	font-size: 1.5rem;
+	line-height: 1.34;
+	letter-spacing: -0.8px;
+	text-align: left;
+	color: #1d76bb;
+    
+}
+
+.insta-description{
+	font-family: Lora;
+    margin-top: 10px;
+	line-height: 1.79;
+	letter-spacing: -0.6px;
+	text-align: left;
+	color: #C0C0C0;
+}
+    
+
+
+.insta-mobile-container{
+    display: inline-block;
+}
+
+.insta-mobile{
+    margin: 0 auto;
+    width: 664px;
+    display: inline-block;}
+
+
+
+.insta-mobile-title{
+    color: #72727D;
+    padding-bottom: 2rem;}
+
+
+.insta-mobile-pages{
+    
+    float: left;
+    width: 296px;
+    padding: 12px;
+    margin-top: 8rem;
+}
+
+
+
+.body3-mobile:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.insta-page-image{
+    width: 100%;
+
+
+}
+
+
+
+
+
+
+
+/*---------------------
+ * Insta-mockup
+----------------------*/
+
+
+
+
+.mockup-bundle-image{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/*---------------------
+ * facebook
+----------------------*/
+
+
+
+
+
+
+
+
+.fb{
+    background-color: #edf0f3;
+    padding: 5rem;
+}
+
+
+
+
+
+.fb-summary{
+    max-width: 500px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+
+
+.fb-title{
+	font-family: Oswald;
+    font-weight: 100;
+	font-size: 1.5rem;
+	line-height: 1.34;
+	letter-spacing: -0.8px;
+	text-align: left;
+	color: #1d76bb;
+    
+}
+
+.fb-description{
+	font-family: Lora;
+    margin-top: 10px;
+	line-height: 1.79;
+	letter-spacing: -0.6px;
+	text-align: left;
+	color: #575353;
+}
+    
+
+
+.fb-mockup-image{
+    width: 1000px;
+
+
+}
+
+
+
+
+
+
+
+        
+    

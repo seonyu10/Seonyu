@@ -195,7 +195,7 @@ p { font-size:20px}
     
     
 #peter{ 
-    background-image: url(imgs/index_peter.png);
+    background-image: url(imgs/peter.png);
     background-size: cover;
     display: table;    
 	background-position: top center;
@@ -214,6 +214,34 @@ p { font-size:20px}
     opacity: 1;}
         
     
+
+
+    
+#town{ 
+    background-image: url(imgs/townus.png);
+    background-size: cover;
+    display: table;    
+	background-position: top center;
+    }
+  
+#town-content{  
+    display: table-cell;
+    color: white;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgba(0,0,0,.5);
+	opacity: 0;
+	transition: all .5s ease-in-out;}
+      
+#town:hover #town-content{
+    opacity: 1;}
+        
+
+
+
+
+
+
 
 
 
@@ -246,7 +274,7 @@ p { font-size:20px}
 
 
 #arumi{ 
-    background-image: url(imgs/index_arumi.png);
+    background-image: url(imgs/arumi.png);
     background-size: cover;
     display: table;    
 	background-position: top center;
