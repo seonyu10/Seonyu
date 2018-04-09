@@ -107,7 +107,7 @@ body {
 
 .banner{
     height: 100%;
-	background-image: url(../imgs/index_Bee.png) ;
+	background-image: url(../imgs/index_bee01.png) ;
     background-size: cover; 
     min-width: 1000px;
     height: 680px;
@@ -375,16 +375,22 @@ body {
 
 
 
-
-
+#intro-text-sub{
+    color: #ffffff;
+    opacity: 0.5;
+}
 
 #intro-text{
-    color: whitesmoke;
+    color: #ffffff;
+}
+
+#intro-text01{
+    color: #A09FA7;
 }
 
 
 #bg-introduction{
-    background-color: #000000;
+    background-color: #131315;
 }
 
 #understanding{
@@ -399,8 +405,70 @@ body {
 
 #opportunity{
     margin-top: 50px;
+    width: 400px;
 }
 
+
+#bg-user{
+    background-color: #f9f9f9;
+}
+
+#user{
+    margin-top: 50px;
+    width: 800px;
+}
+
+#competitor{
+    width: 700px;
+    margin-top: 50px;
+}
+
+
+
+#evernote{
+    width: 500px;
+    margin-top: 50px;
+}
+
+
+
+.market-sub{
+    margin-bottom: 10px;
+}
+#subheader01{
+  display: inline;
+  width: 600px;
+  height: 29px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.81;
+  letter-spacing: 1.2px;
+  text-align: left;
+  color: #9176ff;
+}
+
+#subheader02{
+  display: inline;
+  width: 600px;
+  height: 29px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.81;
+  letter-spacing: 1.2px;
+  text-align: left;
+  color: #ffffff;
+}
+
+
+#bg-market-outcome{
+    background-color: #f2f2f2;
+}
 
 
 #bg-wire{
@@ -409,21 +477,65 @@ body {
 }
 
 
-#z{
-    color: aliceblue;
+
+
+#des-ad{
+  opacity: 0.34;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.07;
+  letter-spacing: 1.1px;
+  text-align: right;
+  color: #131315;
 }
 
-#y{
-    color: #b0b0cd;
+
+#title-strategy{
+    color: #ffffff;
 }
 
+#body-strategy{
+    color: #b2b2b2;
+}
 
+#body-strategy02{
+    margin-top: 30px;
+    color: #b2b2b2;
+}
 
 
 #comparison{
     width: 900px;
     margin-top: 80px;
 }
+
+
+#bee-example{
+    width: 700px;
+    margin-top: 130px;
+}
+
+
+#bee-img{
+    width: 600px;
+    margin-top: 50px;
+}
+
+
+
+
+#bg-strategy02{
+    background-color: #121214;
+}
+
+
+#bg-strategy03{
+    background-color: #080809;
+}
+
 
 
 #usecase{
@@ -577,17 +689,6 @@ body {
 
 
 
-
-
-/*---------------------
- * streaming
-----------------------*/
-
-
-
-
-
-
 /*---------------------
  * statistics
 ----------------------*/
@@ -677,13 +778,6 @@ body {
     width: 100%;
 }
 
-
-
-
-
-/*---------------------
- * Insta
-----------------------*/
 
 
 
