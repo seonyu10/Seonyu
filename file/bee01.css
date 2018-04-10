@@ -150,25 +150,34 @@ body {
 }
 
 
-
 .intro1_title{
-	font-size: 3rem;
-	font-weight: 900;
-	letter-spacing: -0.8px;
-	text-align: left;
+  width: 468px;
+  height: 50px;
+  font-family: Chivo;
+  font-size: 60px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.43;
+  letter-spacing: -1.9px;
+  text-align: left;
+  color: #FFFFFF;
     
 }
 
 .intro2_title{
-	font-size: 1.5rem;
-	font-weight: 900;
-	letter-spacing: -0.8px;
-	text-align: left;
+  width: 468px;
+  height: 34px;
+  font-family: Chivo;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.42;
+  letter-spacing: -0.6px;
+  text-align: left;
+  color: #FFFFFF;
 }
-
-
-
-
 
 
 /*---------------------

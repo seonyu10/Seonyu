@@ -127,23 +127,23 @@ color: #000;
 
 
 
+
 .intro1_title{
   width: 468px;
-  height: 75px;
+  height: 50px;
   font-family: Chivo;
-  font-size: 80px;
+  font-size: 60px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: 0.43;
   letter-spacing: -1.9px;
   text-align: left;
-  color: #000000;;
+  color: #000000;
+    
 }
 
-
-
-.intro1_description{
+.intro2_title{
   width: 468px;
   height: 34px;
   font-family: Chivo;
@@ -154,8 +154,7 @@ color: #000;
   line-height: 1.42;
   letter-spacing: -0.6px;
   text-align: left;
-  color: #000000;;
-    
+  color: #000000;
 }
 
 

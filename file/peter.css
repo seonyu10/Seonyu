@@ -66,7 +66,7 @@ body {
 
 .header_global .logo{
     float: left;
-    color: white;
+    color: black;
     font-weight: 500;
 }
 
@@ -80,7 +80,7 @@ body {
 
 .menu_list{
     margin-left: 1.5rem;
-    color: white;
+    color: black;
     font-weight: 500;
 }
 
@@ -128,7 +128,7 @@ body {
     position: absolute;
     left: 0px;
     bottom: 50px;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    color: black;
     padding: 3rem;
     
 }
@@ -150,18 +150,32 @@ body {
 
 
 .intro1_title{
-	font-size: 3rem;
-	font-weight: 900;
-	letter-spacing: -0.8px;
-	text-align: left;
+  width: 468px;
+  height: 50px;
+  font-family: Chivo;
+  font-size: 60px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.43;
+  letter-spacing: -1.9px;
+  text-align: left;
+  color: #000000;
     
 }
 
 .intro2_title{
-	font-size: 1.5rem;
-	font-weight: 900;
-	letter-spacing: -0.8px;
-	text-align: left;
+  width: 468px;
+  height: 34px;
+  font-family: Chivo;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.42;
+  letter-spacing: -0.6px;
+  text-align: left;
+  color: #000000;
 }
 
 
@@ -516,7 +530,7 @@ body {
 
 #concept{
     margin-top: 60px;
-    width: 800px;
+    width: 1000px;
 }
 
 
