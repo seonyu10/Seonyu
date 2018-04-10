@@ -612,42 +612,6 @@ body {
 ----------------------*/
 
 
-.statistics{
-    background-color: #01182C;
-    padding: 5rem;
-}
-
-
-
-
-.statistics-summary{
-    max-width: 500px;
-    padding: 2rem;
-    margin: 0 auto;
-}
-
-
-
-.statistics-title{
-	font-family: Oswald;
-    font-weight: 100;
-	font-size: 1.5rem;
-	line-height: 1.34;
-	letter-spacing: -0.8px;
-	text-align: left;
-	color: #1d76bb;
-    
-}
-
-.statistics-description{
-	font-family: Lora;
-    margin-top: 10px;
-	line-height: 1.79;
-	letter-spacing: -0.6px;
-	text-align: left;
-	color: #C0C0C0;
-}
-    
 
 
 .canvas-mobile-container{
@@ -705,13 +669,6 @@ body {
 ----------------------*/
 
 
-
-
-/*---------------------
- * Insta-mockup
-----------------------*/
-
-
 #f{
     background-color: #B8C1C7;
     margin: 0px;
@@ -736,6 +693,14 @@ body {
 
 
 
+
+#takeaway{
+    background-color: #EEF2F5;
+}
+
+#img-takeaway{
+    width: 1000px;
+}
 
 
 
