@@ -18,7 +18,7 @@ li {list-style: none;}
 
 html,body {
   height: 100%;
-  background-color: #F7F9FB;
+  background-color: #ffffff;
 }
 body {
   color: #000;
@@ -105,7 +105,7 @@ body {
 
 .banner{
     height: 100%;
-	background-image: url(../imgs/index_peter.png) ;
+	background-image: url(../imgs/index_town.png) ;
     background-size: cover; 
     min-width: 1000px;
     height: 680px;
@@ -124,11 +124,9 @@ body {
 
 
 .banner-text{
-    color: white;
     position: absolute;
     left: 0px;
     bottom: 50px;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     padding: 3rem;
     
 }
@@ -170,7 +168,7 @@ body {
 
 
 /*---------------------
- * intro2
+index
 ----------------------*/
 
 
@@ -181,13 +179,14 @@ body {
 
 
 .intro{ 
+    
 }
 
 .intro-box{
     display: inline-block;
-    width: 1000px;
+    width: 940px;
     margin: 0 auto;
-    margin: 3rem;
+    margin: 80px;
 }
 .intro-container{
     
@@ -197,7 +196,6 @@ body {
 
 .intro-role{
     color: white;
-    width:500px;
     height: 60px;
     display: block;
     text-align: left;
@@ -229,7 +227,6 @@ body {
 
 .intro-text{
     text-align: left;
-    width: 500px;
     font-size: 1rem;
     font-weight: 500;
 	line-height: 1.62;
@@ -242,7 +239,144 @@ body {
 
 .intro-list{
     float: left;
-    width: 500px;
+}
+
+
+#a{
+    width: 60%;
+    margin-left: 5%;
+}
+
+#b{
+    width: 30%;
+    margin-left: 5%;
+}
+
+.intro-container:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------
+index
+----------------------*/
+
+
+
+
+
+
+
+
+
+
+.project{
+}
+
+.project-container{
+    padding: 130px;
+    
+}
+
+.text-container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.subheader{
+  width: 600px;
+  height: 29px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 2.07;
+  letter-spacing: 1.1px;
+  text-align: left;
+  color: #131315;
+}
+
+
+.title{
+  width: 600px;
+  font-family: Chivo;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: -0.7px;
+  text-align: left;
+  color: #000000;
+} 
+
+
+.body{
+  padding-top: 10px;
+  width: 600px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #121214;
+}
+
+
+
+.project-image{
+   margin-top: 50px;
+   width: 600px;
+}
+
+
+.image-des{
+  padding-top: 30px;
+  width: 600px;
+  margin: 0 auto;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.69;
+  letter-spacing: -0.3px;
+  text-align: center;
+  color: #8c8c8c;
+}
+
+
+
+
+
+
+
+
+
+/**//**/
+
+
+#bg-opportunity{
+    background-color: #FDDFD3;
+}
+
+#img-problem{
+    width: 900px;
 }
 
 
@@ -250,94 +384,94 @@ body {
 
 
 /*---------------------
- * product-ideation
+ * goals
 ----------------------*/
 
 
+/**//**/
 
 
-.product-ideation{
-    background-color: #F7F9FB;
-    width: 1180px;
+
+.goals-container{
+  background-color: ;
+}
+
+
+.goals-text-container{
+    padding: 110px;
+    text-align: left;
+}
+
+
+.goals-subheader{
+  padding-bottom: 40px;
+  width: 600px;
+  height: 29px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.07;
+  letter-spacing: 1.1px;
+  text-align: left;
+}
+
+.goals-text-container{
+    width: 600px;
+    margin: 0 auto;
+}
+.goals-list{
+    width: 600px;
     margin: 0 auto;
 }
 
 
-.product-ideation-container{
-    margin: 3rem;
-    background-color: #ffffff;
-    padding: 2rem;}
+.goals-number{
+    width: 180px;
+    padding-right: 20px;
+    float: left;
+}
 
-
-    
-.product-ideation-summary{
-    height: 245px;
-    max-width:500px;
-    margin: 0 auto;
+.goals-list:after{
+    clear: both;
+    content: "";
+    display: block;
 }
 
 
 
-.product-ideation-title{
-    margin-top: 4rem;
-    font-family: Oswald;
-    
-    font-weight: 100;
-	font-size: 1.5rem;
-	line-height: 1.34;
-	letter-spacing: -0.8px;
-	text-align: left;
-	color: #1d76bb;
+
+.goals-title{
+  width: 180px;
+  font-family: SourceSerifPro;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.61;
+  letter-spacing: -0.4px;
+  text-align: left;
 }
 
 
-.product-ideation-description{
-    margin-top: 1rem; 
-	font-size: 1rem;
-	line-height: 1.79;
-	letter-spacing: -0.6px;
-	text-align: left;
-	color: rgba(86, 91, 125, 0.6);
+
+.goals-body{
+  padding-top: 10px;
+  width: 180px;
+  font-family: SourceSerifPro;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: -0.4px;
+  text-align: left;
 }
 
 
-#graphic01{
-    max-width: 600px;
-    margin: 0 auto;
-    }
 
 
-
-#graphic02{
-    max-width: 100%;
-    margin: 0 auto;
-    }
-
-
-
-
-/*---------------------
- * font style
-----------------------*/
-
-
-
-.font-style-container{
-    
-    width: 1080px;
-    height: 600px;
-    margin: 0 auto;
-    background-color: white;
-    
-    margin-bottom: 50px;
-
-}
-
-
-.font-style-image{
-    width: 70%;
-    margin-top: 240px;
-}
 
 
 
@@ -346,47 +480,6 @@ body {
 /*---------------------
  * data
 ----------------------*/
-
-.data-summary{
-    
-    padding: 2rem;
-    margin: 0 auto;
-    width: 400px;
-    padding-top: 150px;
-}
-
-
-
-.data-title{
-	font-family: Oswald;
-    font-weight: 100;
-	font-size: 1.5rem;
-	line-height: 1.34;
-	letter-spacing: -0.8px;
-	text-align: left;
-	color: #1d76bb;
-    
-}
-
-.data-description{
-    margin-top: 10px;
-	font-family: Lora;
-	line-height: 1.79;
-	letter-spacing: -0.6px;
-	text-align: left;
-	color: rgba(86, 91, 125, 0.6);
-    width: 300px;
-}
-    
-
-.data-visualization{
-    height: 800px;
-    background-image: url(../imgs/data_visualization.png);
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
 
 
 
@@ -404,288 +497,12 @@ body {
 
 
 
-.music-streaming{
-    background-color: #01182C;
-    padding: 5rem;
-}
-
-
-
-.music-streaming-summary{
-    max-width: 500px;
-    padding: 2rem;
-    margin: 0 auto;
-}
-
-
-
-.music-streaming-title{
-	font-family: Oswald;
-    font-weight: 100;
-	font-size: 1.5rem;
-	line-height: 1.34;
-	letter-spacing: -0.8px;
-	text-align: left;
-	color: #1d76bb;
-    
-}
-
-.music-streaming-description{
-	font-family: Lora;
-    margin-top: 10px;
-	line-height: 1.79;
-	letter-spacing: -0.6px;
-	text-align: left;
-	color: #C0C0C0;
-}
-    
-
-
-
 
 
 /*---------------------
  * statistics
 ----------------------*/
 
-
-.statistics{
-    background-color: #01182C;
-    padding: 5rem;
-}
-
-
-
-
-.statistics-summary{
-    max-width: 500px;
-    padding: 2rem;
-    margin: 0 auto;
-}
-
-
-
-.statistics-title{
-	font-family: Oswald;
-    font-weight: 100;
-	font-size: 1.5rem;
-	line-height: 1.34;
-	letter-spacing: -0.8px;
-	text-align: left;
-	color: #1d76bb;
-    
-}
-
-.statistics-description{
-	font-family: Lora;
-    margin-top: 10px;
-	line-height: 1.79;
-	letter-spacing: -0.6px;
-	text-align: left;
-	color: #C0C0C0;
-}
-    
-
-
-.canvas-mobile-container{
-    display: inline-block;
-}
-
-.canvas-mobile{
-    margin: 0 auto;
-    width: 960px;
-    display: inline-block;}
-
-
-
-.mobile-title{
-    color: #72727D;
-    padding-bottom: 1rem;}
-
-
-.body3-mobile-pages{
-    float: left;
-    width: 296px;
-    padding: 12px;
-    margin-top: 8rem;
-}
-
-
-
-.body3-mobile:after{
-    content: "";
-    display: block;
-    clear: both;
-}
-
-.mobile-page-image{
-    width: 100%;
-}
-
-
-
-
-
-/*---------------------
- * Insta
-----------------------*/
-
-
-.insta{
-    background-color: #042542;
-    padding: 5rem;
-}
-
-
-
-
-.insta-summary{
-    max-width: 500px;
-    padding: 2rem;
-    margin: 0 auto;
-}
-
-
-
-.insta-title{
-	font-family: Oswald;
-    font-weight: 100;
-	font-size: 1.5rem;
-	line-height: 1.34;
-	letter-spacing: -0.8px;
-	text-align: left;
-	color: #1d76bb;
-    
-}
-
-.insta-description{
-	font-family: Lora;
-    margin-top: 10px;
-	line-height: 1.79;
-	letter-spacing: -0.6px;
-	text-align: left;
-	color: #C0C0C0;
-}
-    
-
-
-.insta-mobile-container{
-    display: inline-block;
-}
-
-.insta-mobile{
-    margin: 0 auto;
-    width: 664px;
-    display: inline-block;}
-
-
-
-.insta-mobile-title{
-    color: #72727D;
-    padding-bottom: 2rem;}
-
-
-.insta-mobile-pages{
-    
-    float: left;
-    width: 296px;
-    padding: 12px;
-    margin-top: 8rem;
-}
-
-
-
-.body3-mobile:after{
-    content: "";
-    display: block;
-    clear: both;
-}
-
-.insta-page-image{
-    width: 100%;
-
-
-}
-
-
-
-
-
-
-
-/*---------------------
- * Insta-mockup
-----------------------*/
-
-
-
-
-.mockup-bundle-image{
-    width: 100%;
-}
-
-
-
-
-
-
-
-
-/*---------------------
- * facebook
-----------------------*/
-
-
-
-
-
-
-
-
-.fb{
-    background-color: #edf0f3;
-    padding: 5rem;
-}
-
-
-
-
-
-.fb-summary{
-    max-width: 500px;
-    padding: 2rem;
-    margin: 0 auto;
-}
-
-
-
-.fb-title{
-	font-family: Oswald;
-    font-weight: 100;
-	font-size: 1.5rem;
-	line-height: 1.34;
-	letter-spacing: -0.8px;
-	text-align: left;
-	color: #1d76bb;
-    
-}
-
-.fb-description{
-	font-family: Lora;
-    margin-top: 10px;
-	line-height: 1.79;
-	letter-spacing: -0.6px;
-	text-align: left;
-	color: #575353;
-}
-    
-
-
-.fb-mockup-image{
-    width: 1000px;
-
-
-}
 
 
 

@@ -101,10 +101,12 @@ body {
 ----------------------*/
 
 
-
+.banner{
+}
 
 .intro1{
     width: 1000px;
+    display: block;
     margin: 0 auto;
     position: relative;
 }
@@ -199,7 +201,52 @@ body {
 
 
 
+    
+/*-----------------
+ footer
+------------------*/
+    
+    
+.social-box{
+    display: block;
+    margin-top: 80px;
+    
+    
+    } 
+    
+     
+.social-container{
+    background-color: #F4F4F4;
+    padding: 60px;
+    margin: 0 auto;
+    } 
+    
+    
+.social{
+    
+    width: 220px;
+    margin: 0 auto;
+}
 
+.social-list{
+    float: left;
+    margin: 4%;
+    width: 26px;
+
+}
+
+.social:after{
+        clear: both;
+        content: "";
+        display: block;}
+
+    
+.social-icon{
+    width: 90%;
+}
+    
+    
+    
 
 
 

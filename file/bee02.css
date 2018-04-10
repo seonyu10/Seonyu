@@ -148,7 +148,6 @@ body {
 }
 
 
-
 .intro1_title{
 	font-size: 3rem;
 	font-weight: 900;
@@ -170,7 +169,7 @@ body {
 
 
 /*---------------------
- * intro2
+ * Index
 ----------------------*/
 
 
@@ -274,6 +273,9 @@ body {
 
 
 
+/*---------------------
+ * body
+----------------------*/
 
 
 
@@ -370,13 +372,96 @@ body {
 
 
 
+#redesign{
+    width: 940px;
+    margin-top: 50px;
+}
+
+
+
+#pain{
+    margin-bottom: 40px;
+  width: 600px;
+  height: 29px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 2.07;
+  letter-spacing: 1.1px;
+  text-align: left;
+  color: #9a9aa1;
+}
+
+
+
+
+#redesign-wire{
+    width: 800px;
+}
 
 
 
 
 
-#intro-text{
-    color: whitesmoke;
+.e{
+    width:600px;
+}
+
+.d{
+    margin: 0 auto;
+}
+.c{ 
+    height: 200px;
+    width: 50px;
+    float: left;
+}
+
+
+
+.d:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+
+
+
+
+.g{
+    width: 100%;
+}
+
+
+
+#intro-text00{
+    color: #72727d;
+    width: 540px;
+}
+
+
+
+#numbering01{
+    width: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+#intro-text01{
+    color: white;
+}
+
+#intro-text02{
+    color: #72727d;
 }
 
 
@@ -389,9 +474,6 @@ body {
     width: 600px;
 }
 
-#ideation{
-    width: 300px;
-}
 
 
 #opportunity{
@@ -400,7 +482,7 @@ body {
 
 
 
-#painpoints{
+#outcome-design{
     margin-top: 50px;
     width:800px;
 }
@@ -413,91 +495,6 @@ body {
     background-color: #242428;
 }
 
-
-#z{
-    color: aliceblue;
-}
-
-#y{
-    color: #b0b0cd;
-}
-
-
-
-
-#comparison{
-    width: 900px;
-    margin-top: 80px;
-}
-
-
-#usecase{
-    background-color: #121214;
-}
-
-
-
-
-#research{
-    margin-top: 50px;
-}
-
-#bg-concept{
-    background-color: #dde3e7;
-}
-
-#concept{
-    margin-top: 60px;
-    width: 800px;
-}
-
-
-#home{
-    margin-top: 60px;
-    width: 900px;
-}
-
-
-#concept-des{
-    margin-top: 50px;
-     width: 600px;
-  height: 22px;
-  font-family: Roboto;
-  font-size: 13px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.69;
-  letter-spacing: -0.3px;
-  text-align: center;
-  color: #8c8c8c;
-}
-
-
-#interaction{
-    margin-top: 50px;
-    width: 300px;
-}
-
-
-#style{
-    margin-top: 50px;
-    
-}
-
-#style-text{
-  width: 600px;
-  height: 22px;
-  font-family: Roboto;
-  font-size: 13px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.69;
-  letter-spacing: -0.3px;
-  text-align: center;
-  color: #8c8c8c;
-}
 
 
 
@@ -553,6 +550,11 @@ body {
     width: 600px;
     margin: 0 auto;
 }
+
+
+.goals-numbering{
+    width: 45px;
+}
 .goals-list{
     width: 600px;
     margin: 0 auto;
@@ -575,8 +577,6 @@ body {
 
 
 .goals-title{
-  width: 180px;
-  font-family: SourceSerifPro;
   font-size: 18px;
   font-weight: bold;
   font-style: normal;
@@ -585,22 +585,20 @@ body {
   letter-spacing: -0.4px;
   text-align: left;
   color: #ffffff;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 
 
 .goals-body{
   padding-top: 10px;
-  width: 180px;
-  font-family: SourceSerifPro;
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.56;
   letter-spacing: -0.4px;
-  text-align: left;
+  text-align:left;
   color: #ffffff;
 }
 
@@ -633,6 +631,23 @@ body {
   letter-spacing: -0.4px;
   text-align: left;
   color: #121214;
+
+}
+
+#sub04{
+  margin-top: 50px;
+  width: 600px;
+  height: 26px;
+  font-family: Chivo;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #ffffff;
+
 }
 
 
@@ -646,17 +661,25 @@ body {
 }
 
 #bg-outcome{
-    background-color: #C4C5D2;
+    background-color: #151516;
 }
 
+
+#outcome-subheader{
+    color: white;
+    opacity: 0.5;
+}
 
 
 
 #explore{
+    margin: 0 auto;
     margin-top: 50px;
+    width: 900px;
     padding: 70px;
     background-color: #f1f1f4;
 }
+
 
 #wire{
     margin-top: 50px;
@@ -673,11 +696,8 @@ body {
   font-stretch: normal;
   line-height: 1.45;
   letter-spacing: 1.5px;
-  text-align: left;
+  text-align: justify;
   color: #b099ff;
-}
-#opportunity{
-    padding: 10px;
 }
 
 
