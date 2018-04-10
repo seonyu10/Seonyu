@@ -9,6 +9,8 @@ a {text-decoration: none;}
 li {list-style: none;}
 
 
+
+
 /*
  * Base structure
  */
@@ -16,16 +18,16 @@ li {list-style: none;}
 
 html,body {
   height: 100%;
-  background-color: #ffffff;
+  background-color: white;
 }
-
 body {
   color: #000;
+  text-align: center;
   font-weight: 400;
   font-size: 16px;
-  font-family: 'roboto';
-  text-align: left;
+  font-family: 'roboto'
 }
+
 
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -46,15 +48,11 @@ body {
 ----------------------*/
 
 
-/*---------------------
- * Header
-----------------------*/
-
-
 .header_global {
 	width:100%;
     position: absolute;
     box-sizing: border-box;
+    z-index: 9;
 }
 
 .nav{
@@ -62,31 +60,28 @@ body {
     margin: 0 auto;
     padding: 3rem;
     box-sizing: border-box;
+    opacity: 0.5;
     
 }
 
 .header_global .logo{
     float: left;
-    color: white;
+    color: black;
     font-weight: 500;
-    opacity: 0.5;
 }
 
 .header_global .nav_menu{
     float: right;
-    
 }
 
 .header_global .nav_menu li{
     float: left;
-    color: white;
 }
 
 .menu_list{
     margin-left: 1.5rem;
-    color: white;    
+    color: black;
     font-weight: 500;
-    opacity: 0.5;
 }
 
 .header_global:after{
@@ -101,6 +96,7 @@ body {
     content: "";
 }
 
+
 /*---------------------
  * banner
 ----------------------*/
@@ -109,132 +105,160 @@ body {
 
 .banner{
     height: 100%;
-	background-image: url(../imgs/index_discover.jpeg) ;
+	background-image: url(../imgs/50.jpg) ;
     background-size: cover; 
     min-width: 1000px;
     height: 680px;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-
 }
 
 .banner-container{
     width: 1000px;
+    height: 680px;
     margin: 0 auto;
     position: relative;
 }
 
 
 
-.intro-mockup{
-    padding-left: 70px;
-    width: 313px;
-}
-
-
 .banner-text{
     position: absolute;
-    top:190px;
-    bottom:0;
-    left: 50px;
-    width: 460px;
-    
-
-}
-
-
-
-
-/*-----------------
- main
-------------------*/
-
-
-
-
-.intro1{
-}
-
-.intro1_container{
+    left: 0px;
+    bottom: 50px;
+    padding: 3rem;
     
 }
+
+
+
+.banner-image{
+    position: absolute;
+    top:200px;
+    width:900px;
+    right: -200px;
+}
+
+.intro-mockup{
+    width:100%;
+
+}
+
 
 
 .intro1_title{
-    font-size: 40px;
-    color: white;
-    font-weight: 500;
-    text-align: left;
-    font-family: 'lora';
-    margin-bottom: 24px;
-}
-
-
-
-
-.intro1_description {
-    font-size: 16px;
-    color: white;
-    text-align: left;    
-    font-family: 'open sans';
-    font-weight: 500;
-    letter-spacing: 0.32px;
-    line-height: 28.8px;}
-
-
-
-
-/*---main-----*/
-
-
-
-
-.intro2{ 
-    background-color: #FBFBFB;
-    display: block;
-    height: 25%;
-}
-
-
-.intro2-container{
-    margin: 0 auto;
-    width: 540px;
-    padding: 5rem;
-    text-align: center;
+	font-size: 3rem;
+	font-weight: 900;
+	letter-spacing: -0.8px;
+	text-align: left;
+    color: black;
     
 }
 
-.intro2-content{
+.intro2_title{
+	font-size: 1.5rem;
+	font-weight: 900;
+	letter-spacing: -0.8px;
+	text-align: left;
+    color: black;
+}
+
+
+
+
+
+
+/*---------------------
+index
+----------------------*/
+
+
+
+
+
+
+
+
+.intro{ 
+    
+}
+
+.intro-box{
+    display: inline-block;
+    width: 940px;
+    margin: 0 auto;
+    margin: 80px;
+}
+.intro-container{
+    
+    
+}
+
+
+.intro-role{
     color: white;
-    width: 180px;
-    height: 50px;
+    height: 60px;
     display: block;
-    float: left;
-    font-family: 'open sans';
-}
-
-.intro2-container:after{
-    content: "";
-    display: block;
-    clear: both;
+    text-align: left;
+    margin-bottom: 1rem;
 }
 
 
 
-.intro2-title{
-    color: #4E4E56;
+.intro-title{
+    font-size: 1rem;
     font-weight: 100;
+    color: #7c7b86;
+    opacity: 0.5;
+    font-family: 'roboto';
+    text-align: left;
+    margin-bottom: 0.5rem;
 }
 
-.intro2-body{
-    font-weight: 200;
+.intro-body{
+    font-size: 1rem;
+    font-weight: 500;
     color: #7c7b86;
+    font-family: 'roboto';
+	line-height: 1.62;
     margin-top: 10px;
 }
 
 
 
+.intro-text{
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+	line-height: 1.62;
+	letter-spacing: -0.6px;
+    color: #7c7b86;
+    font-family: 'roboto';
+}
+
+
+
+.intro-list{
+    float: left;
+}
+
+
+#a{
+    width: 60%;
+    margin-left: 5%;
+}
+
+#b{
+    width: 30%;
+    margin-left: 5%;
+}
+
+.intro-container:after{
+    clear: both;
+    content: "";
+    display: block;
+}
 
 
 
@@ -244,29 +268,125 @@ body {
 
 
 
-.creative-solution{
-    width: 700px;
-    margin: 0 auto;
-    padding: 7rem;
-    font-family: 'open sans';
+
+
+/*---------------------
+index
+----------------------*/
+
+
+
+
+
+
+
+
+.f{width: 1200px;
+  margin: 0 auto;}
+
+.project{
+    width: 600px;
+    height: 400px;
+    float: left;
+}
+
+.project-container{
+    width: 100%;
     
 }
 
-
-
-
-
-
-
-.mockup{
-    width: 1000px;
+.text-container{
+    width: 600px;
     margin: 0 auto;
 }
 
-
-
-
-.mockup-image{
-    display: block;
-    width: 100%;
+.subheader{
+  width: 600px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 2.07;
+  letter-spacing: 1.1px;
+  text-align: left;
+  color: #131315;
 }
+
+
+.title{
+  font-family: Chivo;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: -0.7px;
+  text-align: left;
+  color: #000000;
+} 
+
+
+.body{
+  padding-top: 10px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #121214;
+}
+
+
+
+.project-image{
+   width: 500px;
+}
+
+
+.image-des{
+  width: 600px;
+  margin: 0 auto;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.69;
+  letter-spacing: -0.3px;
+  text-align: center;
+  color: #8c8c8c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------
+ * data
+----------------------*/
+
+
+
+
+
+
+
+
+
+
+
+        
+    

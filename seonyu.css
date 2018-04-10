@@ -41,7 +41,6 @@ body {
     padding: 3rem;
     box-sizing: border-box;
     margin: 0 auto;
-    
 }
 
 .header_global .logo{
@@ -265,61 +264,11 @@ p { font-size:20px}
 
 
 
-#arumi{ 
-    background-image: url(imgs/arumi.png);
-    background-size: cover;
-    display: table;    
-	background-position: top center;
-    }
-
-#arumi-content{  
-    display: table-cell;
-    color: white;
-	text-align: center;
-	vertical-align: middle;
-	background-color: rgba(0,0,0,.5);
-	opacity: 0;
-	transition: all .5s ease-in-out;}
-     
-#arumi:hover #arumi-content{
-    opacity: 1;}
-    
-
-
-
-
-
-
-
-#word{ 
-    background-image: url(imgs/index_word.jpg);
-    background-size: cover;
-    display: table;    
-	background-position: top center;
-    }
-  
-#word-content{  
-    display: table-cell;
-    color: white;
-	text-align: center;
-	vertical-align: middle;
-	background-color: rgba(0,0,0,.5);
-	opacity: 0;
-	transition: all .5s ease-in-out;}
-
-#word:hover #word-content{
-    opacity: 1;}
-    
-    
-    
-
-
-
 
 
     
 #discover{ 
-    background-image: url(imgs/index_discover.jpeg);
+    background-image: url(imgs/50.jpg);
     display: table;
     background-size: cover;
 	background-position: top center;
