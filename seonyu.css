@@ -37,7 +37,7 @@ body {
 
 .header_global{
     background-color: #ffffff;
-    max-width: 1000px;
+    max-width: 900px;
     padding: 3rem;
     box-sizing: border-box;
     margin: 0 auto;
@@ -47,6 +47,7 @@ body {
     float: left;
     color: black;
     font-weight: 600;
+    
 }
 
 .header_global .nav_menu{
@@ -98,22 +99,33 @@ body {
 
 
 .cover-heading{
-    font-size: 1.5rem;
-    margin-top: 2rem;
+    padding-top: 5rem;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Chivo;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.54;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #000000;
 }
 
 
 .lead{
-    max-width: 600px;
-    margin: 0 auto;
-    color: #000000;
-    font-family: 'roboto';
-    opacity: 0.5;
-    font-size: 1rem;
-    margin-top: 1rem;
-    letter-spacing: -0.6px;
-	line-height: 1.8;
-    text-align: ;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Chivo;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.54;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #000000;
 }
 
 
@@ -245,7 +257,6 @@ p { font-size:20px}
     
      
 .social-container{
-    background-color: #F4F4F4;
     padding: 60px;
     margin: 0 auto;
     } 
@@ -253,14 +264,13 @@ p { font-size:20px}
     
 .social{
     
-    width: 220px;
+    width: 530px;
     margin: 0 auto;
 }
 
 .social-list{
     float: left;
-    margin: 4%;
-    width: 26px;
+    margin: 3%;
 
 }
 
@@ -273,6 +283,12 @@ p { font-size:20px}
 .social-icon{
     width: 90%;
 }
+    
+    
+ .social-text{
+     color: black;
+     font-size:15px;
+    }
     
     
     
