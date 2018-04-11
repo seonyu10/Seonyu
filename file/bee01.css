@@ -620,14 +620,29 @@ body {
 
 
 
+.tagline{
+  padding: 30px;
+  width: 600px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: white;
+}
 
 
 
 
 
 
-
-
+#challenge-sub{
+    width: 600px;
+    text-align: right;
+}
 
 
 
