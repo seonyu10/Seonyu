@@ -114,6 +114,7 @@ body {
     background-attachment: fixed;
 }
 
+
 .banner-container{
     width: 1000px;
     height: 680px;
@@ -124,11 +125,9 @@ body {
 
 
 .banner-text{
-    color: white;
     position: absolute;
     left: 0px;
     bottom: 50px;
-    color: black;
     padding: 3rem;
     
 }
@@ -177,9 +176,6 @@ body {
   text-align: left;
   color: #000000;
 }
-
-
-
 
 
 
@@ -242,7 +238,8 @@ body {
 
 
 .intro-text{
-    text-align: left;
+    
+    text-align: justify;
     font-size: 1rem;
     font-weight: 500;
 	line-height: 1.62;
@@ -433,7 +430,6 @@ body {
 
 .goals-title{
   width: 180px;
-  font-family: SourceSerifPro;
   font-size: 18px;
   font-weight: bold;
   font-style: normal;
@@ -442,7 +438,7 @@ body {
   letter-spacing: -0.4px;
   text-align: left;
   color: #ffffff;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -450,7 +446,9 @@ body {
 .goals-body{
   padding-top: 10px;
   width: 180px;
-  font-family: SourceSerifPro;
+  height: 150px;
+  opacity: 0.5;
+  font-family: Roboto;
   font-size: 16px;
   font-weight: normal;
   font-style: normal;

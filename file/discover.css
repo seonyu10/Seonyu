@@ -228,6 +228,7 @@ index
 }
 
 .intro-body{
+    
     font-size: 1rem;
     font-weight: 500;
     color: #7c7b86;
@@ -239,7 +240,7 @@ index
 
 
 .intro-text{
-    text-align: left;
+    text-align: justify;
     font-size: 1rem;
     font-weight: 500;
 	line-height: 1.62;
