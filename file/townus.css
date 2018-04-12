@@ -397,11 +397,18 @@ index
     width: 1100px;
 }
 
-#concept{
-    width: 1000px;
+#img-concept{
+    width: 900px;
 }
 
 
+#town_flow{
+    width: 900px;
+}
+
+#img-ultimate{
+    width: 800px;
+}
 
 /*---------------------
  * goals
@@ -560,6 +567,12 @@ index
 
 
 
+#idea01_des{
+    margin-top: 50px;
+}
+
+
+
 #bg-final{
     background-color: black;
     color: white;
@@ -625,7 +638,8 @@ index
 
 
 #town_step{
-    width: 300px;
+    margin: 0 auto;
+    width: 250px;
 }
 
 
