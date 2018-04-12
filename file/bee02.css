@@ -56,7 +56,7 @@ body {
 }
 
 .nav{
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 3rem;
     box-sizing: border-box;
@@ -384,7 +384,11 @@ body {
 
 /**//**/
 
-
+#text-mission{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
 
 #redesign{
     width: 940px;
@@ -420,6 +424,7 @@ body {
 
 
 .e{
+    padding-top: 50px;
     width:600px;
 }
 
@@ -596,7 +601,7 @@ body {
   font-style: normal;
   font-stretch: normal;
   line-height: 1.61;
-  letter-spacing: -0.4px;
+  letter-spacing: 1px;
   text-align: left;
   color: #ffffff;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
