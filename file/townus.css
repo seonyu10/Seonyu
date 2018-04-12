@@ -638,8 +638,9 @@ index
 
 
 #town_step{
+    padding-top: 40px;
     margin: 0 auto;
-    width: 250px;
+    width: 280px;
 }
 
 
@@ -648,6 +649,10 @@ index
     width: 700px;
 }
 
+
+#img-flow{
+    width:  900px;
+}
 
 /*---------------------
  *purchase

@@ -472,6 +472,7 @@ color: #000;
 
 
 #interaction01{
+    margin-top: 50px;
     width: 280px;
     box-shadow: 0 20px 30px 0 rgba(191, 197, 209, 0.22), 0 10px 10px 0 rgba(93, 97, 104, 0.1), inset 0 -20px 30px 0 rgba(239, 242, 246, 0.77), inset 0 1px 3px 0 #eff2f6;}
 
@@ -516,6 +517,7 @@ color: #000;
 
 
 #img-percentage{
+    width: 700px;
     margin-top: 50px;
 }
 
