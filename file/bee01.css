@@ -58,7 +58,7 @@ body {
 }
 
 .nav{
-    width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 3rem;
     box-sizing: border-box;
@@ -640,7 +640,8 @@ body {
 
 
 #challenge-sub{
-    width: 600px;
+    opacity: 0.5;
+    width: 400px;
     text-align: right;
 }
 

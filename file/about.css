@@ -96,112 +96,89 @@ body {
 }
 
 
+
+
+
 /*---------------------
- * banner
+ * intro
 ----------------------*/
 
 
-.banner{
+
+.intro{ 
+    padding-top: 120px; 
+    
+    
 }
 
-.intro1{
-    width: 1000px;
-    display: block;
+.intro-box{
+    display: inline-block;
+    width: 900px;
     margin: 0 auto;
-    position: relative;
+    margin: 80px;
 }
-
-.intro1_container{
-    position: relative;
-    top: 200px;
-}
-
-
-.profile{
-    width: 350px;
-    position: absolute;
-    left: 100px;
-}
-
-
-.intro2{
-    width: 500px;
-    position: absolute;
-    right: 0;
-}
-
-
-.text-title{
-    text-align: left;
-    font-size:1.3rem;
-}
-
-.text-description{
-    color: #000000;
-    font-family: 'roboto';
-    opacity: 0.5;
-    font-size: 1rem;
-    margin-top: 1rem;
-    letter-spacing: -0.6px;
-	line-height: 1.8;
-    text-align: left;
-}
-
-
-
-
-
-
-
-.more{
-    margin-top: 100px;
-    margin-bottom: 30px;
+.intro-container{
     
-    color: red;
-    font-family: 'roboto';
-    opacity: 0.5;
+    
+}
+
+.intro-body{
+    text-align: justify;
     font-size: 1rem;
-    margin-top: 1rem;
-    letter-spacing: -0.6px;
-	line-height: 1.8;
-    text-align: left;
-    text-decoration-line: underline;}
+    font-weight: 500;
+    color: #7c7b86;
+    font-family: 'roboto';
+	line-height: 1.62;
+    margin-top: 10px;
+}
 
 
-.more-list{
+
+.intro-text{
+  width: 300px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.81;
+  letter-spacing: -0.4px;
+  text-align: justify;
+  color: #7c7b86;
+}
+
+
+
+.intro-list{
+    float: left;
+}
+
+
+#a{
+    width: 35%;
+    margin-left: 5%;
+}
+
+#b{
+    width: 55%;
+    margin-left: 5%;
+}
+
+.intro-container:after{
+    clear: both;
+    content: "";
     display: block;
 }
 
 
 
-.social{
-    width:175px;
-}
-
-.social-list{
-    float: left;
-    width: 24px;
-    height: 24px;
-
-}
-
-.social-icon{
-    width: 90%;
+#img-profile{
+    width: 300px;
 }
 
 
 
 
-
-
-    
-}
-
-
-
-
-
-    
 /*-----------------
  footer
 ------------------*/
@@ -216,7 +193,6 @@ body {
     
      
 .social-container{
-    background-color: #F4F4F4;
     padding: 60px;
     margin: 0 auto;
     } 
@@ -224,14 +200,13 @@ body {
     
 .social{
     
-    width: 220px;
+    width: 400px;
     margin: 0 auto;
 }
 
 .social-list{
     float: left;
-    margin: 4%;
-    width: 26px;
+    margin: 3%;
 
 }
 
@@ -240,14 +215,16 @@ body {
         content: "";
         display: block;}
 
-    
-.social-icon{
-    width: 90%;
-}
-    
-    
-    
 
+    
+ .social-text{
+     color: black;
+     font-size:15px;
+    }
+    
+    
+    
+    
 
 
 
