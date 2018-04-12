@@ -182,7 +182,11 @@ body {
 /*-----------------
  footer
 ------------------*/
-    
+  
+.footer_seonyu{
+    font-size:15px;
+    margin-top: 30px;
+    }   
     
 .social-box{
     display: block;
@@ -195,18 +199,21 @@ body {
 .social-container{
     padding: 60px;
     margin: 0 auto;
+    max-width: 800px;
     } 
     
     
 .social{
-    
-    width: 400px;
+    width: 480px;
     margin: 0 auto;
+    margin-top: 30px;
+
+    ;
 }
 
 .social-list{
+    margin: 20px;
     float: left;
-    margin: 3%;
 
 }
 
@@ -215,12 +222,19 @@ body {
         content: "";
         display: block;}
 
-
+    
+.social-icon{
+    width: 90%;
+}
+    
     
  .social-text{
      color: black;
      font-size:15px;
+     font-weight: 100;
     }
+    
+    
     
     
     
