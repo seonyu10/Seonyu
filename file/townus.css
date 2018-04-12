@@ -438,17 +438,17 @@ index
 }
 
 .goals-text-container{
-    width: 600px;
+    width: 660px;
     margin: 0 auto;
 }
 .goals-list{
-    width: 600px;
+    width: 660px;
     margin: 0 auto;
 }
 
 
 .goals-number{
-    width: 180px;
+    width: 200px;
     padding-right: 20px;
     float: left;
 }
@@ -463,8 +463,8 @@ index
 
 
 .goals-title{
+  margin-top: 30px;
   width: 180px;
-  font-family: SourceSerifPro;
   font-size: 18px;
   font-weight: bold;
   font-style: normal;
@@ -479,7 +479,6 @@ index
 .goals-body{
   padding-top: 10px;
   width: 180px;
-  font-family: SourceSerifPro;
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
