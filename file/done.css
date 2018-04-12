@@ -55,7 +55,7 @@ color: #000;
 }
 
 .nav{
-    width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 3rem;
     box-sizing: border-box;
@@ -398,7 +398,6 @@ color: #000;
 
 .goals-title{
   width: 180px;
-  font-family: SourceSerifPro;
   font-size: 18px;
   font-weight: bold;
   font-style: normal;
@@ -415,14 +414,13 @@ color: #000;
 .goals-body{
   padding-top: 10px;
   width: 180px;
-  font-family: SourceSerifPro;
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.56;
-  letter-spacing: -0.4px;
-  text-align: left;
+  letter-spacing: -0.1px;
+  text-align: justify;
   color: #ffffff;
 }
 
