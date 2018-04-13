@@ -676,8 +676,31 @@ body {
     width: 120px;
     height: 100px;
     background-size: cover;
-    background-image: url(../imgs/bee_example01.png);
     display:table;
+}
+
+
+
+#use01{
+    background-image: url(../imgs/bee_example01.png);
+}
+
+
+#use02{
+    background-image: url(../imgs/bee_example02.png);
+}
+
+#use03{
+    background-image: url(../imgs/bee_example03.png);
+}
+
+
+#use04{
+    background-image: url(../imgs/bee_example04.png);
+}
+
+#use05{
+    background-image: url(../imgs/bee_example05.png);
 }
 
 
@@ -686,7 +709,9 @@ body {
     text-align: center;
     vertical-align: middle;
     color: black;
-    background-color: rbga(0,0,0,0.7);
+    opacity: 0.8;
+    border-radius: 4px;
+    background-color: #000000;
 }
 
 .use-image:hover .use-content{
@@ -696,7 +721,6 @@ body {
 
 .use_subtitle{
   width: 120px;
-  height: 32px;
   font-family: Roboto;
   font-size: 14px;
   font-weight: bold;
