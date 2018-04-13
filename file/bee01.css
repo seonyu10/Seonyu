@@ -664,9 +664,51 @@ body {
 }
     
 .use-list-img{
-    width: 100%;
-    border-radius: 3px;
+  width: 120px;
+  height: 100px;
+  opacity: 0.3;
+  border-radius: 4px;
+  background-color: #000000;
 }
+
+.use-image{
+    border-radius: 4px;
+    width: 120px;
+    height: 100px;
+    background-size: cover;
+    background-image: url(../imgs/bee_example01.png);
+    display:table;
+}
+
+
+.use-content{
+    display: none;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    background-color: rbga(0,0,0,0.7);
+}
+
+.use-image:hover .use-content{
+    display: table-cell;
+    
+}
+
+.use_subtitle{
+  width: 120px;
+  height: 32px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  text-align: center;
+  color: #ffffff;
+}
+
+
 .usecase:after{
     clear: both;
     content: "";
