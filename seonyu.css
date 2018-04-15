@@ -153,7 +153,7 @@ p { font-size:20px}
  album
 ------------------*/
 
-
+    
 .card_title{
   height: 20px;
   font-family: Chivo;
@@ -181,6 +181,12 @@ p { font-size:20px}
 }
  
 
+.row{
+    padding: 20px;
+    display: inline-block;
+}
+
+
 .card-image {
     color: black;
     width: 100%;
@@ -204,7 +210,9 @@ p { font-size:20px}
 .card{ 
     border-radius: 4px;
     float: left;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
     height: 300px;
     margin: 10px; 
     display: table;
@@ -215,23 +223,18 @@ p { font-size:20px}
 @media (min-width: 768px){
     .card{width:400px;
           height: 300px;} 
- 
+}
 
-    
-    
-.album {width: ;}
-
-    
     
     
 @media (min-width: 768px){
-    .album{width:840px;
+    .row{width:840px;
            margin: 0 auto;
-           padding: 60px;}
-        
+           padding: px;}
+    }
         
     
-.album:after{
+.row:after{
     clear: both;
     content: "";
     display: block;
@@ -241,6 +244,8 @@ p { font-size:20px}
     
     
     
+
+
     
     
 /*-----------------
@@ -261,7 +266,7 @@ p { font-size:20px}
     
      
 .social-container{
-    padding: 60px;
+    padding: 30px;
     margin: 0 auto;
     max-width: 800px;
     } 
@@ -270,16 +275,9 @@ p { font-size:20px}
 .social{
     width: 480px;
     margin: 0 auto;
-    margin-top: 30px;
-
-    ;
 }
 
-.social-list{
-    margin: 20px;
-    float: left;
 
-}
 
 .social:after{
         clear: both;
@@ -292,18 +290,23 @@ p { font-size:20px}
 }
     
     
- .social-text{
+.social-text{
      color: black;
      font-size:15px;
      font-weight: 100;
     }
+
+
+.social-list{
+    margin-top: 20px;
+}
     
     
-    
-    
-    
-    
-    
+@media (min-width:768px){
+    .social-list{ 
+    margin: 20px;
+    float: left;}
+}
     
     
     
