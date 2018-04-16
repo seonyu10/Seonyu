@@ -155,7 +155,7 @@ color: #000;
 
 
 
-.intro1_title{
+.banner_title{
   width: 468px;
   height: 50px;
   font-family: Chivo;
@@ -170,7 +170,7 @@ color: #000;
     
 }
 
-.intro2_title{
+.banner_subtitle{ 
   width: 468px;
   height: 34px;
   font-family: Chivo;

@@ -888,23 +888,11 @@ body {
 
 
 
-.tutorial{
-    margin: 0 auto;
-    padding: 20px;
-    width: 100%;
-}
-
-
-
-@media (min-width: 768px){
     .tutorial{
-        
-    margin: 0 auto;
     float: left;
     padding: 20px;
         
     }
-}
 
 
 
