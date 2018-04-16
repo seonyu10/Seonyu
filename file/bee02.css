@@ -164,18 +164,24 @@ main{
 
 
 .banner_title{
+  font-size: 40px;
   font-family: Chivo;
-  font-size: 60px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   text-align: left;
   color: #FFFFFF;
-    
-    
 }
 
+@media (min-width: 768px){
+    .banner_title{
+  font-size: 60px;
+}
+}
+
+
 .banner_subtitle{
+  font-size: 12px;
   padding-top: 5px;
   font-family: Chivo;
   font-size: 24px;
@@ -186,8 +192,17 @@ main{
   color: #FFFFFF;
 }
 
+@media (min-width: 768px){
+    .banner_subtitle{
+  font-size: 30px;
+    }
+}
 
 
+
+    
+    
+    
 /*---------------------
 intro
 ----------------------*/
