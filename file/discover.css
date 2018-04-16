@@ -171,30 +171,25 @@ body {
 
 
 /*---------------------
-index
+intro
 ----------------------*/
 
-
-
-
-
-
-
-
-.intro{ 
-    
-}
 
 .intro-box{
     display: inline-block;
     max-width: 940px;
     margin: 0 auto;
+    margin: 50px;
+}
+
+@media (min-width: 768px){
+    .intro-box{
     margin: 80px;
 }
-.intro-container{
-    
-    
+
 }
+
+
 
 
 .intro-role{
@@ -245,24 +240,34 @@ index
     width: 100%;
 }
 
-
-
 @media (min-width: 768px){
     .intro-list{
-      
     float: left;  
     }
 }
 
 
 #a{
+    width: 100%;
+}
+
+@media (min-width: 768px){
+    #a{
     width: 60%;
-    margin-left: 5%;
+    margin-left: 5%;}
 }
 
 #b{
+    width: 100%;
+}
+
+
+@media (min-width: 768px){
+    #b{
     width: 30%;
     margin-left: 5%;
+}
+
 }
 
 .intro-container:after{
@@ -270,11 +275,6 @@ index
     content: "";
     display: block;
 }
-
-
-
-
-
 
 
 

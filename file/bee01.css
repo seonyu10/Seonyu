@@ -1,3 +1,4 @@
+
 /*-------------
  CSS RESET 
 --------------*/
@@ -17,17 +18,17 @@ li {list-style: none;}
 
 
 html,body {
+    
+  height: 100%;
+  width: 100%;
   background-color: #ffffff;
-  
 }
 body {
-  width:100%;
-  height: 100%;
+  color: #000;
   text-align: center;
   font-weight: 400;
   font-size: 16px;
-  font-family: 'roboto';
-  font-stretch: normal;
+  font-family: 'roboto'
 }
 
 
@@ -39,39 +40,68 @@ body {
 
 
 .header_global {
-	width:100%;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
     position: absolute;
     box-sizing: border-box;
     z-index: 9;
 }
 
-.nav{
-    max-width: 900px;
+nav{
     margin: 0 auto;
-    padding: 3rem;
+	max-width: 800px;
     box-sizing: border-box;
-    opacity: 0.5;
     
 }
 
 .header_global .logo{
-    float: left;
     color: white;
     font-weight: 500;
 }
 
-.header_global .nav_menu{
+
+@media (min-width: 768px){
+    .header_global .logo{
+    float: left;}
+}
+
+@media (min-width: 768px){
+    .header_global .nav_menu{
     float: right;
 }
-
-.header_global .nav_menu li{
-    float: left;
 }
 
+
+.header_global .nav_menu li{
+    display: inline;
+}
+
+@media (min-width: 768px){
+    .header_global .nav_menu li{
+    float: left;}
+}
+
+
 .menu_list{
-    margin-left: 1.5rem;
+    display: inline-block;
+    padding-top: 1rem;
+    
+    margin: 1rem;
     color: white;
     font-weight: 500;
+}
+
+
+@media (min-width: 768px){
+    .menu_list{
+    display: inline;
+    margin: 1rem;
+    color: white;
+    font-weight: 100;
+}
+
 }
 
 .header_global:after{
@@ -87,34 +117,43 @@ body {
 }
 
 
-/*---------------------
- * banner
-----------------------*/
 
 
 
+/*-----------------
+ banner
+------------------*/
+    
+main{
+    width: 100%;
+}
 .banner{
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5); 
-	background-image: url(../imgs/bee_index.jpg) ;
-    background-size: cover; 
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5); 
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
-}
+	background-image: url(../imgs/bee_index.jpg) ;
+    
 
-
-
-.banner-container{
-    max-width: 900px;
-    height: 680px;
-    margin: 0 auto;
-    position: relative;
 }
 
 
 
 .banner-text{
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    height: 100%;
+}
+
+
+
+
+.banner-container{
     color: white;
     position: absolute;
     left: 0px;
@@ -126,75 +165,51 @@ body {
 
 
 
-
-
 .banner_title{
-  width: 468px;
-  height: 50px;
   font-family: Chivo;
   font-size: 60px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
-  line-height: 0.43;
-  letter-spacing: -1.9px;
   text-align: left;
   color: #FFFFFF;
+    
     
 }
 
 .banner_subtitle{
-  width: 468px;
-  height: 34px;
+  padding-top: 5px;
   font-family: Chivo;
   font-size: 24px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.42;
-  letter-spacing: -0.6px;
   text-align: left;
   color: #FFFFFF;
 }
 
 
 
-
-
-
 /*---------------------
- * intro2
+intro
 ----------------------*/
 
 
-
-
-
-
-.intro{ 
-    
-}
-
 .intro-box{
-    margin: 50px;
-}
-
-
-
-@media (min-width: 768px){
-    .intro-box {
     display: inline-block;
     max-width: 940px;
     margin: 0 auto;
-    margin: 30px; 
-    }
+    margin: 50px;
+}
+
+@media (min-width: 768px){
+    .intro-box{
+    margin: 80px;
+}
+
 }
 
 
-
-.intro-container{
-    
-}
 
 
 .intro-role{
@@ -218,7 +233,7 @@ body {
 }
 
 .intro-body{
-    text-align: justify;
+    
     font-size: 1rem;
     font-weight: 500;
     color: #7c7b86;
@@ -230,49 +245,56 @@ body {
 
 
 .intro-text{
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.81;
-  letter-spacing: -0.4px;
-  text-align: justify;
-  color: #7c7b86;
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 500;
+	line-height: 1.62;
+	letter-spacing: -0.6px;
+    color: #7c7b86;
+    font-family: 'roboto';
 }
+
 
 
 .intro-list{
-    padding: 2%;
-    margin-bottom: 10px;
+    width: 100%;
 }
 
-
 @media (min-width: 768px){
-    .intro-list {
-     
-    float: left;
-    padding: 5%;
-    width: 40%;   
+    .intro-list{
+    float: left;  
     }
 }
 
 
+#a{
+    width: 100%;
+}
+
+@media (min-width: 768px){
+    #a{
+    width: 60%;
+    margin-left: 5%;}
+}
+
+#b{
+    width: 100%;
+}
 
 
+@media (min-width: 768px){
+    #b{
+    width: 30%;
+    margin-left: 5%;
+}
 
+}
 
 .intro-container:after{
     clear: both;
     content: "";
     display: block;
 }
-
-
-
-
-
-
 
 
 
@@ -288,10 +310,16 @@ body {
 
 
 .project{
+    width: 100%;
 }
 
+
+
+
+
+
 .project-container{
-    padding: 40px;
+    padding: 50px;
     
 }
 
@@ -362,7 +390,7 @@ body {
 
 
 .image-des {
-  max-width: 600px; 
+  width: 100%; 
   margin: 0 auto;
   height: 44px;
   font-family: Roboto;
@@ -371,16 +399,15 @@ body {
   font-style: normal;
   font-stretch: normal;
   line-height: 1.69;
-  letter-spacing: -0.3px;
   text-align: center;
   color: #8c8c8c;
     }
-}
+
 
 
 @media (min-width: 768px){
 .image-des{
-  width: 600px;
+  max-width: 600px;
 }
 
 }
@@ -424,15 +451,11 @@ body {
     #understanding {
      
     margin-top: 50px;
-    width: 600px;   
+    max-width: 600px;   
     }
 }
 
 
-
-#ideation{
-    width: 300px;
-}
 
 
 
@@ -441,10 +464,11 @@ body {
     width: 100%;
 }
 
+
 @media (min-width: 768px){
     #opportunity{
     margin-top: 50px;
-    width: 400px;   
+    max-width: 400px;   
     }
 }
 
@@ -467,7 +491,7 @@ body {
 @media (min-width: 768px){
     #user{
     margin-top: 50px;
-    width: 800px; 
+    max-width: 800px; 
     }
 }
 
@@ -482,7 +506,7 @@ body {
 
 @media (min-width: 768px){
     #competitor{
-    width: 700px;
+    max-width: 700px;
     margin-top: 50px;
     }
 }
@@ -509,9 +533,10 @@ body {
 .market-sub{
     margin-bottom: 10px;
 }
+
+
 #subheader01{
   display: inline;
-  width: 600px;
   height: 29px;
   font-family: Roboto;
   font-size: 16px;
@@ -526,7 +551,6 @@ body {
 
 #subheader02{
   display: inline;
-  width: 600px;
   height: 29px;
   font-family: Roboto;
   font-size: 16px;
@@ -590,7 +614,7 @@ body {
 @media (min-width: 768px){
     #comparison {
      
-    width: 700px;
+    max-width: 700px;
     margin-top: 80px;   
     }
 }
@@ -599,24 +623,17 @@ body {
 
 #bee-example{
     width: 100%;
-    
     margin-top: 50px;
 }
 
 @media (min-width: 768px){
     #bee-example {
-    width: 700px;
+    max-width: 700px;
     margin-top: 130px;
         
     }
 }
 
-
-
-#bee-img{
-    width: 600px;
-    margin-top: 50px;
-}
 
 
 
@@ -640,13 +657,13 @@ body {
 
 #research{
     margin-top: 50px;
+    width: 100%;
 }
 
 
 @media (min-width: 768px){
     #research{
-    margin-top: 50px;
-    width: 600px;
+    max-width: 600px;
     }
 }
 
@@ -666,13 +683,13 @@ body {
 
 #home{
     margin-top: 60px;
-    width: 900px;
+    max-width: 900px;
 }
 
 
 #concept-des{
-    margin-top: 50px;
-     width: 600px;
+  margin-top: 50px;
+  max-width: 600px;
   height: 22px;
   font-family: Roboto;
   font-size: 13px;
@@ -688,7 +705,7 @@ body {
 
 #interaction{
     margin-top: 50px;
-    width: 300px;
+    max-width: 300px;
 }
 
 
@@ -698,7 +715,7 @@ body {
 }
 
 #style-text{
-  width: 600px;
+  max-width: 600px;
   height: 22px;
   font-family: Roboto;
   font-size: 13px;
@@ -737,14 +754,14 @@ body {
 
 #challenge-sub{
     opacity: 0.5;
-    width: 100%;
+    max-width: 100%;
     text-align: right;
 }
 
 
 @media (min-width: 768px){
     #challenge-sub {
-    width: 400px;
+    max-width: 400px;
         
     }
 }
@@ -756,40 +773,67 @@ body {
  * usecase-list
 ----------------------*/
 
+
 .usecase{
-    width: 700px;
+    display: inline-block;
+    max-width: 700px;
     margin: 0 auto;
 }
 
 .use-list{
-    width: 100%;
-    margin: 2%;
-}
-
-@media (min-width: 768px){
-    .use-list{
-     
-    width: 16%;
-    margin: 2%;
-    float: left;
-    }
-}
-    
-.use-list-img{
-  width: 120px;
-  height: 100px;
-  opacity: 0.3;
-  border-radius: 4px;
-  background-color: #000000;
-}
-
-.use-image{
-    border-radius: 4px;
+    margin: 0 auto;
+    margin: 10px;
     width: 120px;
     height: 100px;
-    background-size: cover;
-    display:table;
+    float: left;
+    display: block;
+    opacity: 1;
+    border-radius: 4px;
+    background-color: #000000;
+    
 }
+
+
+
+.use-image{
+    width: 100%;
+    height: 100%;
+	background-size: cover;
+	background-position: top center;
+	display: table;
+    
+} 
+
+
+
+.use-content{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgba(0,0,0,.9);
+	opacity: 0;
+	transition: all .5s ease-in-out;
+}
+
+
+
+.use_subtitle{
+  max-width: 120px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+
+.use-image:hover .use-content{
+    opacity: 1;  }
 
 
 
@@ -816,32 +860,7 @@ body {
 }
 
 
-.use-content{
-    display: none;
-    text-align: center;
-    vertical-align: middle;
-    color: black;
-    opacity: 0.8;
-    border-radius: 4px;
-    background-color: #000000;
-}
-
-.use-image:hover .use-content{
-    display: table-cell;
     
-}
-
-.use_subtitle{
-  width: 120px;
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: -0.3px;
-  text-align: center;
-  color: #ffffff;
 }
 
 
