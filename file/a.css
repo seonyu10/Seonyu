@@ -1,0 +1,288 @@
+/*-------------
+ CSS RESET 
+--------------*/
+
+* {padding: 0; 
+    border: 0; 
+    margin: 0;}
+a {text-decoration: none;}
+li {list-style: none;}
+
+
+
+
+/*
+ * Base structure
+ */
+
+
+html,body {
+  background-color: #ffffff;
+  
+}
+body {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'roboto';
+  font-stretch: normal;
+}
+
+
+
+
+/*---------------------
+ * Header
+----------------------*/
+
+
+.header_global {
+	width:100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 9;
+}
+
+.nav{
+    color: black;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem;
+    box-sizing: border-box;
+    opacity: 0.5;
+    
+}
+
+.header_global .logo{
+    float: left;
+    color: white;
+    font-weight: 500;
+}
+
+.header_global .nav_menu{
+    float: right;
+}
+
+.header_global .nav_menu li{
+    float: left;
+}
+
+.menu_list{
+    margin-left: 1.5rem;
+    color: white;
+    font-weight: 500;
+}
+
+.header_global:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.header_global nav:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+
+/*---------------------
+ * banner
+----------------------*/
+
+
+
+.banner{
+
+    border: 10px solid blue;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+.banner-container{
+    display: block;
+	background-image: url(../imgs/bee_index.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+.banner-text{
+    color: white;
+    position: absolute;
+    left: 0px;
+    bottom: 50px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 3rem;
+    
+}
+
+
+
+
+
+
+
+
+
+/*---------------------
+ * intro
+----------------------*/
+
+
+
+
+
+
+.intro{ 
+    
+}
+
+.intro-box{
+    display: inline-block;
+    max-width: 940px;
+    margin: 0 auto;
+    margin: 50px;
+}
+.intro-container{
+    
+}
+
+
+.intro-role{
+    color: white;
+    height: 60px;
+    display: block;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+
+
+.intro-title{
+    font-size: 1rem;
+    font-weight: 100;
+    color: #7c7b86;
+    opacity: 0.5;
+    font-family: 'roboto';
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+.intro-body{
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #7c7b86;
+    font-family: 'roboto';
+	line-height: 1.62;
+    margin-top: 10px;
+}
+
+
+
+.intro-text{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.81;
+  letter-spacing: -0.4px;
+  text-align: justify;
+  color: #7c7b86;
+}
+
+
+.intro-list{
+    margin-bottom: 50px;
+}
+
+
+
+@media (min-width:768px){
+    .intro-list{
+    margin: 0px;}
+
+}
+
+
+
+@media (min-width:768px){
+.intro-list{
+    float: left;}
+}
+
+
+
+
+    
+@media (min-width: 768px){
+    #a{
+    width: 60%;
+    margin-left: 5%;
+}
+
+    
+@media (min-width: 768px){
+    #b{
+    width: 30%;
+    margin-left: 5%;}
+}
+
+
+
+
+
+
+
+.intro-container:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------
+ * body
+----------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    

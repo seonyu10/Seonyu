@@ -21,7 +21,8 @@ html,body {
   
 }
 body {
-  color:;
+  width:100%;
+  height: 100%;
   text-align: center;
   font-weight: 400;
   font-size: 16px;
@@ -29,19 +30,6 @@ body {
   font-stretch: normal;
 }
 
-
-
-/* Extra markup and styles for table-esque vertical and horizontal centering */
-.site-wrapper {
-  width: 100%;
-  height: 100%; 
-}
-.site-wrapper-inner {
-  height: 100%;
-    
-}
-
-/* Padding for spacing */
 
 
 
@@ -106,18 +94,19 @@ body {
 
 
 .banner{
-    height: 100%;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5); 
 	background-image: url(../imgs/bee_index.jpg) ;
     background-size: cover; 
-    min-width: 1000px;
-    height: 680px;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
 
+
+
 .banner-container{
-    width: 1000px;
+    max-width: 900px;
     height: 680px;
     margin: 0 auto;
     position: relative;
@@ -137,20 +126,9 @@ body {
 
 
 
-.banner-image{
-    position: absolute;
-    top:200px;
-    width:900px;
-    right: -200px;
-}
-
-.intro-mockup{
-    width:100%;
-
-}
 
 
-.intro1_title{
+.banner_title{
   width: 468px;
   height: 50px;
   font-family: Chivo;
@@ -165,7 +143,7 @@ body {
     
 }
 
-.intro2_title{
+.banner_subtitle{
   width: 468px;
   height: 34px;
   font-family: Chivo;
@@ -178,6 +156,10 @@ body {
   text-align: left;
   color: #FFFFFF;
 }
+
+
+
+
 
 
 /*---------------------
@@ -194,13 +176,23 @@ body {
 }
 
 .intro-box{
-    display: inline-block;
-    width: 940px;
-    margin: 0 auto;
-    margin: 80px;
+    margin: 50px;
 }
+
+
+
+@media (min-width: 768px){
+    .intro-box {
+    display: inline-block;
+    max-width: 940px;
+    margin: 0 auto;
+    margin: 30px; 
+    }
+}
+
+
+
 .intro-container{
-    
     
 }
 
@@ -238,7 +230,6 @@ body {
 
 
 .intro-text{
-  width: 553px;
   font-family: Roboto;
   font-size: 16px;
   font-weight: normal;
@@ -251,21 +242,25 @@ body {
 }
 
 
-
 .intro-list{
+    padding: 2%;
+    margin-bottom: 10px;
+}
+
+
+@media (min-width: 768px){
+    .intro-list {
+     
     float: left;
+    padding: 5%;
+    width: 40%;   
+    }
 }
 
 
-#a{
-    width: 60%;
-    margin-left: 5%;
-}
 
-#b{
-    width: 30%;
-    margin-left: 5%;
-}
+
+
 
 .intro-container:after{
     clear: both;
@@ -296,13 +291,21 @@ body {
 }
 
 .project-container{
-    padding: 130px;
+    padding: 40px;
     
 }
 
+@media (min-width: 768px){
+    .project-container {
+    padding: 130px;    
+    }
+}
+
+
+
 .text-container{
     text-align: justify;
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
@@ -354,12 +357,12 @@ body {
 
 
 .project-image{
-   width: 600px;
+   width: 100%;
 }
 
 
-.image-des{
-  width: 600px;
+.image-des {
+  max-width: 600px; 
   margin: 0 auto;
   height: 44px;
   font-family: Roboto;
@@ -371,9 +374,16 @@ body {
   letter-spacing: -0.3px;
   text-align: center;
   color: #8c8c8c;
+    }
 }
 
 
+@media (min-width: 768px){
+.image-des{
+  width: 600px;
+}
+
+}
 
 
 
@@ -407,41 +417,93 @@ body {
 
 #understanding{
     margin-top: 50px;
-    width: 600px;
+    width: 100%;
 }
+
+@media (min-width: 768px){
+    #understanding {
+     
+    margin-top: 50px;
+    width: 600px;   
+    }
+}
+
+
 
 #ideation{
     width: 300px;
 }
 
 
+
 #opportunity{
     margin-top: 50px;
-    width: 400px;
+    width: 100%;
 }
+
+@media (min-width: 768px){
+    #opportunity{
+    margin-top: 50px;
+    width: 400px;   
+    }
+}
+
+
+
 
 
 #bg-user{
     background-color: #f9f9f9;
 }
 
+
+
 #user{
     margin-top: 50px;
-    width: 800px;
+    width: 100%;
 }
 
+
+@media (min-width: 768px){
+    #user{
+    margin-top: 50px;
+    width: 800px; 
+    }
+}
+
+
+
+
 #competitor{
-    width: 700px;
+    width: 100%;
     margin-top: 50px;
 }
+
+
+@media (min-width: 768px){
+    #competitor{
+    width: 700px;
+    margin-top: 50px;
+    }
+}
+
 
 
 
 #evernote{
-    width: 500px;
+    width: 100%;
     margin-top: 50px;
 }
 
+
+
+@media (min-width: 768px){
+    #evernote{
+    width: 500px;
+    margin-top: 50px;
+}
+    }
+}
 
 
 .market-sub{
@@ -492,6 +554,7 @@ body {
 
 
 #des-ad{
+  max-width: 600px;
   opacity: 0.34;
   font-family: Roboto;
   font-size: 14px;
@@ -520,15 +583,34 @@ body {
 
 
 #comparison{
-    width: 700px;
+    width: 100%;
     margin-top: 80px;
 }
 
+@media (min-width: 768px){
+    #comparison {
+     
+    width: 700px;
+    margin-top: 80px;   
+    }
+}
+
+
 
 #bee-example{
+    width: 100%;
+    
+    margin-top: 50px;
+}
+
+@media (min-width: 768px){
+    #bee-example {
     width: 700px;
     margin-top: 130px;
+        
+    }
 }
+
 
 
 #bee-img{
@@ -556,10 +638,21 @@ body {
 
 
 
-
 #research{
     margin-top: 50px;
 }
+
+
+@media (min-width: 768px){
+    #research{
+    margin-top: 50px;
+    width: 600px;
+    }
+}
+
+
+
+
 
 #bg-concept{
     background-color: #dde3e7;
@@ -625,7 +718,7 @@ body {
 
 .tagline{
   padding: 30px;
-  width: 600px;
+  max-width: 600px;
   font-family: Roboto;
   font-size: 20px;
   font-weight: normal;
@@ -644,8 +737,16 @@ body {
 
 #challenge-sub{
     opacity: 0.5;
-    width: 400px;
+    width: 100%;
     text-align: right;
+}
+
+
+@media (min-width: 768px){
+    #challenge-sub {
+    width: 400px;
+        
+    }
 }
 
 
@@ -661,9 +762,17 @@ body {
 }
 
 .use-list{
+    width: 100%;
+    margin: 2%;
+}
+
+@media (min-width: 768px){
+    .use-list{
+     
     width: 16%;
     margin: 2%;
     float: left;
+    }
 }
     
 .use-list-img{
@@ -758,11 +867,48 @@ body {
     margin: 0 auto;
     
 }
+
+
+
+.video_embed{
+    width:100%;
+    height: 200px;
+}
+
+
+
+@media (min-width: 768px){
+    .video_embed{
+      
+    width:600px;
+    height:400px;  
+    }
+}
+
+
+
+
 .tutorial{
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+}
+
+
+
+@media (min-width: 768px){
+    .tutorial{
+        
     margin: 0 auto;
     float: left;
     padding: 20px;
+        
+    }
 }
+
+
+
+
 
 .tutorial_container:after{
     content: "";

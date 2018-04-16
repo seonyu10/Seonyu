@@ -246,8 +246,7 @@ p { font-size:20px}
     
 
 
-    
-    
+  
 /*-----------------
  footer
 ------------------*/
@@ -266,6 +265,7 @@ p { font-size:20px}
     
      
 .social-container{
+    
     padding: 30px;
     margin: 0 auto;
     max-width: 800px;
@@ -273,7 +273,7 @@ p { font-size:20px}
     
     
 .social{
-    width: 480px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -308,6 +308,14 @@ p { font-size:20px}
     float: left;}
 }
     
+
+@media (min-width:768px){
+    .social{ 
+    margin: 20px;
+    width: 480px;
+    margin: 0 auto;
+    display: block;}
+}
     
     
     
