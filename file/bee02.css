@@ -330,10 +330,9 @@ intro
 
 
 .project-container{
-    padding: 50px;
+    padding: 20px;
     
 }
-
 @media (min-width: 768px){
     .project-container {
     padding: 130px;    
