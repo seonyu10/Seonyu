@@ -215,6 +215,48 @@ nav{
 
 
 
+    
+
+
+.skills-container{
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    color: gray;
+    padding: 20px;
+    
+}
+
+
+.skills-list{
+  margin: 4px;
+  display: inline-block;
+  border-radius: 19px;
+  color: #ffffff;
+  padding-left: 14px;
+  padding-right: 14px;
+  border: solid 1px gray;
+}
+    
+    
+.skills-text{
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: -0.3px;
+  text-align: justify;
+  color: gray;  
+}  
+
+
+
+
+
+
+
 
 /*-----------------
  footer
@@ -286,16 +328,6 @@ nav{
     display: block;}
 }
     
-    
-    
-    
-    
-    
-
-
-
-
-
 
 
         
