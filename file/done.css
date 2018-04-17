@@ -362,6 +362,7 @@ intro
 }
 
 
+
 .title{
   max-width: 600px;
   font-family: Chivo;
@@ -376,10 +377,16 @@ intro
 } 
 
 
+@media (min-width: 768px){
+.title{
+  text-align: left: ;
+}
+}
+
+
 .body{
   padding-top: 10px;
   max-width: 600px;
-  height: 78px;
   font-family: Roboto;
   font-size: 16px;
   font-weight: normal;
@@ -392,6 +399,13 @@ intro
 }
 
 
+@media (min-width: 768px){
+.body{
+  text-align: justify;
+}
+}
+
+
 
 .project-image{
     max-width: 600px;
@@ -401,8 +415,10 @@ intro
 
 
 
-
-/**//**/
+  
+/*---------------------
+goals
+----------------------*/
 
 
 

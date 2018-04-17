@@ -375,6 +375,13 @@ Project
 } 
 
 
+@media (min-width: 768px){
+.title{
+  text-align: left: ;
+}
+}
+
+
 .body{
   padding-top: 10px;
   max-width: 600px;
@@ -385,10 +392,16 @@ Project
   font-stretch: normal;
   line-height: 1.63;
   letter-spacing: -0.4px;
-  text-align: justify;
+  text-align: left;
   color: #121214;
 }
 
+
+@media (min-width: 768px){
+.body{
+  text-align: justify;
+}
+}
 
 
 .project-image{
@@ -718,7 +731,7 @@ Goals
   line-height: 1.69;
   letter-spacing: -0.3px;
   text-align: center;
-    color: #c2cbd4;
+  color: #c2cbd4;
 }
 
 

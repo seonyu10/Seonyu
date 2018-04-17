@@ -190,10 +190,9 @@ main{
 
 
 .banner_subtitle{
-  font-size: 3px;
+  font-size: 14px;
   padding-top: 5px;
   font-family: Chivo;
-  font-size: 24px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -372,8 +371,8 @@ intro
 }
 
 
+
 .title{
-  
   max-width: 600px;
   font-family: Chivo;
   font-size: 30px;
@@ -387,6 +386,13 @@ intro
 } 
 
 
+@media (min-width: 768px){
+.title{
+  text-align: left: ;
+}
+}
+
+
 .body{
   padding-top: 10px;
   max-width: 600px;
@@ -397,8 +403,15 @@ intro
   font-stretch: normal;
   line-height: 1.63;
   letter-spacing: -0.4px;
-  text-align: justify;
+  text-align: left;
   color: #121214;
+}
+
+
+@media (min-width: 768px){
+.body{
+  text-align: justify;
+}
 }
 
 
