@@ -318,25 +318,36 @@ Project
 
 
 
-
-
-
-
 .project{
+    width: 100%;
 }
 
+
 .project-container{
-    padding: 130px;
+    padding: 50px;
     
 }
 
+@media (min-width: 768px){
+    .project-container {
+    padding: 130px;    
+    }
+}
+
+
+
 .text-container{
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
+
+
+
+
+
 .subheader{
-  width: 600px;
+  max-width: 600px;
   height: 29px;
   font-family: Roboto;
   font-size: 14px;
@@ -351,7 +362,7 @@ Project
 
 
 .title{
-  width: 600px;
+  max-width: 600px;
   font-family: Chivo;
   font-size: 30px;
   font-weight: bold;
@@ -366,7 +377,7 @@ Project
 
 .body{
   padding-top: 10px;
-  width: 600px;
+  max-width: 600px;
   font-family: Roboto;
   font-size: 16px;
   font-weight: normal;
@@ -381,12 +392,22 @@ Project
 
 
 .project-image{
-   width: 600px;
+   width: 100%;
 }
 
 
+@media (min-width: 768px){
+    .project-image{
+   max-width: 600px;
+}
+
+
+}
+
+
+
 .image-des{
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto;
   height: 44px;
   font-family: Roboto;
@@ -407,8 +428,11 @@ Project
 
 
 
+  
+/*---------------------
+Goals
+----------------------*/
 
-/**//**/
 
 
 
@@ -417,15 +441,27 @@ Project
 }
 
 
+
 .goals-text-container{
-    padding: 110px;
+    padding: 50px;
     text-align: left;
 }
 
 
+
+@media (min-width: 768px){
+    .goals-text-container{
+    padding: 110px;
+    text-align: left;
+}
+
+}
+
+
+
 .goals-subheader{
   padding-bottom: 40px;
-  width: 600px;
+  max-width: 600px;
   height: 29px;
   font-family: Roboto;
   font-size: 14px;
@@ -439,19 +475,30 @@ Project
 }
 
 .goals-text-container{
-    width: 600px;
-    margin: 0 auto;
-}
-.goals-list{
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
+
+.goals-list{
+    max-width: 600px;
+    margin: 0 auto;
+}
 
 .goals-number{
-    width: 180px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+
+@media (min-width: 768px){
+    .goals-number{
+    max-width: 180px;
     padding-right: 20px;
     float: left;
+}
+
 }
 
 .goals-list:after{
@@ -464,7 +511,6 @@ Project
 
 
 .goals-title{
-  width: 180px;
   font-size: 18px;
   font-weight: bold;
   font-style: normal;
@@ -480,8 +526,6 @@ Project
 
 .goals-body{
   padding-top: 10px;
-  width: 180px;
-  height: 150px;
   opacity: 0.5;
   font-family: Roboto;
   font-size: 16px;
@@ -498,47 +542,45 @@ Project
 
 
 
+/*---------------------
 
-
-
-
-#bg-interaction{
-   background-color: #DDE3E7; 
-}
-
-
-
+----------------------*/
 
 
 #bg-understanding{
-    background-color: #f5fafd;
+  background-color: #f5fafd;
 }
 
-#understanding{
-    margin-top: 50px;
-    width: 600px;
-}
-
-#ideation{
-    width: 300px;
+#bg-opportunity{
 }
 
 
-#opportunity{
-    margin-top: 50px;
+#bg-interaction{
+   background-color: #b0b0cd; 
 }
-
-
 
 #bg-wire{
-    
-    background-color: #131e27;
+   background-color: #f5fafd;
 }
 
 
-#bg-mid{
-    background-color: #E5E9EB;
+#understanding{
+    width: 100%;
+    padding-top:30px;
 }
+
+
+
+@media (min-width: 768px){
+   #understanding{
+    max-width: 600px;
+    padding-top:30px;
+}
+}
+
+
+
+
 
 #z{
     color: aliceblue;
@@ -554,30 +596,77 @@ Project
 
 
 #research{
-    width: 500px;
+    width: 100%;
     margin-top: 50px;
 }
+
+@media (min-width: 768px){
+    #research{
+    max-width: 500px;}
+}
+
+
+
+
 
 #bg-concept{
     background-color: #EFF1F2;
 }
 
-#concept{
-    margin-top: 60px;
-    width: 1000px;
+
+
+
+.concept_container{
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 30px;
 }
 
 
-#home{
-    margin-top: 60px;
-    width: 900px;
+.concept_list{
+    width: 100%;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    display: inline-block;
 }
+
+
+
+@media (min-width: 768px){
+   .concept_list{
+    width: 300px;
+    padding: 10px;
+    margin: 0 auto;
+    float: left; }
+}
+
+
+
+.concept_image{
+    width: 100%;
+}
+
+
+
+
+.concept_container:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+
+.concept-number{
+   padding-top: 10px;
+  color: #8c8c8c;
+}
+
+
 
 
 #concept-des{
-    margin-top: 50px;
-     width: 600px;
-  height: 22px;
+  max-width: 600px;
   font-family: Roboto;
   font-size: 13px;
   font-weight: 300;
@@ -590,9 +679,27 @@ Project
 }
 
 
+
+
+
+
+
+#home{
+    margin-top: 60px;
+    width: 100%;
+}
+
+
+@media (min-width: 768px){
+    #home{
+    max-width: 600px;}
+}
+
+
+
 #interaction{
     margin-top: 50px;
-    width: 300px;
+    max-width: 300px;
 }
 
 
@@ -602,8 +709,7 @@ Project
 }
 
 #style-text{
-  width: 600px;
-  height: 22px;
+  max-width: 600px;
   font-family: Roboto;
   font-size: 13px;
   font-weight: 300;
@@ -612,7 +718,7 @@ Project
   line-height: 1.69;
   letter-spacing: -0.3px;
   text-align: center;
-  color: #8c8c8c;
+    color: #c2cbd4;
 }
 
 
@@ -642,22 +748,10 @@ Project
 
 
 
-
-
-
-
 /*---------------------
- * streaming
+ * list
 ----------------------*/
 
-
-
-
-
-
-/*---------------------
- * statistics
-----------------------*/
 
 
 
@@ -668,13 +762,12 @@ Project
 
 .canvas-mobile{
     margin: 0 auto;
-    width: 960px;
+    max-width: 960px;
     display: inline-block;}
 
 
 
 .mobile-title{
-  height: 40px;
   font-family: Roboto;
   font-size: 16px;
   font-weight: normal;
@@ -690,10 +783,18 @@ Project
 
 
 .body3-mobile-pages{
+    width: 80%;
+    padding: 12px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px){
+    .body3-mobile-pages{
     float: left;
-    width: 296px;
+    max-width: 296px;
     padding: 12px;
     margin-top: 8rem;
+}
 }
 
 
@@ -738,7 +839,7 @@ Project
 
 #mockup{
    margin: 0 auto;
-   width: 1000px;
+   max-width: 1000px;
    margin-bottom: 0;
 }
 
@@ -751,7 +852,7 @@ Project
 }
 
 #img-takeaway{
-    width: 1000px;
+    max-width: 1000px;
 }
 
 
