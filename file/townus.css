@@ -1,3 +1,7 @@
+
+
+
+
 /*-------------
  CSS RESET 
 --------------*/
@@ -17,7 +21,9 @@ li {list-style: none;}
 
 
 html,body {
+    
   height: 100%;
+  width: 100%;
   background-color: #ffffff;
 }
 body {
@@ -30,18 +36,6 @@ body {
 
 
 
-/* Extra markup and styles for table-esque vertical and horizontal centering */
-.site-wrapper {
-  width: 100%;
-  height: 100%; 
-}
-.site-wrapper-inner {
-  height: 100%;
-}
-
-/* Padding for spacing */
-
-
 
 /*---------------------
  * Header
@@ -49,39 +43,68 @@ body {
 
 
 .header_global {
-	width:100%;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
     position: absolute;
     box-sizing: border-box;
     z-index: 9;
 }
 
-.nav{
-    max-width: 900px;
+nav{
     margin: 0 auto;
-    padding: 3rem;
+	max-width: 800px;
     box-sizing: border-box;
-    opacity: 0.5;
     
 }
 
 .header_global .logo{
-    float: left;
-    color: black;
+    color: white;
     font-weight: 500;
 }
 
-.header_global .nav_menu{
+
+@media (min-width: 768px){
+    .header_global .logo{
+    float: left;}
+}
+
+@media (min-width: 768px){
+    .header_global .nav_menu{
     float: right;
 }
-
-.header_global .nav_menu li{
-    float: left;
 }
 
+
+.header_global .nav_menu li{
+    display: inline;
+}
+
+@media (min-width: 768px){
+    .header_global .nav_menu li{
+    float: left;}
+}
+
+
 .menu_list{
-    margin-left: 1.5rem;
-    color: black;
+    display: inline-block;
+    padding-top: 1rem;
+    
+    margin: 1rem;
+    color: white;
     font-weight: 500;
+}
+
+
+@media (min-width: 768px){
+    .menu_list{
+    display: inline;
+    margin: 1rem;
+    color: white;
+    font-weight: 100;
+}
+
 }
 
 .header_global:after{
@@ -97,34 +120,41 @@ body {
 }
 
 
-/*---------------------
- * banner
-----------------------*/
 
 
 
+/*-----------------
+ banner
+------------------*/
+    
+main{
+    width: 100%;
+}
 .banner{
+    width: 100%;
     height: 100%;
-	background-image: url(../imgs/index_town.png) ;
-    background-size: cover; 
-    min-width: 1000px;
-    height: 680px;
+    background-color: white;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
-}
+	background-image: url(../imgs/index_townus_cover.png) ;
+    
 
-
-.banner-container{
-    width: 1000px;
-    height: 680px;
-    margin: 0 auto;
-    position: relative;
 }
 
 
 
 .banner-text{
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    height: 100%;
+}
+
+
+
+
+.banner-container{
     position: absolute;
     left: 0px;
     bottom: 50px;
@@ -134,78 +164,63 @@ body {
 
 
 
-.banner-image{
-    position: absolute;
-    top:200px;
-    width:900px;
-    right: -200px;
-}
-
-.intro-mockup{
-    width:100%;
-
-}
-
-
-
-.intro1_title{
-  width: 468px;
-  height: 50px;
+.banner_title{
+  font-size: 32px;
   font-family: Chivo;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+@media (min-width: 768px){
+    .banner_title{
   font-size: 60px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.43;
-  letter-spacing: -1.9px;
-  text-align: left;
-  color: #000000;
-    
+}
 }
 
-.intro2_title{
-  width: 468px;
-  height: 34px;
+
+.banner_subtitle{
+  font-size: 14px;
+  padding-top: 5px;
   font-family: Chivo;
-  font-size: 24px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.42;
-  letter-spacing: -0.6px;
   text-align: left;
-  color: #000000;
+  color: #FFFFFF;
+}
+
+@media (min-width: 768px){
+    .banner_subtitle{
+  font-size: 30px;
+    }
 }
 
 
-
-
-
+   
+    
 /*---------------------
-index
+intro
 ----------------------*/
 
 
-
-
-
-
-
-
-.intro{ 
-    
-}
-
 .intro-box{
     display: inline-block;
-    width: 940px;
+    max-width: 940px;
     margin: 0 auto;
+    margin: 50px;
+}
+
+@media (min-width: 768px){
+    .intro-box{
     margin: 80px;
 }
-.intro-container{
-    
-    
+
 }
+
+
 
 
 .intro-role{
@@ -229,6 +244,7 @@ index
 }
 
 .intro-body{
+    
     font-size: 1rem;
     font-weight: 500;
     color: #7c7b86;
@@ -252,18 +268,37 @@ index
 
 
 .intro-list{
-    float: left;
+    width: 100%;
+}
+
+@media (min-width: 768px){
+    .intro-list{
+    float: left;  
+    }
 }
 
 
 #a{
+    width: 100%;
+}
+
+@media (min-width: 768px){
+    #a{
     width: 60%;
-    margin-left: 5%;
+    margin-left: 5%;}
 }
 
 #b{
+    width: 100%;
+}
+
+
+@media (min-width: 768px){
+    #b{
     width: 30%;
     margin-left: 5%;
+}
+
 }
 
 .intro-container:after{
@@ -271,8 +306,6 @@ index
     content: "";
     display: block;
 }
-
-
 
 
 
