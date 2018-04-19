@@ -435,6 +435,7 @@ goals
 
 .goals-text-container{
     padding: 20px;
+    padding-top: 40px;
     text-align: left;
 }
 
@@ -529,6 +530,12 @@ goals
 }
 
 
+
+
+
+
+
+
 #ideation{
     width: 100%;
     padding-top: 100px;
@@ -555,7 +562,7 @@ goals
 
 
 #done-intro{
-    padding-top: 240px;
+    padding-top: 50px;
     width:100%;}
 
 
@@ -591,12 +598,13 @@ goals
 
 
 #interaction02{
-    width: 100%;}
+    width: 100%;
+    padding-top: 30px;}
 
 
 @media (min-width: 768px){
     #interaction02{
-    max-width: 900px;}
+    max-width: 700px;}
 
 }
 
@@ -612,7 +620,7 @@ goals
 }      
 
 #bg-interaction02{
-    background-color: #EAE5E7;
+    background-color: #F4F4F4;
 }      
     
 
@@ -660,6 +668,7 @@ goals
 
 #img-color{
     width: 100%;
+    padding-top:60px;
 }
 
 

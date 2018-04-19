@@ -210,7 +210,9 @@ intro
     display: inline-block;
     max-width: 940px;
     margin: 0 auto;
-    margin: 50px;
+    margin: 20px;
+    padding-top:30px;
+    padding-bottom:30px;
 }
 
 @media (min-width: 768px){
@@ -330,8 +332,11 @@ body
 
 .project-container{
     padding: 20px;
-    
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+
+
 
 @media (min-width: 768px){
     .project-container {
@@ -523,7 +528,7 @@ Goals
 
 
 .goals-text-container{
-    padding: 50px;
+    padding: 20px;
     text-align: left;
 }
 
