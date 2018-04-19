@@ -206,12 +206,17 @@ intro
 ----------------------*/
 
 
+
 .intro-box{
     display: inline-block;
     max-width: 940px;
     margin: 0 auto;
-    margin: 50px;
+    margin: 20px;
+    padding-top:30px;
+    padding-bottom:30px;
 }
+
+
 
 @media (min-width: 768px){
     .intro-box{
@@ -328,11 +333,13 @@ intro
 
 
 
-
 .project-container{
     padding: 20px;
-    
+    padding-top:40px;
+    padding-bottom:40px;
 }
+
+
 @media (min-width: 768px){
     .project-container {
     padding: 130px;    
@@ -658,7 +665,7 @@ intro
 
 
 .goals-text-container{
-    padding: 50px;
+    padding: 20px;
     text-align: left;
 }
 

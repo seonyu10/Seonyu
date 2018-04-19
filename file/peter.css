@@ -207,8 +207,13 @@ intro
     display: inline-block;
     max-width: 940px;
     margin: 0 auto;
-    margin: 50px;
+    margin: 20px;
+    padding-top:30px;
+    padding-bottom:30px;
 }
+
+
+
 
 @media (min-width: 768px){
     .intro-box{
@@ -325,8 +330,10 @@ Project
 
 .project-container{
     padding: 20px;
-    
+    padding-top:40px;
+    padding-bottom:40px;
 }
+
 
 @media (min-width: 768px){
     .project-container {
@@ -458,7 +465,9 @@ Goals
 
 
 .goals-text-container{
-    padding: 50px;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: left;
 }
 
@@ -467,7 +476,7 @@ Goals
 @media (min-width: 768px){
     .goals-text-container{
     padding: 110px;
-    text-align: left;
+    text-align: justify;
 }
 
 }
@@ -485,7 +494,7 @@ Goals
   font-stretch: normal;
   line-height: 2.07;
   letter-spacing: 1.1px;
-  text-align: left;
+  text-align: justify;
   color: #ffffff;
 }
 
@@ -532,7 +541,7 @@ Goals
   font-stretch: normal;
   line-height: 1.61;
   letter-spacing: -0.4px;
-  text-align: left;
+  text-align: justify;    
   color: #ffffff;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
