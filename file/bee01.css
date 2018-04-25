@@ -47,11 +47,14 @@ body {
     position: absolute;
     box-sizing: border-box;
     z-index: 9;
+    
+    border: 2px solid red;
 }
 
 nav{
     margin: 0 auto;
 	max-width: 800px;
+    border: 2px solid red;
     box-sizing: border-box;
     
 }
