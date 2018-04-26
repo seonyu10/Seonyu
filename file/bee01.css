@@ -362,7 +362,6 @@ intro
 }
 
 .subheader{
-  
   max-width: 600px;
   height: 29px;
   font-family: Roboto;
@@ -371,7 +370,6 @@ intro
   font-style: normal;
   font-stretch: condensed;
   line-height: 2.07;
-  letter-spacing: 1.1px;
   text-align: left;
   color: #131315;
 }
@@ -386,7 +384,7 @@ intro
   font-style: normal;
   font-stretch: normal;
   line-height: 1.27;
-  letter-spacing: -1px;
+  letter-spacing: -1.3px;
   text-align: left;
   color: #000000;
 } 
@@ -582,7 +580,6 @@ intro
   font-style: normal;
   font-stretch: condensed;
   line-height: 1.81;
-  letter-spacing: 1.2px;
   text-align: left;
   color: #9176ff;
 }
