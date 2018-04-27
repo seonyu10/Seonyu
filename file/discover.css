@@ -149,14 +149,27 @@ main{
 
 
 
-
 .banner-container{
-    color: black;
+    color: white;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    padding: 3rem;
+    
+}
+
+
+
+@media (min-width: 768px){
+    .banner-container{
+    color: white;
     position: absolute;
     left: 0px;
     bottom: 50px;
     padding: 3rem;
     
+}
+
 }
 
 
@@ -206,7 +219,7 @@ intro
     display: inline-block;
     max-width: 940px;
     margin: 0 auto;
-    margin: 50px;
+    margin: 30px;
 }
 
 @media (min-width: 768px){

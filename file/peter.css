@@ -150,8 +150,20 @@ main{
 
 
 
-
 .banner-container{
+    color: white;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    padding: 3rem;
+    
+}
+
+
+
+@media (min-width: 768px){
+    .banner-container{
+    color: white;
     position: absolute;
     left: 0px;
     bottom: 50px;
@@ -159,6 +171,7 @@ main{
     
 }
 
+}
 
 
 .banner_title{
@@ -290,8 +303,11 @@ intro
     margin-left: 5%;}
 }
 
+
+
 #b{
     width: 100%;
+    margin-top: 40px;
 }
 
 
@@ -299,9 +315,11 @@ intro
     #b{
     width: 30%;
     margin-left: 5%;
+    margin-top: 0px;}
 }
 
-}
+
+
 
 .intro-container:after{
     clear: both;
