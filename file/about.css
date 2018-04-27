@@ -203,7 +203,6 @@ nav{
   font-size: 20px;
   line-height: 1.54;
   letter-spacing: -0.4px;
-  text-align: left;
     padding-top: 30px;
     text-align: left;
     font-size: 1rem;
@@ -214,7 +213,7 @@ nav{
 
 
 
-
+/*-------skills------*/
     
 
 
@@ -223,12 +222,28 @@ nav{
     max-width: 600px;
     margin: 0 auto;
     color: gray;
-    padding: 20px;
+    padding-top: 100px;
     
 }
 
 
+.skills-header{
+  max-width: 600px;
+  font-size:16px;
+  margin: 0 auto;
+  line-height: 1.54;
+  letter-spacing: -0.4px;
+  text-align: left;
+  padding-bottom: 30px;
+  text-align: left;
+  font-weight: 500;
+  color: #7c7b86;
+
+}
+
+
 .skills-list{
+  text-align: left;
   margin: 4px;
   display: inline-block;
   border-radius: 19px;
@@ -240,6 +255,7 @@ nav{
     
     
 .skills-text{
+  
   font-family: Roboto;
   font-size: 13px;
   font-weight: normal;
@@ -253,7 +269,45 @@ nav{
 
 
 
+/*-----------------
+ mail
+------------------*/
 
+.mail-body{
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.54;
+  letter-spacing: -0.4px;
+    padding-top: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'roboto';
+}
+
+
+
+#mail-address{
+  display: inline-block;
+  margin: 0 auto;
+  line-height: 1.54;
+  letter-spacing: -0.4px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'roboto';
+    border-bottom: 1px solid black;
+}
+
+
+#mail-address:hover{
+  display: inline-block;
+  margin: 0 auto;
+  line-height: 1.54;
+  letter-spacing: -0.4px;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: 'roboto';
+  border-bottom: 1px solid black;
+}
 
 
 
