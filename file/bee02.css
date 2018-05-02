@@ -745,6 +745,10 @@ intro
 }
 
 
+.goals-sub-text{
+    max-width: 680px;
+    margin: 0 auto;
+}
 
 
 
@@ -785,7 +789,7 @@ intro
   font-style: normal;
   font-stretch: normal;
   line-height: 1.61;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   text-align: left;
   color: #ffffff;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
