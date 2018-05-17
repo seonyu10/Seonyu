@@ -150,7 +150,6 @@ nav{
     margin: 0 auto;
     padding: 0px;
     }
-
 }
 
 
@@ -168,9 +167,11 @@ nav{
   margin-bottom: 70px;
 }
 
+
 #work-edu{
     padding-top: 100px;
 }
+
 
 .work_row{
     margin: 0 auto;
@@ -188,8 +189,7 @@ nav{
 
 @media (min-width: 768px){
     .work-li{
-    float: left;
-}
+    float: left;}
 
 }
 
