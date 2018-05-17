@@ -186,15 +186,16 @@ nav{
 .intro-body{
   max-width: 600px;
   margin: 0 auto;
-  font-size: 20px;
-  line-height: 1.54;
-  letter-spacing: -0.4px;
-    padding-top: 30px;
-    text-align: left;
-    font-size: 1rem;
-    font-weight: 500;
-    color: #7c7b86;
-    font-family: 'roboto';
+  text-align: left; 
+  padding-top: 30px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 0.3px;
+  color: #1a1a1a;
 }
 
 
@@ -215,7 +216,7 @@ nav{
 
 .skills-header{
   max-width: 600px;
-  font-size:16px;
+  font-size:18px;
   margin: 0 auto;
   line-height: 1.54;
   letter-spacing: -0.4px;
@@ -223,21 +224,10 @@ nav{
   padding-bottom: 30px;
   text-align: left;
   font-weight: 500;
-  color: #7c7b86;
+  color: #000000;
     
     
     
-  max-width: 600px;
-  margin: 0 auto;
-  font-size: 20px;
-  line-height: 1.54;
-  letter-spacing: -0.4px;
-    padding-top: 30px;
-    text-align: left;
-    font-size: 1rem;
-    font-weight: 500;
-    color: #7c7b86;
-    font-family: 'roboto';
 
 }
 
@@ -257,15 +247,112 @@ nav{
 .skills-text{
   
   font-family: Roboto;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: 2;
   letter-spacing: -0.3px;
   text-align: justify;
-  color: gray;  
+  color: #000000;  
 }  
+
+
+
+
+#a01{
+  border-radius: 19px;
+  background-color: #fbf4c7;
+  border: solid 1px #000000;
+}
+
+
+
+#a02{
+ 
+  border-radius: 19px;
+  background-color: #f3f5cb;
+  border: solid 1px #000000;
+}
+
+
+#a03{
+ 
+  border-radius: 19px;
+  background-color: #ecf5cf;
+  border: solid 1px #000000;
+}
+
+
+
+#a04{
+ 
+  border-radius: 19px;
+  background-color:  #e4f6d3;
+  border: solid 1px #000000;
+}
+
+
+
+#a05{
+ 
+  border-radius: 19px;
+  background-color: #dcf7d6;
+  border: solid 1px #000000;
+}
+
+
+
+#a06{
+ 
+  border-radius: 19px;
+  background-color: #d4f7da;
+  border: solid 1px #000000;
+}
+
+
+
+#a07{
+ 
+  border-radius: 19px;
+  background-color:  #cbf7de;
+  border: solid 1px #000000;
+}
+
+
+
+#a08{
+ 
+  border-radius: 19px;
+  background-color: #c1f5e4;
+  border: solid 1px #000000;
+}
+
+
+
+#a09{
+ 
+  border-radius: 19px;
+  background-color: #b5f3ec;
+  border: solid 1px #000000;
+}
+
+
+
+#a010{
+ 
+  border-radius: 19px;
+  background-color: #a7eff2;
+  border: solid 1px #000000;
+}
+
+
+#a011{
+ 
+  border-radius: 19px;
+  background-color: #99ecfb;
+  border: solid 1px #000000;
+}
 
 
 
