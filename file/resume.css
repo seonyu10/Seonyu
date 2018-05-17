@@ -125,41 +125,105 @@ nav{
  * intro
 ----------------------*/
 
+
+
+
 .work_container{
     max-width: 800px;
     margin: 0 auto;
-    padding-top: 200px;
-    display: inline-block;
+    padding-top: 240px;
+    
 }
-
 
 .work_list{
+    
+    max-width: 800px;
     margin: 0 auto;
+    padding: 30px;
+    display: block;
 }
 
 
-
-.work_row{
+@media (min-width: 768px){
+    .work_list{
     width: 100%;
     margin: 0 auto;
+    padding: 0px;
+    }
+
+}
+
+
+.work_title{
+  width: 100%;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: -0.3px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 70px;
+}
+
+#work-edu{
+    padding-top: 100px;
+}
+
+.work_row{
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 30px;
     display: inline-block;
-    padding-bottom: 0px;
 }
 
-
-
+.work-li{
+    float: none;
     
-@media (min-width:800px){
-    .work_period{ 
-  padding: 5%;
-  float: left;
-  width: 40%;}
+    padding-bottom: 30px;
 }
+
+
+@media (min-width: 768px){
+    .work-li{
+    float: left;
+}
+
+}
+
+
+#work_period{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+#work_des{
+    width:100%;
+}
+
+
+
+@media (min-width: 768px){
+    #work_period{
+    width: 30%;
+    margin-right: 10%;}
+}
+
+
+@media (min-width: 768px){
+    #work_des{
+    width:60%;
+}
+
+}
+
+
 
 
 
 .job_title{
-  width: 100%;
   font-family: Roboto;
   font-size: 16px;
   font-weight: bold;
@@ -169,45 +233,33 @@ nav{
   letter-spacing: -0.3px;
   text-align: left;
   color: #000000;
-    
 }
 
+
 .job_period{
-  width: 100%;
   font-family: Roboto;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.81;
-  letter-spacing: -0.4px;
+  line-height: 1.75;
+  letter-spacing: -0.3px;
   text-align: left;
+  color: #000000;
 }
 
 
 .job_des{
-  width: 100%;
   font-family: Roboto;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.81;
-  letter-spacing: -0.4px;
-  color: #7c7b86;
-  text-align: justify;
+  line-height: 1.75;
+  letter-spacing: -0.3px;
+  text-align: left;
+  color: #72727d;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -284,8 +336,6 @@ nav{
     display: block;}
 }
     
-    
-    
-    
-    
-    
+
+
+       
