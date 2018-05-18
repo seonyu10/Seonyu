@@ -169,14 +169,14 @@ nav{
 
 
 #work-edu{
-    padding-top: 100px;
+    padding-top: 30px;
 }
 
 
 .work_row{
     margin: 0 auto;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     display: inline-block;
 }
 
@@ -207,14 +207,14 @@ nav{
 
 @media (min-width: 768px){
     #work_period{
-    width: 30%;
-    margin-right: 10%;}
+    width: 26%;
+    margin-right: 4%;}
 }
 
 
 @media (min-width: 768px){
     #work_des{
-    width:60%;
+    width:70%;
 }
 
 }
@@ -245,25 +245,59 @@ nav{
   line-height: 1.75;
   letter-spacing: -0.3px;
   text-align: left;
-  color: #000000;
+  color: #3B3A49;
 }
 
 
 .job_des{
   font-family: Roboto;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.75;
-  letter-spacing: -0.3px;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: #3B3A49;
   text-align: left;
-  color: #72727d;
+
 }
 
 
+.resume-container{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: left;
+  display: inline-block;
+  border-radius: 0px;
+  color: #ffffff;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: solid 1px gray;
+}
 
 
+.resume-container:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+#resume-btn{
+   
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: -0.3px;
+  text-align: justify;
+  color: #000000;  
+
+}
 
 
 /*-----------------
