@@ -355,7 +355,7 @@ nav{
   line-height: 1.54;
   letter-spacing: -0.4px;
     padding-top: 10px;
-    font-size: 1rem;
+    font-size: 18px;
     font-weight: 500;
     font-family: 'roboto';
 }
@@ -367,22 +367,17 @@ nav{
   margin: 0 auto;
   line-height: 1.54;
   letter-spacing: -0.4px;
-    font-size: 1rem;
+    font-size: 18px;
     font-weight: 500;
     font-family: 'roboto';
     border-bottom: 1px solid black;
+    
 }
 
 
 #mail-address:hover{
-  display: inline-block;
-  margin: 0 auto;
-  line-height: 1.54;
-  letter-spacing: -0.4px;
-  font-size: 1rem;
-  font-weight: 500;
-  font-family: 'roboto';
-  border-bottom: 1px solid black;
+  font-size: 19px;
+    
 }
 
 
