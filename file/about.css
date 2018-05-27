@@ -268,11 +268,7 @@ nav{
   padding-bottom: 30px;
   text-align: left;
   font-weight: 500;
-  color: #000000;
-    
-    
-    
-
+  color: #bababa;
 }
 
 
@@ -281,10 +277,11 @@ nav{
   margin: 4px;
   display: inline-block;
   border-radius: 19px;
-  color: #ffffff;
   padding-left: 14px;
   padding-right: 14px;
-  border: solid 1px gray;
+  color: #81a9c0;
+  background-color: #ecf4f7;
+    
 }
     
     
@@ -298,8 +295,20 @@ nav{
   line-height: 2;
   letter-spacing: -0.3px;
   text-align: justify;
-  color: #000000;  
+  color: #81a9c0;
 }  
+
+
+#tool_container{
+    
+   background-color: #f4f0f4;
+    
+}
+#tool{
+     color: #9081c0;
+}
+
+
 
 
 /*-----------------
