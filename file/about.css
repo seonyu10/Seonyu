@@ -118,7 +118,18 @@ nav{
 
 
 
+#menu_active{
+    color: black;
+    opacity: 1;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} 
+    
 
+#menu_inactive{
+    
+    color: black;
+    opacity: 0.8;
+} 
 
 
 
@@ -130,7 +141,7 @@ nav{
 ------------------*/
    
 .banner-container{
-    height: 100%;
+    height: 70%;
 }
 
 .banner{
