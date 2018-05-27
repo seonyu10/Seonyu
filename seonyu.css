@@ -298,15 +298,15 @@ nav{
     
 .social-box{
     display: block;
-    margin-top: 80px;
-    
+    margin-top: 200px;
+    background-color: #f4f4f4;
     
     } 
     
      
 .social-container{
     
-    padding: 30px;
+    padding: 80px;
     margin: 0 auto;
     max-width: 800px;
     } 
