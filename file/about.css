@@ -121,6 +121,72 @@ nav{
 
 
 
+
+
+
+
+    
+/*-----------------
+ banner
+------------------*/
+   
+.banner-container{
+    height: 75%;
+}
+
+.banner{
+    height: 100%;
+    background-image: url(../imgs/index_a.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+
+.text_container{
+    max-width: 600px;
+    padding: 2rem;
+    margin: 0 auto;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    padding-top: 300px;
+}
+
+
+.cover-heading{
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Chivo;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.54;
+  letter-spacing: -0.4px;
+  text-align: center;
+}
+
+
+.lead{
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Chivo;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.54;
+  letter-spacing: -0.4px;
+  text-align: center;
+}
+
+
+
+
+
+
+
 /*---------------------
  * intro
 ----------------------*/
@@ -128,7 +194,7 @@ nav{
 
 
 .intro{ 
-    padding-top: 120px; 
+    padding-top: 20px; 
     
     
 }
@@ -143,17 +209,8 @@ nav{
 
     
 
-#img-profile{
-    width: 300px;
-    margin: 0 auto;
-}
-
-
-
-
 
 .cover-heading{
-  padding-top: 50px;
   max-width: 600px;
   margin: 0 auto;
   font-family: Chivo;
@@ -243,93 +300,6 @@ nav{
 }  
 
 
-
-
-#a01{
-  border-radius: 19px;
-  border: solid 1px #000000;
-}
-
-
-
-#a02{
- 
-  border-radius: 19px;
-  border: solid 1px #000000;
-}
-
-
-#a03{
- 
-  border-radius: 19px;
-  border: solid 1px #000000;
-}
-
-
-
-#a04{
- 
-  border-radius: 19px;
-  border: solid 1px #000000;
-}
-
-
-
-#a05{
- 
-  border-radius: 19px;
-  border: solid 1px #000000;
-}
-
-
-
-#a06{
- 
-  border-radius: 19px;
-  border: solid 1px #000000;
-}
-
-
-
-#a07{
- 
-  border-radius: 19px;
-  border: solid 1px #000000;
-}
-
-
-
-#a08{
- 
-  border-radius: 19px;
-  border: solid 1px #000000;
-}
-
-
-
-#a09{
- 
-  border-radius: 19px;
-  border: solid 1px #000000;
-}
-
-
-
-#a010{
- 
-  border-radius: 19px;
-  border: solid 1px #000000;
-}
-
-
-#a011{
- 
-  border-radius: 19px;
-  border: solid 1px #000000;
-}
-
-
-
 /*-----------------
  mail
 ------------------*/
@@ -353,8 +323,8 @@ nav{
     padding-top:20px;
     text-align: left;
     margin: 0 auto;
-  line-height: 1.54;
-  letter-spacing: -0.4px;
+    line-height: 1.54;
+    letter-spacing: -0.4px;
     font-size: 18px;
     font-weight: 500;
     font-family: 'roboto';

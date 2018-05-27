@@ -41,7 +41,7 @@ body {
 
 .header_global {
     width: 100%;
-    color: black;
+    color: white;
     display: block;
     margin: 0 auto;
     padding: 50px;
@@ -58,7 +58,7 @@ nav{
 }
 
 .header_global .logo{
-    color: black;
+    color: white;
     font-weight: 500;
 }
 
@@ -88,7 +88,6 @@ nav{
 .menu_list{
     display: inline-block;
     padding-top: 1rem;
-    
     margin: 1rem;
     color: black;
     font-weight: 500;
@@ -99,7 +98,6 @@ nav{
     .menu_list{
     display: inline;
     margin: 1rem;
-    color: black;
     font-weight: 100;
 }
 
@@ -126,12 +124,12 @@ nav{
  banner
 ------------------*/
     
+.banner-container{
+    height: 75%;
+}
 
 .banner{
-    height: 400px;
-    background-color: white;
-    background-size: cover;
-    background-position: top center;
+    height: 100%;
     padding-bottom: 10rem;
 
 }
@@ -145,11 +143,11 @@ nav{
 
 
 .cover-heading{
-  padding-top: 14rem;
+  padding-top:50%;
   max-width: 600px;
   margin: 0 auto;
   font-family: Chivo;
-  font-size: 24px;
+  font-size: 50px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -164,7 +162,7 @@ nav{
   max-width: 600px;
   margin: 0 auto;
   font-family: Chivo;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -183,7 +181,10 @@ nav{
  album
 ------------------*/
 
-    
+.container{
+    margin-top: 100px;
+}
+
 .card_title{
   height: 20px;
   font-family: Chivo;
