@@ -123,15 +123,14 @@ nav{
 
 
 
-
-
+    
     
 /*-----------------
  banner
 ------------------*/
    
 .banner-container{
-    height: 75%;
+    height: 100%;
 }
 
 .banner{
@@ -147,23 +146,26 @@ nav{
     max-width: 600px;
     padding: 2rem;
     margin: 0 auto;
-    color: #ffffff;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding-top: 300px;
+    
 }
 
 
+
+
 .cover-heading{
+  padding-top:70%;
   max-width: 600px;
   margin: 0 auto;
   font-family: Chivo;
-  font-size: 50px;
+  font-size: 38px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.54;
   letter-spacing: -0.4px;
   text-align: center;
+  color: #000000;
 }
 
 
@@ -171,17 +173,20 @@ nav{
   max-width: 600px;
   margin: 0 auto;
   font-family: Chivo;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.54;
   letter-spacing: -0.4px;
   text-align: center;
+  color: #000000;
 }
 
 
 
+    
+    
 
 
 
