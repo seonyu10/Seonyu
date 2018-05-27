@@ -149,7 +149,6 @@ nav{
     margin: 0 auto;
     color: #ffffff;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    
     padding-top: 300px;
 }
 
@@ -210,19 +209,6 @@ nav{
     
 
 
-.cover-heading{
-  max-width: 600px;
-  margin: 0 auto;
-  font-family: Chivo;
-  font-size: 24px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.54;
-  letter-spacing: -0.4px;
-  text-align: center;
-  color: #000000;
-}
 
 
 .intro-body{
@@ -232,12 +218,12 @@ nav{
   font-weight: 100;
   padding-top: 40px;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.75;
   letter-spacing: -0.1px;
-  color: #1a1a1a;
+  color: #403f5d;
 }
 
 
@@ -314,6 +300,7 @@ nav{
     font-weight: 500;
     font-family: 'roboto';
     text-align: left;
+    color: gray;
 
 }
 
@@ -328,6 +315,7 @@ nav{
     font-size: 18px;
     font-weight: 500;
     font-family: 'roboto';
+    color: gray;
     
 }
 
