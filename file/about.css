@@ -150,10 +150,16 @@ nav{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
+    position: relative;
 }
 
 
 .text_container{
+    position: absolute;
+    bottom:15%;
+    left:0;
+    right:0;
+    
     max-width: 600px;
     padding: 2rem;
     margin: 0 auto;
@@ -165,7 +171,6 @@ nav{
 
 
 .cover-heading{
-  padding-top:55%;
   max-width: 600px;
   margin: 0 auto;
   font-family: Chivo;

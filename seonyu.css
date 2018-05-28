@@ -140,10 +140,15 @@ nav{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
+    position: relative;
 }
 
 
 .text_container{
+    position: absolute;
+    bottom:20%;
+    left:0;
+    right:0;
     max-width: 600px;
     margin: 0 auto;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
