@@ -423,9 +423,10 @@ intro
 
 @media (min-width: 768px){
 .title{
-  text-align: left: ;
+  text-align: left ;
+      }
 }
-}
+
 
 
 .body{
@@ -953,7 +954,7 @@ intro
 
 /*connect*/
 
-.  
+ 
 .wrap_aside {
     width: 100%;
     position : absolute;

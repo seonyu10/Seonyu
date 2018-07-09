@@ -402,8 +402,8 @@ Project
 
 @media (min-width: 768px){
 .title{
-  text-align: left: ;
-}
+  text-align: left;
+        }
 }
 
 
@@ -901,7 +901,7 @@ Goals
 
 /*connect*/
 
-.  
+ 
 .wrap_aside {
     width: 100%;
     position : absolute;
