@@ -400,7 +400,7 @@ body
 
 @media (min-width: 768px){
 .title{
-  text-align: left: ;
+  text-align: left ;
 }
 }
 
@@ -895,13 +895,13 @@ Goals
 
 
 
-#town-img{
+#town_img{
     max-width: 400px;
 }
 
 /*connect*/
 
-.  
+
 .wrap_aside {
     width: 100%;
     position : absolute;
@@ -970,7 +970,7 @@ Goals
         
 .prototype{
     margin: 0 auto;
-    width: 664px;
+    width: 956px;
 }
 
 .proto_list{
