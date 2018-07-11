@@ -472,7 +472,7 @@ body
 
 
 #bg-opportunity{
-    background-color: #FDDFD3;
+    background-color: #F9F9F9;
 }
 
 #img-problem{
@@ -509,6 +509,7 @@ body
 
 
 
+
 #img-concept{
     width: 100%;
 }
@@ -530,6 +531,15 @@ body
 }
 
 
+#room-caption{
+    padding-top:0;
+    font-family: Roboto-Light;
+    font-size: 13px;
+    color: #8C8C8C;
+    letter-spacing: -0.31px;
+    text-align: center;
+    width: 80%;
+    line-height: 22px;}
 
 
 
@@ -671,6 +681,27 @@ Goals
     padding: 1%;
 }
 
+
+
+
+/*---------------------
+ * project_content
+----------------------*/
+
+.project_content{
+    max-width:600px;
+    background-color: white;
+    height: 300px;
+}
+
+
+#img-room{
+    margin-top: 0;
+    width: 300px;
+}
+
+
+
 /*---------------------
  * id
 ----------------------*/
@@ -682,11 +713,6 @@ Goals
 
 
 
-
-#img-room{
-    margin-top: 0;
-    width: 200px;
-}
 
 
 
@@ -869,7 +895,9 @@ Goals
 
 
 
-
+#town-img{
+    max-width: 400px;
+}
 
 /*connect*/
 
@@ -940,4 +968,12 @@ Goals
 
 
         
-    
+.prototype{
+    margin: 0 auto;
+    width: 664px;
+}
+
+.proto_list{
+    float: left;
+    margin: 20px;
+}
