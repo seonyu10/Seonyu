@@ -418,12 +418,13 @@ intro
 } 
 
 
-@media (min-width: 768px){
-.title{
-  text-align: left: ;
-}
-}
 
+@media (min-width: 768px){
+    .title{
+      text-align: left;}
+    }
+
+    
 
 .body{
   padding-top: 10px;
@@ -464,28 +465,22 @@ intro
   font-stretch: normal;
   line-height: 1.69;
   text-align: center;
-  color: #8c8c8c;
-    }
+  color: #8c8c8c; }
 
 
 
 @media (min-width: 768px){
 .image-des{
-  max-width: 600px;
+  max-width: 600px;}
 }
 
-}
 
 
 
 
 
 
-
-/**//**/
-
-
-
+/* ------------ **/
 
 
 #intro-text-sub{
@@ -538,18 +533,15 @@ intro
 
 
 
-
-
 #bg-user{
     background-color: #f9f9f9;
 }
-
-
 
 #user{
     margin-top: 50px;
     width: 100%;
 }
+
 
 
 @media (min-width: 768px){
@@ -992,70 +984,61 @@ intro
 
 /*connect*/
 
-.  
 .wrap_aside {
     width: 100%;
-    position : absolute;
-    color: #fff;
-    
-} 
-
-
-.link_connect{
-    
-    background-color: rgba(0,0,0,.3);
+    position: absolute;
+    color: #000000;
+  }
+  
+  .link_connect {
     display: flex;
+    color: #000000;
     text-align: center;
     flex-direction: column;
     position: relative;
     width: 100%;
     height: 200px;
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-
-@media (min-width: 768px){
-    .link_connect{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        float: left;
-        width: 100%;
-        height: 200px;
-        background-size: cover;
-        background-position: 50% 50%;
-        
+  }
+  
+  @media (min-width: 768px) {
+    .link_connect {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      float: left;
+      width: 100%;
+      height: 200px;
     }
-    
-}
-
-
-.wrap_aside .link_connect .inner_connect{
-    color: #fff;
+  }
+  
+  .wrap_aside .link_connect .inner_connect {
     vertical-align: middle;
     text-align: center;
     flex-grow: 1;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-.txt_connect{
+  }
+  .txt_connect {
     text-align: center;
-    font-size:14px;
-}
-.tit_magazine{
+    font-size: 14px;
+    font-family: Chivo;
+  }
+  .tit_magazine {
+    /* Done: */
+    font-size: 30px;
+    color: #000000;
+    letter-spacing: -0.72px;
     text-align: center;
+    line-height: 38px;
     display: block;
     margin: 10px auto 0;
     font-weight: 200;
-    font-size: 20px;
-    line-height: 38px;
-}
+  }
+  
 
 
 

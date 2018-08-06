@@ -9,13 +9,7 @@
 a {text-decoration: none;}
 li {list-style: none;}
 
-
-
-
-/*
- * Base structure
- */
-
+/*---Base structure------------------------------*/
 
 html,body {
     
@@ -35,10 +29,7 @@ body {
 
 
 
-/*---------------------
- * Header
-----------------------*/
-
+/*------------------------Header--------*/
 
 .header_global {
     width: 100%;
@@ -127,244 +118,301 @@ nav{
 } 
 
 
-/*-----------------
- banner
-------------------*/
-   
-.banner-container{
-    height: 70%;
-}
+/*------------------------Banner--------*/
 
-.banner{
+.banner-container {
+    height: 10%;
+  }
+  
+  .banner {
     height: 100%;
-    background-image: url(./imgs/index_b_2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
     position: relative;
-}
-
-
-.text_container{
+  }
+  
+  .text_container {
     position: absolute;
-    bottom:20%;
-    left:0;
-    right:0;
+    bottom: 20%;
+    left: 0;
+    right: 0;
     max-width: 600px;
     margin: 0 auto;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color:white;
-    
-}
+    color: black;
+  }
+  
+  .cover-heading {
+    padding-top: 30%;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Chivo;
+    font-size: 38px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.54;
+    letter-spacing: -0.4px;
+    text-align: center;
+    color: black;
+  }
+  
+  .lead {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Chivo;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.54;
+    letter-spacing: -0.4px;
+    text-align: center;
+    color: #000000;
+  }
+  
 
-
-
-
-.cover-heading{
-  padding-top:50%;
-  max-width: 600px;
-  margin: 0 auto;
-  font-family: Chivo;
-  font-size: 38px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.54;
-  letter-spacing: -0.4px;
-  text-align: center;
-  color: #ffffff;
-}
-
-
-.lead{
-  max-width: 600px;
-  margin: 0 auto;
-  font-family: Chivo;
-  font-size: 24px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.54;
-  letter-spacing: -0.4px;
-  text-align: center;
-  color: #ffffff;
-}
-
-
-
-    
-    
-
-/*-----------------
- album
-------------------*/
-
-.container{
-    margin-top: 100px;
-}
-
-.card_title{
-  height: 20px;
-  font-family: Chivo;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.15;
-  letter-spacing: 0.3px;
-  text-align: left;
-  color: #000000;
-}
-
-.card_subtitle{
-  font-family: Roboto;
-  font-size: 12px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.33;
-  letter-spacing: 0.2px;
-  text-align: left;
-  color: #929292;
-}
- 
-
-.row{
+/*------------------------Album--------*/
+  
+  .container {
+    margin-top: 70px;
+  }
+  
+  
+  .row {
     padding: 20px;
     display: inline-block;
-}
-
-
-.card-image {
-    color: black;
+  }
+  
+  .card {
+    padding-top: 100px;
     width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center center;}
-
- 
-
-.card-thumbnail{
-    width: 100%;
+    text-align: center;
+  }
+  
+  
+  @media (min-width: 768px) {
     
-}
-
-
-.card-content{
-    padding: 4px;
-    margin-left: 10px;
-}
-
-.card{ 
-    border-radius: 4px;
-    float: left;
+  .card {
+    padding-top: 0px;
+    max-width: 1000px;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
-    margin: 0 auto;
-    height: 300px;
-    margin: 10px; 
-    display: table;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+  }
+  
+  }
+  
+  .card-text-inner{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-img{
+    padding-top: 30px;
+    width: 100%;
+  }
+  
+  .card-text{
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .card-img{
+      width: 50%;
+      margin-right: 5%;
+      float: left;
     }
-    
-
-@media (min-width: 768px){
-    .card{width:400px;
-          height: 300px;} 
-}
-
-    
-    
-@media (min-width: 768px){
-    .row{width:840px;
-           margin: 0 auto;
-           padding: 0px;}
+    .card-text{
+      width: 40%;
+      float: left;
+      margin-right: 5%;
     }
-        
-    
-.row:after{
-    clear: both;
-    content: "";
-    display: block;
+  
+    .card-text-inner{
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
     }
+  }
+  
+  .card-thumbnail{
+    width: 100%;
+  }
+  
+  .card-title {
+    font-family: Chivo-Bold;
+    font-size: 44px;
+    color: #000000;
+    letter-spacing: 0.78px;
+    line-height: 28px;
+    text-align: center;
+  }
+  
+  .card-subtitle-container{
+    margin-top: 14px;
+    padding-left: 8px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    text-align: center;
+  }
+  
+  .card-subtitle {
+    font-size: 16px;
+    letter-spacing: 0.27px;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  
+  .card-des{
+    padding-top : 10px;
+    font-size: 14px;
+    color: #929292;
+    letter-spacing: 0.27px;
+    line-height: 28px;
+    text-align: center;
+  }
+  
+  .card-thumbnail {
+    width: 100%;
+  }
+  
+  .card-content {
+    padding: 4px;
+  }
+  
+  
+  
+  @media (min-width: 768px) {
     
-    
-    
-    
-    
+  .card-title {
+    font-family: Chivo-Bold;
+    font-size: 44px;
+    color: #000000;
+    letter-spacing: 0.78px;
+    line-height: 28px;
+    text-align: right;
+  }
+  
+  .card-subtitle-container{
+    margin-top: 14px;
+    padding-left: 8px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    text-align: right;
+  }
+  
+  .card-subtitle {
+    font-size: 16px;
+    letter-spacing: 0.27px;
+    line-height: 24px;
+    text-align: right;
+  }
+  
+  
+  .card-des{
+    padding-top : 10px;
+    font-size: 14px;
+    color: #929292;
+    letter-spacing: 0.27px;
+    line-height: 28px;
+    text-align: right;
+  }
+  
+  .card-thumbnail {
+    width: 90%;
+  }
+  
+  .card-content {
+    padding: 4px;
+    margin-left: 10px;
+  }
+  }
+  
+  
+  #card01{
+  }
+  #card02{
+  }
+  #card03{
+  }
+  #card04{
+  }
+  
+  #subtitle-01{
+    color: #8973F8;
+  }
+  
+  #subtitle-02{
+    color: #FF6D00;
+  }
+  
+  #subtitle-03{
+    color: #3E89C4;
+  }
+  
+  #subtitle-04{
+    color: #5E5E5E;
+  }
+  
+  
 
-/*-----------------
- footer
-------------------*/
-    
-.footer_seonyu{
-    font-size:15px;
-    margin-top: 30px;
-    }   
-    
-.social-box{
-    display: block;
-    margin-top: 200px;
-    background-color: #f4f4f4;
-    
-    } 
-    
-     
-.social-container{
-    
-    padding: 80px;
+/*------------------------footer--------*/
+  
+  
+  .social-box {
+    margin-top: 100px;
+    padding: 50px;
+    max-width: 800px;
+    display: inline-block;
+  }
+  
+  .social-container {
+    display: inline-block;
     margin: 0 auto;
     max-width: 800px;
-    } 
-    
-    
-.social{
+  }
+  
+  .footer-seonyu {
+    margin-top: 30px;
+    text-align: center;
+    color: #bec2c9;
+    max-width: 800px;
+  }
+  
+  .footer-seonyu:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  .social {
+    margin-top: 30px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .social-list {
+    float: right;
+    margin: 4px;
+  }
+  
+  .social-list:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  .social-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .social-icon-img {
     width: 100%;
-    margin: 0 auto;
-}
-
-
-
-.social:after{
-        clear: both;
-        content: "";
-        display: block;}
-
-    
-.social-icon{
-    width: 90%;
-}
-    
-    
-.social-text{
-     color: black;
-     font-size:15px;
-     font-weight: 100;
-    }
-
-
-.social-list{
-    margin-top: 20px;
-}
-    
-    
-@media (min-width:768px){
-    .social-list{ 
-    margin: 20px;
-    float: left;}
-}
-    
-
-@media (min-width:768px){
-    .social{ 
-    margin: 20px;
-    width: 480px;
-    margin: 0 auto;
-    display: block;}
-}
-    
-    
-    
-        
-    
-    
+  }
+  
