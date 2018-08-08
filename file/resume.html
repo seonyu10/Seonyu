@@ -14,7 +14,10 @@
     <!-- Custom styles for this template -->
     <link href="./resume.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Chivo|Roboto|Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Roboto|Rubik" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
@@ -51,19 +54,19 @@
             <header class="header_global">
                 <nav class="nav">
                     <h3 class="logo">
-                        <a href="../index.html" style="color:black;">Seonyu Kim</a>
-
+                        <a href="../index.html" class="logo-name">Seonyu Kim</a>
                     </h3>
-
                     <ul class="nav_menu">
                         <li>
-                            <a class="menu_list" id="menu_inactive" href="../index.html" style="color:black;">Work</a>
+                            <a class="menu_list" id="menu_inactive" href="../index.html">Work</a>
                         </li>
+
                         <li>
-                            <a class="menu_list" id="menu_inactive" href="../file/about.html" style="color:black;">About</a>
+                            <a class="menu_list" id="menu_inactive" href="../file/about.html">About</a>
                         </li>
+
                         <li>
-                            <a class="menu_list" id="menu_active" href="../file/resume.html" style="color:black;">Resume</a>
+                            <a class="menu_list" id="menu_active" href="../file/resume.html">Resume</a>
                         </li>
                     </ul>
 
@@ -86,29 +89,15 @@
                 <div class="work_container">
 
 
-                    <div class="resume-start-container">
-
-                        <div class="resume_start">
-
-
-
-                            <div class="resume_start" id="resume-btn">
-                                <a href="https://drive.google.com/open?id=1GIz91SQbatah531wgOVahsVoiSukj4Hl" target="_blank" id="resume-btn">DOWNLOAD</a>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                    <div class="line"></div>
 
 
                     <div class="work_list">
 
-                        <div class="work_title"> WORK EXPERIENCE </div>
+                        <div class="work-header">
+                            <div class="work_title" id="title-work"> WORK EXPERIENCE </div>
+                        </div>
 
                         <ul class="work_row">
-
                             <li class="work-li" id="work_period">
                                 <h2 class="job_title">Freelance Design Consultant</h2>
                                 <h3 class="job_period">APR 2017 – Current
@@ -171,59 +160,6 @@
                             </li>
                         </ul>
 
-
-
-                    </div>
-
-
-
-
-                </div>
-
-
-
-
-                <div class="work_container" id="work-edu">
-
-
-                    <div class="work_list">
-
-                        <div class="work_title"> SKILLS</div>
-
-                        <ul class="work_row">
-
-                            <li class="work-li" id="work_period">
-                                <h2 class="job_title">Design Skills</h2>
-                                <h3 class="job_period"></h3>
-                            </li>
-
-
-                            <li class="work-li" id="work_des">
-                                <h3 class="job_des">Contents Marketing, User Research, Usability Testing, Wireframing, Prototyping, UI/UX Design,
-                                    Branding/Identity
-                                </h3>
-
-                            </li>
-                        </ul>
-
-
-                        <ul class="work_row">
-
-                            <li class="work-li" id="work_period">
-                                <h2 class="job_title">Tools</h2>
-                                <h3 class="job_period"></h3>
-                            </li>
-
-
-                            <li class="work-li" id="work_des">
-                                <h3 class="job_des"> Sketch App, Photoshop, Illustrator, Zeplin, Flinto, Invision, HTML/CSS, Google Analytics,
-                                    Keynote
-                                </h3>
-
-                            </li>
-                        </ul>
-
-
                     </div>
 
                 </div>
@@ -232,38 +168,83 @@
 
 
 
-                <div class="work_container" id="work-edu">
+
+                <div class="work_list">
+
+                    <div class="work_title" id="title-skill"> SKILLS</div>
+
+                    <ul class="work_row">
+
+                        <li class="work-li" id="work_period">
+                            <h2 class="job_title">Design Skills</h2>
+                            <h3 class="job_period"></h3>
+                        </li>
 
 
-                    <div class="work_list">
+                        <li class="work-li" id="work_des">
+                            <h3 class="job_des">Contents Marketing, User Research, Usability Testing, Wireframing, Prototyping, UI/UX Design,
+                                Branding/Identity
+                            </h3>
 
-                        <div class="work_title"> EDUCATION </div>
-
-                        <ul class="work_row">
-
-                            <li class="work-li" id="work_period">
-                                <h2 class="job_title">Hanyang University</h2>
-                                <h3 class="job_period">MAR 2011 – AUG 2016</h3>
-                            </li>
+                        </li>
+                    </ul>
 
 
-                            <li class="work-li" id="work_des">
-                                <h3 class="job_des"> Bachelors in English Language and Literature, Media(Seoul, Korea)</h3>
+                    <ul class="work_row">
 
-                            </li>
-                        </ul>
-
-
-                    </div>
+                        <li class="work-li" id="work_period">
+                            <h2 class="job_title">Tools</h2>
+                            <h3 class="job_period"></h3>
+                        </li>
 
 
+                        <li class="work-li" id="work_des">
+                            <h3 class="job_des"> Sketch App, Photoshop, Illustrator, Zeplin, Flinto, Invision, HTML/CSS, Google Analytics, Keynote
+                            </h3>
 
-
-
+                        </li>
+                    </ul>
 
 
                 </div>
 
+        </div>
+
+
+
+
+
+        <div class="work_container" id="work-edu">
+
+
+            <div class="work_list">
+
+                <div class="work_title" id="title-edu"> EDUCATION </div>
+
+                <ul class="work_row">
+
+                    <li class="work-li" id="work_period">
+                        <h2 class="job_title">Hanyang University</h2>
+                        <h3 class="job_period">MAR 2011 – AUG 2016</h3>
+                    </li>
+
+
+                    <li class="work-li" id="work_des">
+                        <h3 class="job_des"> Bachelors in English Language and Literature, Media(Seoul, Korea)</h3>
+
+                    </li>
+                </ul>
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
 
 
 
@@ -274,7 +255,8 @@
 
 
 
-            </main>
+
+        </main>
 
 
 
@@ -287,70 +269,70 @@
 
 
 
-            <footer>
+        <footer>
 
 
-                <div class="social-box">
-                    <div class="social-container">
-
-
-
-
-                        <ul class="social">
-                            <li class="social-list">
-                                <a href="https://www.facebook.com/seonyu10" target="_blank">
-                                    <p class="social-icon">
-                                        <img src="../imgs/social_1.png" class="social-icon-img">
-                                    </p>
-                                </a>
-                            </li>
+            <div class="social-box">
+                <div class="social-container">
 
 
 
 
-                            <li class="social-list">
-                                <a href="https://dribbble.com/seonyu10" target="_blank">
-                                    <p class="social-icon">
-                                        <img src="../imgs/social_2.png" class="social-icon-img">
-                                    </p>
-                                </a>
-                            </li>
+                    <ul class="social">
+                        <li class="social-list">
+                            <a href="https://www.facebook.com/seonyu10" target="_blank">
+                                <p class="social-icon">
+                                    <img src="../imgs/social_1.png" class="social-icon-img">
+                                </p>
+                            </a>
+                        </li>
 
 
 
 
-                            <li class="social-list">
-                                <a href="https://www.linkedin.com/in/seonyukim/" target="_blank">
-                                    <p class="social-icon">
-                                        <img src="../imgs/social_3.png" class="social-icon-img">
-                                    </p>
-                                </a>
-                            </li>
+                        <li class="social-list">
+                            <a href="https://dribbble.com/seonyu10" target="_blank">
+                                <p class="social-icon">
+                                    <img src="../imgs/social_2.png" class="social-icon-img">
+                                </p>
+                            </a>
+                        </li>
 
 
-                            <li class="social-list">
-                                <a href="https://medium.com/@seonyu10" target="_blank">
-                                    <p class="social-icon">
-                                        <img src="../imgs/social_4.png" class="social-icon-img">
-                                    </p>
-                                </a>
-                            </li>
-
-                            <li class="social-list">
-                                <a href="https://github.com/seonyu10" target="_blank">
-                                    <p class="social-icon">
-                                        <img src="../imgs/social_5.png" class="social-icon-img">
-                                    </p>
-                                </a>
-                            </li>
-                        </ul>
-
-                        <div class="footer-seonyu">© 2018 Seonyu Kim</div>
 
 
-                    </div>
+                        <li class="social-list">
+                            <a href="https://www.linkedin.com/in/seonyukim/" target="_blank">
+                                <p class="social-icon">
+                                    <img src="../imgs/social_3.png" class="social-icon-img">
+                                </p>
+                            </a>
+                        </li>
+
+
+                        <li class="social-list">
+                            <a href="https://medium.com/@seonyu10" target="_blank">
+                                <p class="social-icon">
+                                    <img src="../imgs/social_4.png" class="social-icon-img">
+                                </p>
+                            </a>
+                        </li>
+
+                        <li class="social-list">
+                            <a href="https://github.com/seonyu10" target="_blank">
+                                <p class="social-icon">
+                                    <img src="../imgs/social_5.png" class="social-icon-img">
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="footer-seonyu">© 2018 Seonyu Kim</div>
+
+
                 </div>
-            </footer>
+            </div>
+        </footer>
 
 
 

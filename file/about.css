@@ -1,45 +1,42 @@
-
 /*-------------
  CSS RESET 
 --------------*/
 
-* {padding: 0; 
-    border: 0; 
-    margin: 0;}
-a {text-decoration: none;}
-li {list-style: none;}
-
-
-
-
-/*
- * Base structure
- */
-
-
-html,body {
-    
-  height: 100%;
-  width: 100%;
-  background-color: #ffffff;
-}
-body {
-  color: #000;
-  text-align: center;
-  font-weight: 400;
-  font-size: 16px;
-  font-family: 'roboto'
-}
-
-
-
-
-/*---------------------
- * Header
-----------------------*/
-
-
-.header_global {
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+  
+  /*
+   * Base structure
+   */
+  
+  html,
+  body {
+    font-family: "Libre Franklin", sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: #ffab6f;
+  }
+  body {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  /*---------------------
+   * Header
+  ----------------------*/
+  
+  .header_global {
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -47,315 +44,236 @@ body {
     position: absolute;
     box-sizing: border-box;
     z-index: 9;
-}
-
-nav{
+  }
+  
+  nav {
     margin: 0 auto;
-	max-width: 800px;
+    max-width: 800px;
     box-sizing: border-box;
-    
-}
-
-.header_global .logo{
-    color: white;
+  }
+  
+  .header_global .logo {
     font-weight: 500;
-}
-
-
-@media (min-width: 768px){
-    .header_global .logo{
-    float: left;}
-}
-
-@media (min-width: 768px){
-    .header_global .nav_menu{
-    float: right;
-}
-}
-
-
-.header_global .nav_menu li{
+  }
+  
+  @media (min-width: 768px) {
+    .header_global .logo {
+      float: left;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .header_global .nav_menu {
+      float: right;
+    }
+  }
+  
+  
+  .header_global .nav_menu li {
     display: inline;
-}
-
-@media (min-width: 768px){
-    .header_global .nav_menu li{
-    float: left;}
-}
-
-
-.menu_list{
+  }
+  
+  @media (min-width: 768px) {
+    .header_global .nav_menu li {
+      float: left;
+    }
+  }
+  
+  
+  .menu_list {
     display: inline-block;
-    padding-top: 1rem;
-    
     margin: 1rem;
-    color: white;
-    font-weight: 500;
-}
-
-
-@media (min-width: 768px){
-    .menu_list{
-    display: inline;
-    margin: 1rem;
-    color: white;
-    font-weight: 500;
-}
-
-}
-
-.header_global:after{
+    font-family: Rubik-regular;
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 0.71px;
+    text-align: center;
+    line-height: 40px;
+  }
+  
+  
+  @media (min-width: 768px) {
+    .menu_list {
+      display: inline;
+      margin: 1rem;
+      font-weight: 100;
+     line-height: 40px;}
+  }
+  
+  .header_global:after {
     display: block;
     clear: both;
     content: "";
-}
-
-.header_global nav:after{
+  }
+  
+  .header_global nav:after {
     display: block;
     clear: both;
     content: "";
-}
-
-
-
-#menu_active{
-    color: black;
+  }
+  
+  #menu_active {
     opacity: 1;
-} 
-    
-
-#menu_inactive{
-    
-    color: black;
-    opacity: 0.7;
-} 
-
-
-
-
-    
-    
-/*-----------------
- banner
-------------------*/
-   
-.banner-container{
-    height: 70%;
-}
-
-.banner{
+  }
+  
+  #menu_inactive {
+    opacity: 0.5;
+  }
+  
+  .logo{
+  }
+  
+  .logo-sun{
+    padding-top: 3px;
+    width: 36px;
+    float: left;
+  }
+  
+  .logo-name{
+    padding-top: 5px;
+    line-height: 40px;
+  /* Seonyu Kim: */
+    font-family: Rubik;
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 0.71px;
+    text-align: center;
+    line-height: 40px;
+  }
+  
+  
+  /*-----------------
+   banner
+  ------------------*/
+  .banner-container {
+    height: 45%;
+  }
+   .banner {
     height: 100%;
-    background-image: url(../imgs/index_a.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    position: relative;
-}
-
-
-.text_container{
+    background-color: #ffab6f;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+   .sun {
+  
+    width: 100px;
+    height: 80px;
+  }
+  
+   .text_container {
     position: absolute;
-    bottom:15%;
-    left:0;
-    right:0;
-    
+    bottom: 15%;
+    left: 0;
+    right: 0;
     max-width: 600px;
     padding: 2rem;
     margin: 0 auto;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    
-}
-
-
-
-
-.cover-heading{
-  max-width: 600px;
-  margin: 0 auto;
-  font-family: Chivo;
-  font-size: 38px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.54;
-  letter-spacing: -0.4px;
-  text-align: center;
-  color: #ffffff;
-}
-
-
-.lead{
-  max-width: 600px;
-  margin: 0 auto;
-  font-family: Chivo;
-  font-size: 24px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.54;
-  letter-spacing: -0.4px;
-  text-align: center;
-  color: #ffffff;
-}
-
-
-
-    
-    
-
-
-
-
-/*---------------------
- * intro
-----------------------*/
-
-
-
-.intro{ 
-    padding-top: 20px; 
-    
-    
-}
-
-.intro-box{
+  }
+  
+  
+  
+  /*---------------------
+   * intro
+  ----------------------*/
+  
+  
+  .content {
+    background-color: #ec5d66;
+  }
+  
+  .sun {
+    display: flex;
+    justify-content: flex-start;
+    width: 84px;
+    height: 80px;
+  }
+  .intro {
+    padding-top: 20px;
+  }
+  
+  .intro-box {
     display: inline-block;
     max-width: 900px;
     margin: 0 auto;
     margin: 30px;
-}
-
-
-    
-
-
-
-
-.intro-body{
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: left; 
-  font-weight: 100;
-  padding-top: 40px;
-  font-size: 16px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.75;
-  letter-spacing: -0.1px;
-  color: #403f5d;
-}
-
-
-
-/*-------skills------*/
-    
-
-
-.skills-container{
+  }
+  
+  
+  .lead {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'Rubik';
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.54;
+    letter-spacing: -0.4px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  
+  
+  .intro-body {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: 0.1px;
+    text-align: center;
+    padding-top: 10px;
+    opacity: 0.9;
+  }
+  
+  /*-------skills------*/
+  
+  .skills-container {
     display: block;
     max-width: 600px;
     margin: 0 auto;
-    color: gray;
     padding-top: 100px;
-    
-}
-
-
-.skills-header{
-  max-width: 600px;
-  font-size:16px;
-  margin: 0 auto;
-  line-height: 1.54;
-  letter-spacing: -0.4px;
-  text-align: left;
-  padding-bottom: 30px;
-  text-align: left;
-  font-weight: 500;
-  color: #bababa;
-}
-
-
-.skills-list{
-  text-align: left;
-  margin: 4px;
-  display: inline-block;
-  border-radius: 19px;
-  padding-left: 14px;
-  padding-right: 14px;
-  color: #81a9c0;
-  background-color: #ecf4f7;
-    
-}
-    
-    
-.skills-text{
+  }
   
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2;
-  letter-spacing: -0.3px;
-  text-align: justify;
-  color: #81a9c0;
-}  
-
-
-#tool_container{
-    
-   background-color: #f4f0f4;
-    
-}
-#tool{
-     color: #9081c0;
-}
-
-
-
-
-/*-----------------
- mail
-------------------*/
-
-.mail-body{
-  max-width: 600px;
-  margin: 0 auto;
-  line-height: 1.54;
-  letter-spacing: -0.4px;
-    padding-top: 10px;
-    font-size: 18px;
-    font-weight: 500;
-    font-family: 'roboto';
-    text-align: left;
-    color: gray;
-
-}
-
-
-
-#mail-address{
-    padding-top:20px;
-    text-align: left;
+  .skills-header {
+    max-width: 600px;
     margin: 0 auto;
-    line-height: 1.54;
-    letter-spacing: -0.4px;
-    font-size: 18px;
-    font-weight: 500;
-    font-family: 'roboto';
-    color: gray;
-    
-}
-
-
-#mail-address:hover{
-  font-size: 19px;
-    
-}
-
-
-
+    padding-bottom: 30px;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0.31px;
+    text-align: center;
+    line-height: 28px;
+  }
+  
+  .skills-list {
+    text-align: center;
+    border : 1px solid;
+    margin: 4px;
+    display: inline-block;
+    border-radius: 19px;
+    padding-left: 14px;
+    padding-right: 14px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .skills-text {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: -0.3px;
+    text-align: center;
+  }
+  
+  
   /*-----------------
    footer
   ------------------*/
@@ -376,7 +294,7 @@ nav{
   .footer-seonyu {
     margin-top: 30px;
     text-align: center;
-    color: #bec2c9;
+    color: white;
     max-width: 800px;
   }
   
@@ -406,6 +324,7 @@ nav{
   .social-icon {
     width: 30px;
     height: 30px;
+    opacity: 0.7;
   }
   
   .social-icon-img {

@@ -5,76 +5,43 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Seonyu</title>
 
-
     <!-- Custom styles for this template -->
     <link href="./townus.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Chivo|Roboto|Roboto+Condensed" rel="stylesheet">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113414971-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-113414971-1');
-    </script>
-
-
-    <script type="text/javascript">
-        (function (a, l, b, c, r, s) {
-            _nQc = c, r = a.createElement(l), s = a.getElementsByTagName(l)[0];
-            r.async = 1;
-            r.src = l.src = ("https:" == a.location.protocol ? "https://" : "http://") + b;
-            s.parentNode.insertBefore(r, s);
-        })
-            (document, "script", "serve.albacross.com/track.js", "89012977");
-    </script>
-
-
-
-
-
+    <!-- Font & Tweenmax & jquery-->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Roboto|Rubik" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
 </head>
 
 <body>
-
-
-
-
-
-
     <header class="header_global">
         <nav>
             <h3 class="logo">
-                <a href="../index.html" style="color:black;" style="opacity:0.5;">Seonyu Kim </a>
-
+                <a href="../index.html" style="color: black;" class="logo-name">Seonyu Kim</a>
             </h3>
+
 
             <ul class="nav_menu">
                 <li>
-                    <a class="menu_list" href="../index.html" style="color:black;" style="opacity:0.5;">Work</a>
+                    <a class="menu_list" id="menu_active" href="../index.html">Work</a>
                 </li>
-                <li>
-                    <a class="menu_list" href="../file/about.html" style="color:black;" style="opacity:0.5;">About</a>
-                </li>
-                <li>
-                    <a class="menu_list" href="../file/resume.html" style="color:black;" style="opacity:0.5;">Resume</a>
-                </li>
-            </ul>
 
+                <li>
+                    <a class="menu_list" id="menu_inactive" href="../file/about.html">About</a>
+                </li>
+
+                <li>
+                    <a class="menu_list" id="menu_inactive" href="../file/resume.html">Resume</a>
+                </li>
+
+            </ul>
         </nav>
     </header>
-
-
-
 
     <div class="banner">
         <div class="banner-gradient">
@@ -184,8 +151,8 @@
                     <p class="body-content" id="">It is simple to purchase products from general commerce. You can select a product and purchase it. However,
                         purchases in TownUs is not possible without going through a 'purchase room'. It is a virtual space
                         for customers to bring people and buy products at the lowest possible prices. Our goal is that users
-                        have to be sufficiently aware of the buying process without any help from the CS team through the
-                        renewal.
+                        have to be sufficiently aware of the buying process in the purchase without any help from the CS
+                        team through the renewal.
                         <br>
                         <br>
 
@@ -389,7 +356,7 @@
 
         <!-- UI renewal 01-->
 
-        <div class="project " id="">
+        <div class="project " id="bg-renewal">
             <div class="project-container ">
                 <div class="text-container ">
                     <h3 class="subheader" id="sub-title">UI Renewal 02</h3>
@@ -404,7 +371,7 @@
                 </div>
 
                 <div class="img-container ">
-                    <p class="body-subtitle">Step 01 : Identifying painpoints
+                    <p class="body-subtitle" id="subtitle-renewal">Step 01 : Identifying painpoints
                     </p>
                     <img class="project-image " id="img-first " src="../imgs/townus_renewal02.png ">
                 </div>
@@ -426,7 +393,7 @@
                             <div class="custom-text-02">
                                 <p class="custom-text-title">Next & Previous button</p>
                                 <p class="custom-text-des">
-                                    On the option area, next and previous button enables users easily move to previous or next page.
+                                    On the option area, next and previous button enables users move to previous or next page.
                                 </p>
                             </div>
                         </li>
@@ -439,8 +406,7 @@
 
                             <div class="custom-text ">
                                 <p class="custom-text-title "> Progress trackers </p>
-                                <p class="custom-text-des "> Users can see how much they have completed the options thanks to the visual cue which shows
-                                    progress of the achievements.
+                                <p class="custom-text-des "> Users can see how much they have completed the options thanks to the bars which shows percentage.
                             </div>
 
                             <div class="custom-text-02">
@@ -463,7 +429,7 @@
                     <h2 class="title " id=" ">User friendly Customizing tool</h2>
                     <p class="body-content " id=" ">I wanted to make the tool more interactive and fun to use by showing the realtime progress and application.
                         Our main feature became more powerful with increased renewals. 💪 </p>
-                    <img class="project-image" id="final-img" src="../imgs/town_custom_proto.gif">
+                    <img class="project-image" id="final-img" src="../imgs/townus_main_proto.gif">
                 </div>
             </div>
         </div>
@@ -486,7 +452,7 @@
             <div class="project-container">
                 <div class="text-container">
                     <h3 class="subheader" id="system-subheader">Design System</h3>
-                    <h2 class="title" id="system-title">The Establishment of Design System starting from the style guide</h2>
+                    <h2 class="title" id="system-title">The establishment of Design System starting from the style guide</h2>
                 </div>
 
                 <div class="text-container ">
@@ -532,11 +498,12 @@
                         of iterations and variations helped me to find the optimal design.
                     </p>
                 </div>
+
+                <div class="text-container">
+                    <img class="project-image" id="img-takeaway" src="../imgs/town_takeaway.png">
+                </div>
             </div>
 
-            <div class="text-container">
-                <img class="project-image" id="img-first" src="../imgs/town_takeaway.png">
-            </div>
         </div>
 
 
@@ -546,6 +513,7 @@
                 <div class="inner_connect ">
                     <span class="txt_connect "> Previous </span>
                     <strong class="tit_magazine ">BeeCanvas </strong>
+                    <strong class="tit_sub">Virtual Whiteboard Collaboration tool</strong>
                 </div>
             </a>
 
@@ -553,6 +521,7 @@
                 <div class="inner_connect">
                     <span class="txt_connect">Next</span>
                     <strong class="tit_magazine">Peter</strong>
+                    <strong class="tit_sub">Data Analytics app</strong>
                 </div>
             </a>
         </div>

@@ -125,6 +125,8 @@ line-height: 40px;
 /*logo--------------------------*/
 
 .logo{
+
+  font-family: Rubik;
 }
 
 .logo-sun{
@@ -135,16 +137,14 @@ line-height: 40px;
 
 .logo-name{
   padding-top: 5px;
-  line-height: 40px;
-/* Seonyu Kim: */
-  font-family: Rubik;
-  font-size: 20px;
-  color: #000000;
-  letter-spacing: 0.71px;
-  text-align: center;
-  line-height: 40px;
+    line-height: 40px;
+    font-family: Rubik;
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 0.71px;
+    text-align: center;
+    line-height: 40px;
 }
-
 
 /*-----------------
  Card- 01
@@ -331,11 +331,19 @@ line-height: 40px;
 }
 
 #card04{
-  width: 270px;
+  width: 260px;
   background: #FFFFFF;
   border: 1px solid #FF5873;
   border-radius: 100px;
 }
+
+#card06{
+  width: 220px;
+  background: #FFFFFF;
+  border: 1px solid #969696;
+  border-radius: 100px;
+}
+
 
 
 
@@ -355,7 +363,9 @@ line-height: 40px;
   color:#FF5873;
 }
 
-
+#subtitle-06{
+  color: #969696;
+}
 
 
 div#left-column {-webkit-order: 2;}

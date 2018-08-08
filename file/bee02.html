@@ -14,7 +14,13 @@
     <!-- Custom styles for this template -->
     <link href="./bee02.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Chivo|Roboto|Roboto+Condensed" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Rubik" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
@@ -44,40 +50,42 @@
 <body>
 
 
+
     <header class="header_global">
         <nav>
             <h3 class="logo">
-                <a href="../index.html" style="color:white;" style="opacity:0.5;">Seonyu Kim </a>
-
+                <a href="../index.html" style="" class="logo-name">Seonyu Kim</a>
             </h3>
+
 
             <ul class="nav_menu">
                 <li>
-                    <a class="menu_list" href="../index.html" style="opacity:0.5;">Work</a>
+                    <a class="menu_list" id="menu_active" href="#">Work</a>
                 </li>
+
                 <li>
-                    <a class="menu_list" href="../file/about.html" style="opacity:0.5;">About</a>
+                    <a class="menu_list" id="menu_inactive" href="../file/about.html">About</a>
                 </li>
+
                 <li>
-                    <a class="menu_list" href="../file/resume.html" style="opacity:0.5;">Resume</a>
+                    <a class="menu_list" id="menu_inactive" href="../file/resume.html">Resume</a>
                 </li>
             </ul>
-
         </nav>
     </header>
 
 
 
 
-    <div class="banner">
-        <div class="banner-gradient">
-            <div class="banner-text">
-                <div class="banner-container">
-                    <h1 class="banner_title">BeeCanvas </h1>
-                    <h3 class="banner_subtitle"> UI Design and style guide
-                    </h3>
 
-                </div>
+
+    <div class="banner">
+        <div class="banner-text">
+            <div class="banner-container">
+                <h1 class="banner_title">BeeCanvas </h1>
+                <h3 class="banner_subtitle"> UI Design and style guide
+                </h3>
+
             </div>
         </div>
     </div>
@@ -90,14 +98,12 @@
 
     <main>
 
-
         <div class="intro">
             <div class="intro-box">
                 <ul class="intro-container">
-                    <li class="intro-list" id="a">
+                    <li class="intro-list" id="intro-list-01">
                         <h3 class="intro-title">Overview</h3>
                         <div class="intro-text">
-
                             BeeCanvas offers 3 devices including iOS mobile, table and Desktop web. As an overall director of UX/UI design, style guides
                             and iOS/web/CSS/interaction specification sheets were coherently produced. I redesigned several
                             UI element and made style guide for web and iOS which was for coherent UI style and efficient
@@ -106,148 +112,119 @@
                             <br>
                             <br>
                             <a href="http://beecanvas.com" target="_blank"> beecanvas.com </a>
-                            <br>
-                            <br>
                         </div>
-
-
                     </li>
 
-
-
-                    <li class="intro-list" id="b">
-
+                    <li class="intro-list" id="intro-list-02">
                         <div class="intro-role">
-                            <h3 class="intro-title">Team</h3>
-                            <p class="intro-body"> Osiris-Systems</p>
+                            <h3 class="intro-title">TEAM</h3>
+                            <p class="intro-body">Osiris-Systems </p>
                         </div>
-
                         <div class="intro-role">
                             <h3 class="intro-title">My Role</h3>
-                            <p class="intro-body">Product Design</p>
+                            <p class="intro-body">Product Design </p>
                         </div>
-
                         <div class="intro-role">
                             <h3 class="intro-title">Platform</h3>
                             <p class="intro-body">iOS mobile, iPad, Web, Desktop</p>
                         </div>
-
-
-
-
                         <div class="intro-role">
                             <h3 class="intro-title">Year</h3>
                             <p class="intro-body">2017</p>
                         </div>
-
                     </li>
                 </ul>
             </div>
         </div>
 
 
-
-
-        <div class="project" id="bg-introduction">
-
-            <div class="project-container">
-                <div class="text-container">
-                    <h3 class="subheader" id="sub-title">WEB · DESKTOP</h3>
-                    <h2 class="title" id="intro-text01">Canvas UI redesign</h2>
-                    <p class="body" id="intro-text02">The UI for the desktop was the most important part since that is where users spent most of their time
-                        on BeeCanvas. Our mission was to make the canvas UI more intuitive and fun to use.
+        <div class="fooContainer">
+            <div class="fooReveal">
+                <div class="project" id="bg-introduction">
+                    <div class="project-container">
+                        <div class="text-container">
+                            <h3 class="subheader" id="sub-title">WEB · DESKTOP</h3>
+                            <h2 class="title" id="intro-text01">Canvas UI redesign</h2>
+                            <p class="body" id="intro-text02">The UI for the desktop was the most important part since that is where users spent most of their
+                                time on BeeCanvas. Our mission was to make the canvas UI more intuitive and fun to use.
+                            </p>
+                        </div>
+                        <img class="project-image" id="redesign" src="../imgs/b02_1.png">
+                    </div>
+                    <p class="body" id="text-mission">"Our mission is to make the canvas itself explain its function through well-structured design using the
+                        renewal design."
                     </p>
-
                 </div>
-
-                <img class="project-image" id="redesign" src="../imgs/b02_1.png">
             </div>
-
-
-            <p class="body" id="text-mission">"Our mission is to make the canvas itself explain its function through well-structured design using the renewal
-                design."
-            </p>
-
         </div>
 
 
+        <div class="fooReveal">
+            <div class="project" id="bg-introduction">
+
+                <div class="project-container">
+                    <div class="text-container">
+                        <h3 class="subheader" id="pain">Identifying painpoints</h3>
+
+
+                    </div>
+
+                    <img class="project-image" id="redesign-wire" src="../imgs/b2_02.png">
 
 
 
 
-        <div class="project" id="bg-introduction">
-
-            <div class="project-container">
-                <div class="text-container">
-                    <h3 class="subheader" id="pain">Identifying painpoints</h3>
-
-
-                </div>
-
-                <img class="project-image" id="redesign-wire" src="../imgs/b2_02.png">
+                    <div class="text-container">
+                        <h2 class="title" id="intro-text01"></h2>
 
 
 
 
-                <div class="text-container">
-                    <h2 class="title" id="intro-text01"></h2>
+                        <div class="e">
+                            <ul class="d">
+                                <li class="c" id="">
+                                    <div class="g">
+                                        <img class="goals-numbering" id="" src="../imgs/goals01.png" width=""> </div>
+                                </li>
 
 
+                                <li class="c" id="">
+                                    <div class="g">
+                                        <p class="body" id="intro-text00">
+                                            The previous GNB (Global Navigation Bar) was not well structurally organized. It had two GNB's (A and B) but there was no
+                                            clear distinction between them, which caused the GNB to take up too much space.
+                                            They also needed to be divided by proper hierarchy.
+                                            <br>
+                                            <br> It was not easy to identify the main features of BeeCanvas since in the first
+                                            GNB, it included canvas list, canvas size, slide list, search, notifications
+                                            and in the second GNB, online member, share link, template, backup, print, slideshow.
+                                            <br>
+                                            <br> </p>
+                                    </div>
+                                </li>
 
 
-                    <div class="e">
-                        <ul class="d">
-                            <li class="c" id="">
-                                <div class="g">
-                                    <img class="goals-numbering" id="" src="../imgs/goals01.png" width=""> </div>
-                            </li>
+                            </ul>
+                        </div>
 
 
-                            <li class="c" id="">
-                                <div class="g">
+                        <div class="e">
+                            <ul class="d">
+                                <li class="c">
+                                    <img class="goals-numbering" id="" src="../imgs/goals02.png" width=""> </li>
+
+                                <li class="c">
                                     <p class="body" id="intro-text00">
-                                        The previous GNB (Global Navigation Bar) was not well structurally organized. It had two GNB's (A and B) but there was no
-                                        clear distinction between them, which caused the GNB to take up too much space. They
-                                        also needed to be divided by proper hierarchy.
-                                        <br>
-                                        <br> It was not easy to identify the main features of BeeCanvas since in the first GNB,
-                                        it included canvas list, canvas size, slide list, search, notifications and in the
-                                        second GNB, online member, share link, template, backup, print, slideshow.
+                                        Each icon in the toolbar was designed differently, which breaks the continuity and design unity.
                                         <br>
                                         <br> </p>
-                                </div>
-                            </li>
+                                </li>
 
 
-                        </ul>
+                            </ul>
+                        </div>
                     </div>
-
-
-                    <div class="e">
-                        <ul class="d">
-                            <li class="c">
-                                <img class="goals-numbering" id="" src="../imgs/goals02.png" width=""> </li>
-
-                            <li class="c">
-                                <p class="body" id="intro-text00">
-                                    Each icon in the toolbar was designed differently, which breaks the continuity and design unity.
-                                    <br>
-                                    <br> </p>
-                            </li>
-
-
-                        </ul>
-                    </div>
-
-
-
-
-
-
-
-
                 </div>
-
             </div>
 
 
@@ -260,50 +237,55 @@
 
 
 
-            <div class="goals">
+            <div class="fooReveal">
 
-                <div class="goals-container">
-                    <div class="goals-text-container">
-                        <h3 class="goals-subheader">Goals </h3>
+                <div class="goals">
 
-                        <ul class="goals-list">
-                            <li class="goals-number">
+                    <div class="goals-container">
+                        <div class="goals-text-container">
+                            <h3 class="goals-subheader">Goals </h3>
 
-                                <h2 class="goals-title">Intuitive GNB</h2>
-                                <p class="goals-body">Make sure the GNB clearly identifies the features and is well structured according to hierarchy</p>
-                            </li>
+                            <ul class="goals-list">
+                                <li class="goals-number">
 
-
-
-                            <li class="goals-number">
-                                <h2 class="goals-title">Toolbar Redesign</h2>
-                                <p class="goals-body"> Toolbar icons need to with be consistent with the UI design concept </p>
-                            </li>
+                                    <h2 class="goals-title">Intuitive GNB</h2>
+                                    <p class="goals-body">Make sure the GNB clearly identifies the features and is well structured according to
+                                        hierarchy
+                                    </p>
+                                </li>
 
 
 
-                            <li class="goals-number">
-                                <h2 class="goals-title">Coherent UI</h2>
-                                <p class="goals-body"> Maintain consistency with BeeCanvas' mobile app's visual system </p>
-                            </li>
-                        </ul>
+                                <li class="goals-number">
+                                    <h2 class="goals-title">Toolbar Redesign</h2>
+                                    <p class="goals-body"> Toolbar icons need to with be consistent with the UI design concept </p>
+                                </li>
 
 
 
-                        <div class="goals-sub-text" id="">
-                            <h3 class="subheader"></h3>
-                            <h2 class="title"></h2>
-                            <p class="goals-body" id="">For those using BeeCanvas for the first time, how can we make the canvas UI more intuitive and
-                                easy to use? Would it be possible for users to make the most of the features and toolbars
-                                without watching tutorials?</p>
+                                <li class="goals-number">
+                                    <h2 class="goals-title">Coherent UI</h2>
+                                    <p class="goals-body"> Maintain consistency with BeeCanvas' mobile app's visual system </p>
+                                </li>
+                            </ul>
+
+
+
+                            <div class="goals-sub-text" id="">
+                                <h3 class="subheader"></h3>
+                                <h2 class="title"></h2>
+                                <p class="goals-body" id="">For those using BeeCanvas for the first time, how can we make the canvas UI more intuitive
+                                    and easy to use? Would it be possible for users to make the most of the features and
+                                    toolbars without watching tutorials?</p>
+
+                            </div>
 
                         </div>
 
+                        <img class="project-image" src="">
                     </div>
 
-                    <img class="project-image" src="">
                 </div>
-
             </div>
 
 
@@ -627,7 +609,7 @@
 
 
 
-            <div class="project" id="bg-wire">
+            <div class="project" id="bg-takeaway">
 
                 <div class="project-container">
                     <div class="text-container">
@@ -638,53 +620,38 @@
                             concept, I was able to produce style guides, mock-ups and visual images for marketing.
 
                         </p>
-
                     </div>
-
-                    <img class="project-image" id="wire" src="../imgs/bee02_takeaway.png">
+                    <img class="project-image" id="" src="../imgs/bee02_takeaway.png">
                     <p class="image-des">
                     </p>
                 </div>
-
             </div>
-
-
-
-            <div class="wrap_aside">
-                <a href="../file/bee01.html" class="link_connect">
-
-                    <div class="inner_connect">
-                        <span class="txt_connect"> Previous </span>
-                        <strong class="tit_magazine">BeeCanvas
-                        </strong>
-                    </div>
-                </a>
-
-
-                <a href="../file/townus.html" class="link_connect">
-                    <div class=" inner_connect ">
-                        <span class="txt_connect "> Next </span>
-                        <strong class="tit_magazine ">Townus</strong>
-                    </div>
-                </a>
-            </div>
-
-
-
-
 
         </div>
 
 
+        <div class="wrap_aside ">
+            <a href="../file/bee01.html " class="link_connect " style=" ">
+
+                <div class="inner_connect ">
+                    <span class="txt_connect "> Previous </span>
+                    <strong class="tit_magazine ">BeeCanvas</strong>
+                    <strong class="tit_sub ">User research and marketing</strong>
+                </div>
+            </a>
+
+            <a href="../file/townus.html" class="link_connect " style=" ">
+                <div class="inner_connect ">
+                    <span class="txt_connect "> Next </span>
+                    <strong class="tit_magazine ">Townus
+                    </strong>
+                    <strong class="tit_sub ">Group buying platform</strong>
+                </div>
+            </a>
+        </div>
 
 
-
-
-
-
-
-
-
+        </div>
 
 
     </main>
@@ -696,19 +663,7 @@
         <div></div>
     </footer>
 
-
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./seonyu_files/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN
-                    " crossorigin="anonymous "></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js "><\/script>')</script>
-    <script src="./seonyu_files/popper.min.js "></script>
-    <script src="./seonyu_files/bootstrap.min.js "></script>
-
-
+    <script src="bee02.js"></script>
 </body>
 
 </html>

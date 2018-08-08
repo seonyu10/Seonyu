@@ -14,30 +14,10 @@
     <!-- Custom styles for this template -->
     <link href="./done.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Chivo|Roboto|Roboto+Condensed" rel="stylesheet">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113414971-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-113414971-1');
-    </script>
-
-
-    <script type="text/javascript">
-        (function (a, l, b, c, r, s) {
-            _nQc = c, r = a.createElement(l), s = a.getElementsByTagName(l)[0];
-            r.async = 1;
-            r.src = l.src = ("https:" == a.location.protocol ? "https://" : "http://") + b;
-            s.parentNode.insertBefore(r, s);
-        })
-            (document, "script", "serve.albacross.com/track.js", "89012977");
-    </script>
-
+    <!-- Font & Tweenmax & jquery-->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Roboto|Rubik" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
 
 </head>
 
@@ -46,30 +26,30 @@
 
 
 
-
     <header class="header_global">
         <nav>
-            <h3 class="logo">
-                <a href="../index.html" style="color:black;" style="opacity:0.5;">Seonyu Kim </a>
 
+            <h3 class="logo">
+                <a href="../index.html" style="color: black;" class="logo-name">Seonyu Kim</a>
             </h3>
 
             <ul class="nav_menu">
                 <li>
-                    <a class="menu_list" href="../index.html" style="opacity:0.5;">Work</a>
+                    <a class="menu_list" href="../index.html" style="color:black;" id="menu_active">Work</a>
                 </li>
+
                 <li>
-                    <a class="menu_list" href="../file/about.html" style="opacity:0.5;">About</a>
+                    <a class="menu_list" id="menu_inactive" href="../file/about.html">About</a>
                 </li>
+
+
                 <li>
-                    <a class="menu_list" href="../file/resume.html" style="opacity:0.5;">Resume</a>
+                    <a class="menu_list" href="../file/resume.html" style="color:black;" id="menu_inactive">Resume</a>
                 </li>
             </ul>
 
         </nav>
     </header>
-
-
 
 
     <div class="banner">
@@ -90,49 +70,39 @@
         <div class="intro">
             <div class="intro-box">
                 <ul class="intro-container">
-                    <li class="intro-list" id="a">
-                        <h3 class="intro-title">OVERVIEW </h3>
+                    <li class="intro-list" id="intro-list-01">
+                        <h3 class="intro-title">Overview</h3>
                         <div class="intro-text">
-
                             I started this project to make completing daily task more fun and intuitive. Done is a simple, gesture based, daily Task
                             Managment Application. Inspired by GUI and the “Slide to Unlock” gesture, the app gives users
                             a familiar experience when they finish a task. Users experience a feeling of achievement when
                             they complete the task, thanks to the intuitive gesture and animation.
+                            <br>
+                            <br>
                         </div>
                     </li>
 
-
-
-                    <li class="intro-list" id="b">
+                    <li class="intro-list" id="intro-list-02">
                         <div class="intro-role">
-                            <h3 class="intro-title">Team</h3>
+                            <h3 class="intro-title">TEAM</h3>
                             <p class="intro-body">Personal Project</p>
                         </div>
-
                         <div class="intro-role">
-                            <h3 class="intro-title">MY ROLE</h3>
-                            <p class="intro-body"> Concept + UX & Design</p>
+                            <h3 class="intro-title">My Role</h3>
+                            <p class="intro-body">Concept + UX & Design</p>
                         </div>
-
                         <div class="intro-role">
                             <h3 class="intro-title">Platform</h3>
-                            <p class="intro-body"> iOS Mobile</p>
+                            <p class="intro-body">iOS Mobile </p>
                         </div>
-
                         <div class="intro-role">
-                            <h3 class="intro-title">YEAR </h3>
+                            <h3 class="intro-title">Year</h3>
                             <p class="intro-body">2016-17</p>
                         </div>
-
                     </li>
                 </ul>
             </div>
         </div>
-
-
-
-
-
 
 
 
@@ -174,14 +144,10 @@
                             <p class="goals-body">Visualize the tasks that are done to make users feel the need to complete all the tasks</p>
                         </li>
 
-
-
                         <li class="goals-number">
                             <h2 class="goals-title">Efficiency </h2>
                             <p class="goals-body">Provide instant notice to the percentage of tasks completed and repeating tasks</p>
                         </li>
-
-
 
                         <li class="goals-number">
                             <h2 class="goals-title">Meaningful Interaction</h2>
@@ -326,35 +292,33 @@
 
 
 
-        <div class="wrap_aside">
-            <a href="../file/peter.html" class="link_connect" style="background-image: url(../imgs/index_townus.png">
 
-                <div class="inner_connect">
-                    <span class="txt_connect"> Previous </span>
-                    <strong class="tit_magazine"> Peter</strong>
+
+        <div class="wrap_aside ">
+            <a href="../file/peter.html " class="link_connect " style=" ">
+
+                <div class="inner_connect ">
+                    <span class="txt_connect "> Previous </span>
+                    <strong class="tit_magazine ">Peter</strong>
+                    <strong class="tit_sub ">Data Analytics App</strong>
                 </div>
             </a>
 
-
-            <a href="../file/discover.html" class="link_connect">
-                <div class="inner_connect">
-                    <span class="txt_connect"> Next </span>
-                    <strong class="tit_magazine">Discover Seoul</strong>
+            <a href="../file/discover.html" class="link_connect " style=" ">
+                <div class="inner_connect ">
+                    <span class="txt_connect "> Next </span>
+                    <strong class="tit_magazine ">Discover Seoul
+                    </strong>
+                    <strong class="tit_sub ">Seoul rebranding</strong>
                 </div>
             </a>
         </div>
-
-
-
-
 
 
     </main>
 
     <footer>
     </footer>
-
-
 
 
 </body>

@@ -1,45 +1,43 @@
-
 /*-------------
  CSS RESET 
 --------------*/
 
-* {padding: 0; 
-    border: 0; 
-    margin: 0;}
-a {text-decoration: none;}
-li {list-style: none;}
-
-
-
-
-/*
- * Base structure
- */
-
-
-html,body {
-    
-  height: 100%;
-  width: 100%;
-  background-color: #ffffff;
-}
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+  
+  /*
+   * Base structure
+   */
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+  }
+ 
 body {
-  color: #000;
-  text-align: center;
-  font-weight: 400;
-  font-size: 16px;
-  font-family: 'roboto'
-}
-
-
-
-
-/*---------------------
- * Header
-----------------------*/
-
-
-.header_global {
+    color: #000;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Libre Franklin", sans-serif;
+  }
+  
+  /*---------------------
+   * Header
+  ----------------------*/
+  
+  .header_global {
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -47,88 +45,106 @@ body {
     position: absolute;
     box-sizing: border-box;
     z-index: 9;
-}
-
-nav{
+  }
+  
+  nav {
     margin: 0 auto;
-	max-width: 800px;
+    max-width: 800px;
     box-sizing: border-box;
-    
-}
-
-.header_global .logo{
-    color: white;
+  }
+  
+  .header_global .logo {
     font-weight: 500;
-}
-
-
-@media (min-width: 768px){
-    .header_global .logo{
-    float: left;}
-}
-
-@media (min-width: 768px){
-    .header_global .nav_menu{
-    float: right;
-}
-}
-
-
-.header_global .nav_menu li{
+  }
+  
+  @media (min-width: 768px) {
+    .header_global .logo {
+      float: left;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .header_global .nav_menu {
+      float: right;
+    }
+  }
+  
+  .header_global .nav_menu li {
     display: inline;
-}
-
-@media (min-width: 768px){
-    .header_global .nav_menu li{
-    float: left;}
-}
-
-
-.menu_list{
+  }
+  
+  @media (min-width: 768px) {
+    .header_global .nav_menu li {
+      float: left;
+    }
+  }
+  
+  .menu_list {
     display: inline-block;
-    padding-top: 1rem;
-    
     margin: 1rem;
-    color: white;
-    font-weight: 500;
-}
-
-
-@media (min-width: 768px){
-    .menu_list{
-    display: inline;
-    margin: 1rem;
-    color: white;
-    font-weight: 500;
-}
-
-}
-
-.header_global:after{
+    font-family: Rubik-regular;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0.71px;
+    text-align: center;
+    line-height: 40px;
+  }
+  
+  
+  @media (min-width: 768px) {
+    .menu_list {
+      display: inline;
+      margin: 1rem;
+      font-weight: 100;
+      line-height: 40px;}
+  }
+  
+  .header_global:after {
     display: block;
     clear: both;
     content: "";
-}
-
-.header_global nav:after{
+  }
+  
+  .header_global nav:after {
     display: block;
     clear: both;
     content: "";
-}
-
-
-
-#menu_active{
+  }
+  
+  #menu_active {
     opacity: 1;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-} 
-    
-
-#menu_inactive{
-    opacity: 0.8;
-} 
-
-
+  }
+  
+  #menu_inactive {
+    opacity: 0.5;
+  }
+  
+  
+  
+  
+  /*logo--------------------------*/
+  
+  .logo{
+  }
+  
+  .logo-sun{
+    padding-top: 3px;
+    width: 36px;
+    float: left;
+  }
+  
+  .logo-name{
+  /* Seonyu Kim: */
+    padding-top: 5px;
+    line-height: 40px;
+    font-family: Rubik;
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 0.71px;
+    text-align: center;
+    line-height: 40px;
+  }
+  
 
 /*---------------------
  * intro
@@ -141,7 +157,6 @@ nav{
     max-width: 800px;
     margin: 0 auto;
     padding-top: 240px;
-    
 }
 
 .work_list{
@@ -164,16 +179,15 @@ nav{
 
 .work_title{
   width: 100%;
-  font-family: Roboto;
   margin-bottom: 70px;
- font-size: 20px;
-  font-weight: bold;
+  font-size: 20px;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: 0.5px;
   text-align: left;
   color: #000000;
+  font-family: Rubik-Regular;
+  letter-spacing: 0;
 }
 
 
@@ -213,19 +227,26 @@ nav{
 }
 
 
+.work-title{
+    width: 40%;
+    display: inline;
+}
+
+
+.line{
+    width: 50%;
+}
 
 @media (min-width: 768px){
     #work_period{
-    width: 26%;
-    margin-right: 4%;}
+    width: 30%;
+    margin-right: 10%;}
 }
 
 
 @media (min-width: 768px){
     #work_des{
-    width:70%;
-}
-
+    width:60%;}
 }
 
 
@@ -341,8 +362,16 @@ line-height: 27px;
 
 
 
+   #title-work{
+       color: #E97156;
+   }
 
+   #title-skill{
+    color: #F4995E;}
 
+    #title-edu{
+    color:#FFC065;
+}
   
   
   /*-----------------

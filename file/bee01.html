@@ -14,7 +14,10 @@
     <!-- Custom styles for this template -->
     <link href="./bee01.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Chivo|Roboto|Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Rubik" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -45,26 +48,26 @@
 
 <body>
 
-
     <header class="header_global">
         <nav>
             <h3 class="logo">
-                <a href="../index.html" style="color:white;" style="opacity:0.5;">Seonyu Kim </a>
-
+                <a href="../index.html" style="" class="logo-name">Seonyu Kim</a>
             </h3>
+
 
             <ul class="nav_menu">
                 <li>
-                    <a class="menu_list" href="../index.html" style="opacity:0.5;">Work</a>
+                    <a class="menu_list" id="menu_active" href="#">Work</a>
                 </li>
+
                 <li>
-                    <a class="menu_list" href="../file/about.html" style="opacity:0.5;">About</a>
+                    <a class="menu_list" id="menu_inactive" href="../file/about.html">About</a>
                 </li>
+
                 <li>
-                    <a class="menu_list" href="../file/resume.html" style="opacity:0.5;">Resume</a>
+                    <a class="menu_list" id="menu_inactive" href="../file/resume.html">Resume</a>
                 </li>
             </ul>
-
         </nav>
     </header>
 
@@ -72,14 +75,12 @@
 
 
     <div class="banner">
-        <div class="banner-gradient">
-            <div class="banner-text">
-                <div class="banner-container">
-                    <h1 class="banner_title">BeeCanvas </h1>
-                    <h3 class="banner_subtitle"> User Research and marketing
-                    </h3>
+        <div class="banner-text">
+            <div class="banner-container">
+                <h1 class="banner_title">BeeCanvas </h1>
+                <h3 class="banner_subtitle"> User Research and marketing
+                </h3>
 
-                </div>
             </div>
         </div>
     </div>
@@ -93,10 +94,12 @@
     <main>
 
 
+
         <div class="intro">
             <div class="intro-box">
+
                 <ul class="intro-container">
-                    <li class="intro-list" id="a">
+                    <li class="intro-list" id="intro-list-01">
                         <h3 class="intro-title">Overview</h3>
                         <div class="intro-text">
 
@@ -105,7 +108,7 @@
                             potential users, our competitor and making marketing contents as well.
                             <br>
                             <br>
-                            <a href="http://beecanvas.com" target="_blank"> beecanvas.com </a>
+                            <a href="http://beecanvas.com" target="_blank" style="color:black"> beecanvas.com </a>
                             <br>
                             <br>
                         </div>
@@ -115,7 +118,7 @@
 
 
 
-                    <li class="intro-list" id="b">
+                    <li class="intro-list" id="intro-list-02">
 
                         <div class="intro-role">
                             <h3 class="intro-title">Team</h3>
@@ -578,13 +581,14 @@
 
 
 
-        <div class="wrap_aside">
+        <div class="wrap_aside ">
 
-
-            <a href="../file/bee02.html" class="link_connect">
-                <div class=" inner_connect ">
+            <a href="../file/bee02.html " class="link_connect " style=" ">
+                <div class="inner_connect ">
                     <span class="txt_connect "> Next </span>
-                    <strong class="tit_magazine ">BeeCanvas</strong>
+                    <strong class="tit_magazine ">BeeCanvas
+                    </strong>
+                    <strong class="tit_sub "> UI Design and style guide</strong>
                 </div>
             </a>
         </div>

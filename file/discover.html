@@ -14,8 +14,9 @@
     <!-- Custom styles for this template -->
     <link href="./discover.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Chivo|Roboto|Roboto+Condensed" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Rubik" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
@@ -47,23 +48,25 @@
 
 
 
-
     <header class="header_global">
         <nav>
-            <h3 class="logo">
-                <a href="../index.html" style="color:black;" style="opacity:0.5;">Seonyu Kim </a>
 
+            <h3 class="logo">
+                <a href="../index.html" style="color: black;" class="logo-name">Seonyu Kim</a>
             </h3>
 
             <ul class="nav_menu">
                 <li>
-                    <a class="menu_list" href="../index.html" style="color:black;" style="opacity:0.5;">Work</a>
+                    <a class="menu_list" href="../index.html" style="color:black;" id="menu_active">Work</a>
                 </li>
+
                 <li>
-                    <a class="menu_list" href="../file/about.html" style="color:black;" style="opacity:0.5;">About</a>
+                    <a class="menu_list" id="menu_inactive" href="../file/about.html">About</a>
                 </li>
+
+
                 <li>
-                    <a class="menu_list" href="../file/resume.html" style="color:black;" style="opacity:0.5;">Resume</a>
+                    <a class="menu_list" href="../file/resume.html" id="menu_inactive">Resume</a>
                 </li>
             </ul>
 
@@ -91,7 +94,7 @@
         <div class="intro">
             <div class="intro-box">
                 <ul class="intro-container">
-                    <li class="intro-list" id="a">
+                    <li class="intro-list" id="intro-list-01">
                         <h3 class="intro-title">Project Goals </h3>
                         <div class="intro-text">
 
@@ -125,7 +128,7 @@
 
 
 
-                    <li class="intro-list" id="b">
+                    <li class="intro-list" id="intro-list-02">
 
                         <div class="intro-role">
                             <h3 class="intro-title">Designer</h3>
@@ -479,16 +482,18 @@
 
 
 
-        <div class="wrap_aside">
 
 
-            <a href="../file/done.html" class="link_connect">
-                <div class=" inner_connect">
-                    <span class="txt_connect"> Previous </span>
-                    <strong class="tit_magazine ">Done</strong>
+        <div class="wrap_aside ">
+
+            <a href="../file/done.html " class="link_connect " style=" ">
+                <div class="inner_connect ">
+                    <span class="txt_connect "> Next </span>
+                    <strong class="tit_magazine ">Done
+                    </strong>
+                    <strong class="tit_sub "> Daily task managment app </strong>
                 </div>
             </a>
-
         </div>
 
 
@@ -498,19 +503,6 @@
 
     <footer>
     </footer>
-
-
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./seonyu_files/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN
-                " crossorigin="anonymous "></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js "><\/script>')</script>
-    <script src="./seonyu_files/popper.min.js "></script>
-    <script src="./seonyu_files/bootstrap.min.js "></script>
-
 
 </body>
 

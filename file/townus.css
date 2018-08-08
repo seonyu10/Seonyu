@@ -1,34 +1,35 @@
-
 /*-------------
  CSS RESET 
 --------------*/
 
-* {padding: 0; 
-  border: 0; 
-  margin: 0;}
-a {text-decoration: none;}
-li {list-style: none;}
-
-
-
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
 
 /*
-* Base structure
-*/
+ * Base structure
+ */
 
-
-html,body {
-  
-height: 100%;
-width: 100%;
-background-color: #ffffff;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
 }
 body {
-color: #000;
-text-align: center;
-font-weight: 400;
-font-size: 16px;
-font-family: 'roboto'
+  color: #000;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Libre Franklin", sans-serif;
 }
 
 /*---------------------
@@ -52,7 +53,6 @@ nav {
 }
 
 .header_global .logo {
-  color: white;
   font-weight: 500;
 }
 
@@ -80,20 +80,22 @@ nav {
 
 .menu_list {
   display: inline-block;
-  padding-top: 1rem;
-
   margin: 1rem;
-  color: white;
-  font-weight: 500;
+  font-family: Rubik-regular;
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: 0.71px;
+  text-align: center;
+  line-height: 40px;
 }
+
 
 @media (min-width: 768px) {
   .menu_list {
     display: inline;
     margin: 1rem;
-    color: white;
     font-weight: 100;
-  }
+    line-height: 40px;}
 }
 
 .header_global:after {
@@ -108,16 +110,39 @@ nav {
   content: "";
 }
 
-.body-title {
-  margin: 0 auto;
-  max-width: 600px;
-  font-size: 16px;
-  color: #c1c1c1;
-  letter-spacing: -0.39px;
-  text-align: justify;
-  line-height: 26px;
-  padding-top: 20px;
+#menu_active {
+  opacity: 1;
 }
+
+#menu_inactive {
+  opacity: 0.5;
+}
+
+
+/*logo--------------------------*/
+
+.logo{
+}
+
+.logo-sun{
+  padding-top: 3px;
+  width: 36px;
+  float: left;
+}
+
+.logo-name{
+  padding-top: 5px;
+  line-height: 40px;
+/* Seonyu Kim: */
+  font-family: Rubik;
+  font-size: 20px;
+  color: #000000;
+  letter-spacing: 0.71px;
+  text-align: center;
+  line-height: 40px;
+}
+
+
 
 /*-----------------
  banner
@@ -127,34 +152,32 @@ main {
   width: 100%;
 }
 
+
 .banner {
   width: 100%;
   height: 100%;
-  background-color: white;
   background-size: cover;
   background-position: center center;
-  background-image: url(../imgs/index_townus_cover.png);
+  background-image: url(../imgs/index_townus_cover_mobile.png);
 }
 
-.banner-gradient {
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  background-size: cover;
-  background-position: center center;
-  background-image: url(../imgs/index_townus_cover.png);
-  background: rgba(0, 0, 0, 0.2);
-}
 
 @media (min-width: 768px) {
   .banner {
     width: 100%;
     height: 100%;
-    background-color: white;
     background-size: cover;
     background-position: center center;
     background-image: url(../imgs/index_townus_cover.png);
   }
+}
+
+
+.banner-gradient {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
 }
 
 .banner-text {
@@ -166,7 +189,7 @@ main {
 }
 
 .banner-container {
-  color: white;
+  color: black;
   position: absolute;
   left: 0px;
   bottom: 0px;
@@ -175,7 +198,7 @@ main {
 
 @media (min-width: 768px) {
   .banner-container {
-    color: white;
+    color: black;
     position: absolute;
     left: 0px;
     bottom: 50px;
@@ -185,11 +208,12 @@ main {
 
 .banner_title {
   font-size: 32px;
+  font-family: Rubik;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   text-align: left;
-  color: #ffffff;
+  color: black;
 }
 
 @media (min-width: 768px) {
@@ -201,11 +225,12 @@ main {
 .banner_subtitle {
   font-size: 14px;
   padding-top: 5px;
+  font-family: Rubik;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   text-align: left;
-  color: #ffffff;
+  color: black;
 }
 
 @media (min-width: 768px) {
@@ -213,6 +238,7 @@ main {
     font-size: 30px;
   }
 }
+
 /*---------------------
 intro
 ----------------------*/
@@ -240,14 +266,15 @@ intro
   margin-bottom: 2rem;
 }
 
-.intro-title{
-  font-size: 1rem;
-  font-weight: 100;
-  color: #7c7b86;
-  opacity: 0.5;
-  font-family: 'roboto';
-  text-align: left;
+.intro-title {
   margin-bottom: 0.5rem;
+  font-family: Rubik;
+  font-size: 14px;
+  color: #B7B7B7;
+  letter-spacing: 0.46px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .intro-body {
@@ -366,29 +393,25 @@ body
   line-height: 29px;
 }
 
-
-.title{
+.title {
+  padding-top: 10px;
+  margin: 0 auto;
   max-width: 600px;
-  font-family: Chivo;
+  font-family: Rubik;
   font-size: 30px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.27;
-  letter-spacing: -1.7px;
   text-align: left;
   color: #000000;
-  margin: 0 auto;
-} 
+}
 
-
-
-@media (min-width: 768px){
-  .title{
+@media (min-width: 768px) {
+  .title {
     text-align: left;
-          }
   }
-  
+}
 
 .body-subtitle {
   padding-top: 40px;
@@ -492,8 +515,6 @@ body
 
 /*--------list---------------*/
 
-.renewal-container {
-}
 
 /*--------list---------------*/
 
@@ -629,7 +650,7 @@ body
 /* */
 
 #room03-component-a {
-  top: 85.6%;
+  top: 84.5%;
   width: 93%;
   left: 3.5%;
 }
@@ -704,6 +725,8 @@ body
 }
 
 .custom-text-title {
+  font-family: Rubik;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -722,6 +745,10 @@ body
     padding-top: 20px;
     width: 50%;
   }
+}
+
+#bg-renewal{
+  color:  #B7B7B7;
 }
 
 #bg-final {
@@ -765,6 +792,7 @@ body
   max-width: 600px;
   margin: 30px;
   margin: 0 auto;
+  margin-top: 20px;
 }
 
 .final-container {
@@ -798,6 +826,10 @@ body
   width: 22px;
 }
 
+
+#subtitle-renewal{
+  padding-bottom:35px;
+}
 /*---------------------
  design systems
 ----------------------*/
@@ -807,11 +839,17 @@ body
   font-size: 24px;
   color: #ffffff;
   padding : 30px;
+  font-family: Rubik;
 }
 
 #takeaway-bg {
   background-color: #e9e1df;
 }
+
+#img-takeaway{
+  padding-top:50px;
+}
+
 /*connect*/
 
 .wrap_aside {
@@ -852,19 +890,27 @@ body
   justify-content: center;
   flex-direction: column;
 }
+
 .txt_connect {
   text-align: center;
   font-size: 14px;
-  font-family: Chivo;
+  font-family: Rubik;
+  opacity: 0.3;
 }
 .tit_magazine {
-  /* Done: */
+  font-family: Rubik;
+  margin-top: 10px;
   font-size: 30px;
   color: #000000;
-  letter-spacing: -0.72px;
+  letter-spacing: -0.77px;
   text-align: center;
   line-height: 38px;
-  display: block;
-  margin: 10px auto 0;
-  font-weight: 200;
+}
+
+.tit_sub{
+font-size: 14px;
+color: #000000;
+letter-spacing: 1.06px;
+text-align: center;
+line-height: 29px;
 }
