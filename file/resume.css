@@ -146,12 +146,57 @@ body {
   }
   
 
+
 /*---------------------
- * intro
+ * name
 ----------------------*/
 
 
+.name-container{
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
 
+.name-title{
+    font-family: Rubik;
+    font-weight: 900;
+    font-size: 32px;
+    color: #000000;
+    letter-spacing: 0;
+}
+
+.name-des{
+    padding-top: 16px;
+    font-family: Rubik;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+}
+
+.name-more{
+    font-family: Rubik;
+}
+
+.img-sun{
+  width: 48px;
+}
+
+#left{
+    width: 50%;
+    text-align: left;}
+
+#right{
+    line-height: 2;
+    width: 50%;
+    text-align: right;}
+
+
+/*---------------------
+ * intro
+----------------------*/
 
 .work_container{
     max-width: 800px;
@@ -160,7 +205,6 @@ body {
 }
 
 .work_list{
-    
     max-width: 800px;
     margin: 0 auto;
     padding: 30px;
@@ -186,7 +230,6 @@ body {
   line-height: normal;
   text-align: left;
   color: #000000;
-  font-family: Rubik-Regular;
   letter-spacing: 0;
 }
 
@@ -251,8 +294,6 @@ body {
 
 
 
-
-
 .job_title{
   font-family: Roboto;
   font-size: 16px;
@@ -260,7 +301,7 @@ body {
   font-style: normal;
   font-stretch: normal;
   line-height: 1.75;
-  letter-spacing: -0.3px;
+  letter-spacing: 0px;
   text-align: left;
   color: #000000;
 }
@@ -268,29 +309,51 @@ body {
 
 .job_period{
   font-family: Roboto;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.75;
   letter-spacing: -0.3px;
   text-align: left;
-  color: #3B3A49;
+  opacity: 0.5;
 }
-
 
 .job_des{
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.6;
-  letter-spacing: normal;
-  color: #3B3A49;
-  text-align: left;
-
+    opacity: 0.5;
+    font-family: Roboto;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 18px;
+    text-align: left;
+    line-height: 1.75;
 }
+
+
+.job_des01{
+    opacity: 0.7;
+    font-family: Roboto;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 18px;
+    text-align: left;
+    line-height: 1.75;
+}
+
+
+.job_des02{
+    opacity: 0.5;
+    font-family: Roboto;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 18px;
+    text-align: left;
+
+    line-height: 1.75;
+  }
 
 
 .resume-container{
@@ -328,11 +391,11 @@ body {
     float: left;
     text-align: left;
     ont-family: 'roboto-light'
-font-size: 16px;
-color: #A5A5A5;
-letter-spacing: 0.11px;
-text-align: justify;
-line-height: 27px;
+    font-size: 16px;
+    color: #A5A5A5;
+    letter-spacing: 0.11px;
+    text-align: justify;
+    line-height: 27px;
 }
 
 
@@ -362,18 +425,41 @@ line-height: 27px;
 
 
 
-   #title-work{
-       color: #E97156;
-   }
+ #title-work01{
+    color: #E97156;}
 
-   #title-skill{
+
+ #title-work02{
+    color:  #F4995E;}
+
+
+ #title-work03{
+    color: #FFC065;}
+
+
+
+#title-skill{
     color: #F4995E;}
 
-    #title-edu{
-    color:#FFC065;
+#title-edu{
+    color:#FFC065;}
+
+
+.title-line{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #E97156;
 }
-  
-  
+
+#line-02{
+    border: 1px solid #F4995E;}
+
+
+#line-03{
+    border: 1px solid #FFC065;}
+    
+
   /*-----------------
    footer
   ------------------*/
