@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Rubik" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
 
 
@@ -439,58 +440,67 @@
 
                     </div>
 
+
                     <div class="">
-                        <img class="project-image" id="comparison" src="../imgs/bee01_user.png">
-                        <p class="image-des"></p>
 
-                        <ul class="usecase">
+                        <div class="bee-result-container">
+                            <img src="../imgs/bee_img_bg.png" class="bee-result-img">
 
-                            <li class="use-list">
-                                <div class="use-image" id="use01">
-                                    <div class="use-content">
-                                        <p class="use_subtitle">Team communications</p>
-                                    </div>
+                            <div class="gallery_result">
+                                <div class="gallery_img">
+                                    <img src="../imgs/bee_img_1.png" id="photo" alt="">
                                 </div>
-                            </li>
+                            </div>
+                        </div>
 
 
-
-                            <li class="use-list">
-                                <div class="use-image" id="use02">
-                                    <div class="use-content">
-                                        <p class="use_subtitle">Idea notebooks</p>
+                        <div class="gallery_container">
+                            <ul class="gallery_select">
+                                <li onmouseover="gallery(1)" class="select_list">
+                                    <div class="use-image" id="use01">
+                                        <div class="use-content">
+                                            <p class="use_subtitle">Mood Board </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
+                                </li>
 
-
-                            <li class="use-list">
-                                <div class="use-image" id="use03">
-                                    <div class="use-content">
-                                        <p class="use_subtitle">Design Research</p>
+                                <li onmouseover="gallery(2)" class="select_list">
+                                    <div class="use-image" id="use02">
+                                        <div class="use-content">
+                                            <p class="use_subtitle"> Design Research </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
+                                </li>
 
 
-                            <li class="use-list">
-                                <div class="use-image" id="use04">
-                                    <div class="use-content">
-                                        <p class="use_subtitle">User Research</p>
+                                <li onmouseover="gallery(3)" class="select_list">
+                                    <div class="use-image" id="use03">
+                                        <div class="use-content">
+                                            <p class="use_subtitle"> Idea notebooks </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
+                                </li>
 
 
-                            <li class="use-list">
-                                <div class="use-image" id="use05">
-                                    <div class="use-content">
-                                        <p class="use_subtitle">Project planning</p>
+                                <li onmouseover="gallery(4)" class="select_list">
+                                    <div class="use-image" id="use04">
+                                        <div class="use-content">
+                                            <p class="use_subtitle"> Character Analysis </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
+                                </li>
 
-                        </ul>
+
+                                <li onmouseover="gallery(5)" class="select_list">
+                                    <div class="use-image" id="use05">
+                                        <div class="use-content">
+                                            <p class="use_subtitle"> Business Model Canvas </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
                     </div>
 
 
@@ -520,7 +530,7 @@
                         </div>
                         <h2 class="title" id="title-strategy">Video guidance for first users </h2>
                         <p class="body" id="body-strategy">For beginners, I made basic tutorial videos showing how to use BeeCanvas to make the most of its
-                            features. dfds
+                            features.
                         </p>
 
                     </div>

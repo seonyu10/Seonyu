@@ -794,15 +794,6 @@
 
 
 
-.use-content{
-	display: table-cell;
-	text-align: center;
-	vertical-align: middle;
-	background-color: rgba(0,0,0,.9);
-	opacity: 0;
-	transition: all .5s ease-in-out;
-}
-
 
 
 .use_subtitle{
@@ -860,10 +851,6 @@
 
 
 
-
-
-
-
 /*---video-----*/
 
 
@@ -911,6 +898,151 @@
     display: block;
     
 }
+
+
+/*---------*/
+
+
+.bee-result-container{
+    padding-top: 50px;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bee-result-img{
+    width: 100%;
+}
+
+.gallery_container{
+    display: inline-block;
+}
+
+.gallery_result {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 29%;
+  }
+
+.gallery_img {
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+#photo {
+    width: 83%;
+}
+  
+#photo_select {
+    width: 120px;
+}
+  
+.gallery_select {
+    max-width: 700px;
+    height: 120px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .select_list {
+    float: left;
+    width: 120px;
+    height: 90px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .select_list:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+
+  .gallery_select:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+  
+.photo_select:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+
+
+.use-image{
+    border-radius: 2px;
+    width: 100%;
+	background-size: cover;
+	background-position: center center;
+	display: table;
+    
+} 
+
+
+
+.use-content{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgba(0,0,0,.8);
+	opacity: 0;
+	transition: all 0.01s ease-in-out;
+}
+
+
+
+.use_subtitle{
+  max-width: 120px;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+
+.use-image:hover .use-content{
+    opacity: 1;  }
+
+    #use01{
+        background-image: url(../imgs/bee_img_1_b.png);
+    }
+
+    
+    #use02{
+        background-image: url(../imgs/bee_img_2_b.png);
+    }
+    
+    #use03{
+        background-image: url(../imgs/bee_img_3_b.png);
+    }
+    
+    
+    #use04{
+        background-image: url(../imgs/bee_img_4_b.png);
+    }
+    
+    #use05{
+        background-image: url(../imgs/bee_img_5_b.png);
+    }
+    
+    
 
 
 

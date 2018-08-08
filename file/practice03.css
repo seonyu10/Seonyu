@@ -1,0 +1,369 @@
+/*-------------
+ CSS RESET 
+--------------*/
+
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+body {
+}
+
+/*-------------
+index
+--------------*/
+
+.header-gn {
+  background-color: #1c1c1e;
+  width: 250px;
+  position: fixed;
+  height: 100%;
+}
+
+/*-------------
+index
+--------------*/
+
+.index {
+  padding: 20px;
+}
+
+.index_title {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: regular;
+  font-family: IBMPlexMono;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: -0.73px;
+  line-height: 34px;
+}
+
+#selected {
+  font-weight: 800;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: #ffcbcb;
+}
+/*--------wrapper---*/
+
+.wrapper {
+  padding-left: 250px;
+  height: 100%;
+}
+
+.wrapper-inner {
+}
+.header-gn {
+  background-color: #1c1c1e;
+  width: 250px;
+  position: fixed;
+  height: 100%;
+}
+
+/*-------------
+index
+--------------*/
+
+.index {
+  padding: 20px;
+}
+
+.index_title {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: regular;
+  font-family: IBMPlexMono;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: -0.73px;
+  line-height: 34px;
+}
+
+#selected {
+  font-weight: 800;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: #ffcbcb;
+}
+/*--------wrapper---*/
+
+.wrapper {
+  padding-left: 250px;
+  height: 100%;
+}
+
+.wrapper-inner {
+}
+.header-gn {
+  background-color: #1c1c1e;
+  width: 250px;
+  position: fixed;
+  height: 100%;
+}
+
+/*-------------
+index
+--------------*/
+
+.index {
+  padding: 20px;
+}
+
+.index_title {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: regular;
+  font-family: IBMPlexMono;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: -0.73px;
+  line-height: 34px;
+}
+
+#selected {
+  font-weight: 800;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: #ffcbcb;
+}
+/*--------wrapper---*/
+
+.wrapper {
+  padding-left: 250px;
+  height: 100%;
+}
+
+.wrapper-inner {
+}
+.header-gn {
+  background-color: #1c1c1e;
+  width: 250px;
+  position: fixed;
+  height: 100%;
+}
+
+/*-------------
+index
+--------------*/
+
+.index {
+  padding: 20px;
+}
+
+.index_title {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: regular;
+  font-family: IBMPlexMono;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: -0.73px;
+  line-height: 34px;
+}
+
+#selected {
+  font-weight: 800;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: #ffcbcb;
+}
+/*--------wrapper---*/
+
+.wrapper {
+  padding-left: 250px;
+  height: 100%;
+}
+
+.wrapper-inner {
+}
+.header-gn {
+  background-color: #1c1c1e;
+  width: 250px;
+  position: fixed;
+  height: 100%;
+}
+
+/*-------------
+index
+--------------*/
+
+.index {
+  padding: 20px;
+}
+
+.index_title {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: regular;
+  font-family: IBMPlexMono;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: -0.73px;
+  line-height: 34px;
+}
+
+#selected {
+  font-weight: 800;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: #ffcbcb;
+}
+/*--------wrapper---*/
+
+.wrapper {
+  padding-left: 250px;
+  height: 100%;
+}
+
+.wrapper-inner {
+}
+.header-gn {
+  background-color: #1c1c1e;
+  width: 250px;
+  position: fixed;
+  height: 100%;
+}
+
+/*-------------
+index
+--------------*/
+
+.header-gn {
+  background-color: #1c1c1e;
+  width: 250px;
+  position: fixed;
+  height: 100%;
+}
+
+/*-------------
+index
+--------------*/
+
+.index {
+  padding: 20px;
+}
+
+.index_title {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: regular;
+  font-family: IBMPlexMono;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: -0.73px;
+  line-height: 34px;
+}
+
+#selected {
+  font-weight: 800;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: #ffcbcb;
+}
+/*--------wrapper---*/
+
+.wrapper {
+  padding-left: 250px;
+  height: 100%;
+}
+
+.wrapper-inner {
+}
+
+/*-------------
+버튼 호버시, "어서 눌러주세요" 라는 멘트가 버튼 밑에 뜬다.
+버튼을 누르면, 계속 숫자가 바뀐다.
+숫자 중에 "34"가 나오면 "당첨되셨습니다." 라는 멘트의 팝업이 뜬다. (from 예지)
+--------------*/
+
+.date_container {
+  text-align: center;
+}
+
+.date {
+  padding-top: 40px;
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+}
+.date_des {
+  margin-top: 20px;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+/*gallery*/
+
+.galleryZone {
+  position: relative;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #fcfbf3;
+}
+
+.gallery_result {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery_img {
+  margin: 20px;
+  width: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#photo {
+  width: 380px;
+}
+
+#photo_select {
+  width: 80px;
+}
+
+.gallery_select {
+  width: 500px;
+  height: 80px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.select_list {
+  float: left;
+  width: 80px;
+  height: 60px;
+  margin: 10px;
+}
+
+.select_list:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*gallery select*/

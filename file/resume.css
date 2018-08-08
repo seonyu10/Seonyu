@@ -493,15 +493,15 @@ body {
     margin-top: 10px;
     display: flex;
     justify-content: center;
-    border: 1px solid #E97156;
+    border: 0.5px solid #E97156;
 }
 
 #line-02{
-    border: 1px solid #F4995E;}
+    border: 0.5px solid #F4995E;}
 
 
 #line-03{
-    border: 1px solid #FFC065;}
+    border: 0.5px solid #FFC065;}
     
 
   /*-----------------
