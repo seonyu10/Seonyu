@@ -434,7 +434,7 @@ body {
 .resume_start{
     float: left;
     text-align: left;
-    ont-family: 'roboto-light'
+    ont-family: 'roboto-light';
     font-size: 16px;
     color: #A5A5A5;
     letter-spacing: 0.11px;
