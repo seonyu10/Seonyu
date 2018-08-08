@@ -608,8 +608,18 @@ body
 }
 
 .layout-img-bg {
+  margin: 0 auto;
+  width: 80%;
   position: relative;
 }
+
+@media (min-width: 768px) {
+  .layout-img-bg {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;}
+}
+
 
 .layout-img-component {
   position: absolute;
