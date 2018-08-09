@@ -216,7 +216,7 @@ line-height: 40px;
 
 .card-title {
   font-family: 'Rubik', sans-serif;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 40px;
   color: #000000;
   letter-spacing: 0.78px;
@@ -246,6 +246,7 @@ line-height: 40px;
   letter-spacing: 0.27px;
   line-height: 24px;
   text-align: center;
+  font-family: 'Rubik', sans-serif;
 }
 
 
@@ -264,7 +265,7 @@ line-height: 40px;
   .card-title {
     font-family: 'Rubik', sans-serif;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 800;
     font-style: normal;
     font-stretch: normal;
     line-height: 0.7;
