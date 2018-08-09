@@ -156,15 +156,20 @@
     position: relative;
     display: flex;
     justify-content: center;
-    text-align: center;}
+    text-align: center;
+    overflow: hidden;}
 
 .sun {
     position: absolute;
-    bottom :  -45%;
-    width: 90px;
-    height: 80px;
+    bottom: -48%;
+    width: 110px;
+    height: 110px;
  }
   
+ .sun-02{
+    width: 80px;
+    height: 16px; 
+ }
 
   
   /*---------------------

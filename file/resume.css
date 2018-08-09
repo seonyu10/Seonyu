@@ -228,7 +228,19 @@ body {
         text-align: right;}
 }
 
+.mobile-line{
+    width: 8%;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
 
+
+
+@media (min-width: 768px){
+    .mobile-line{
+    opacity: 0;
+    }    
+}
 /*---------------------
  * intro
 ----------------------*/
