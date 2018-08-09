@@ -82,7 +82,7 @@
   .menu_list {
     display: inline-block;
     margin: 1rem;
-    font-family: "Rubik-regular";
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     color: #000000;
     letter-spacing: 0.71px;
@@ -135,7 +135,7 @@
   /* Seonyu Kim: */
     padding-top: 5px;
     line-height: 40px;
-    font-family: "Rubik";
+    font-family: 'Rubik', sans-serif;
     font-size: 20px;
     color: #000000;
     letter-spacing: 0.71px;
@@ -198,7 +198,7 @@
   
   .banner_title {
     font-size: 32px;
-    font-family: "Rubik";
+    font-family: 'Rubik', sans-serif;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -214,7 +214,7 @@
   .banner_subtitle {
     font-size: 14px;
     padding-top: 5px;
-    font-family: "Rubik";
+    font-family: 'Rubik', sans-serif;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -256,7 +256,7 @@
   
   .intro-title {
     margin-bottom: 0.5rem;
-    font-family: "Rubik";
+    font-family: 'Rubik', sans-serif;
     font-size: 14px;
     color: #B7B7B7;
     letter-spacing: 0.46px;
@@ -351,7 +351,7 @@
   .subheader {
     max-width: 600px;
     height: 29px;
-    font-family: "Rubik";
+    font-family: 'Rubik', sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -364,7 +364,7 @@
   
   .title {
     max-width: 600px;
-    font-family: "Rubik";
+    font-family: 'Rubik', sans-serif;
     font-size: 30px;
     font-weight: bold;
     font-style: normal;
@@ -569,7 +569,6 @@
 #des-ad{
   max-width: 600px;
   opacity: 0.34;
-  font-family: Roboto;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -680,7 +679,6 @@
   margin-top: 50px;
   max-width: 600px;
   height: 22px;
-  font-family: Roboto;
   font-size: 13px;
   font-weight: 300;
   font-style: normal;
@@ -706,7 +704,6 @@
 #style-text{
   max-width: 600px;
   height: 22px;
-  font-family: Roboto;
   font-size: 13px;
   font-weight: 300;
   font-style: normal;
@@ -798,7 +795,6 @@
 
 .use_subtitle{
   max-width: 120px;
-  font-family: Roboto;
   font-size: 14px;
   font-weight: bold;
   font-style: normal;
@@ -1090,11 +1086,11 @@
   .txt_connect {
     text-align: center;
     font-size: 14px;
-    font-family: "Rubik";
+    font-family: 'Rubik', sans-serif;
     opacity: 0.3;
   }
   .tit_magazine {
-    font-family: "Rubik";
+    font-family: 'Rubik', sans-serif;
     margin-top: 10px;
     font-size: 30px;
     color: #000000;

@@ -83,7 +83,7 @@ nav {
 .menu_list {
   display: inline-block;
   margin: 1rem;
-  font-family: "Rubik-regular";
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   color: #000000;
   letter-spacing: 0.71px;
@@ -126,7 +126,7 @@ line-height: 40px;
 
 .logo{
 
-  font-family: "Rubik";
+  font-family: 'Rubik', sans-serif;
 }
 
 .logo-sun{
@@ -138,7 +138,7 @@ line-height: 40px;
 .logo-name{
   padding-top: 5px;
     line-height: 40px;
-    font-family: "Rubik";
+    font-family: 'Rubik', sans-serif;
     font-size: 20px;
     color: #000000;
     letter-spacing: 0.71px;
@@ -215,7 +215,7 @@ line-height: 40px;
 }
 
 .card-title {
-  font-family: "Rubik-Medium";
+  font-family: 'Rubik', sans-serif;
   font-weight: 500;
   font-size: 40px;
   color: #000000;
@@ -262,7 +262,7 @@ line-height: 40px;
 
 @media (min-width: 768px) {
   .card-title {
-    font-family: "Rubik-Medium";
+    font-family: 'Rubik', sans-serif;
     font-size: 40px;
     font-weight: 500;
     font-style: normal;

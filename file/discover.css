@@ -82,7 +82,7 @@ body {
   .menu_list {
     display: inline-block;
     margin: 1rem;
-    font-family: "Rubik-regular";
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     color: #000000;
     letter-spacing: 0.71px;
@@ -137,7 +137,7 @@ body {
   /* Seonyu Kim: */
     padding-top: 5px;
     line-height: 40px;
-    font-family: "Rubik";
+    font-family: 'Rubik', sans-serif;
     font-size: 20px;
     color: #000000;
     letter-spacing: 0.71px;
@@ -203,7 +203,7 @@ body {
   
   .banner_title {
     font-size: 32px;
-    font-family: "Rubik";
+    font-family: 'Rubik', sans-serif;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -220,7 +220,7 @@ body {
   .banner_subtitle {
     font-size: 14px;
     padding-top: 5px;
-    font-family: "Rubik";
+    font-family: 'Rubik', sans-serif;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -263,7 +263,7 @@ body {
   
   .intro-title {
     margin-bottom: 0.5rem;
-    font-family: "Rubik";
+    font-family: 'Rubik', sans-serif;
     font-size: 14px;
     color: #B7B7B7;
     letter-spacing: 0.46px;
@@ -443,11 +443,11 @@ index
   .txt_connect {
     text-align: center;
     font-size: 14px;
-    font-family: "Rubik";
+    font-family: 'Rubik', sans-serif;
     opacity: 0.3;
   }
   .tit_magazine {
-    font-family: "Rubik";
+    font-family: 'Rubik', sans-serif;
     margin-top: 10px;
     font-size: 30px;
     color: #000000;
