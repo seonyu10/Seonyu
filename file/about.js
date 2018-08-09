@@ -6,12 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 let $sun = $(".sun");
 
-
-
 let sunRise = function () {
-
-
-
 }
 
 
@@ -34,15 +29,5 @@ let sunAnimation = function () {
 };
 
 sunAnimation();
-
-
-TweenMax.set($('.circle'), { opacity: 0 });
-TweenMax.staggerTo($('.circle'), 5, { opacity: 1 }, 0.1);
-
-$('.circle').click(function () {
-
-    TweenMax.staggerTo($('.circle'), 1, { y: -700 }, 0.1);
-});
-
 
 
