@@ -141,38 +141,31 @@
     line-height: 40px;
   }
   
-  
-  /*-----------------
+/*-----------------
    banner
   ------------------*/
-  .banner-container {
-    height: 45%;
-  }
-   .banner {
+  
+  
+.banner-container {
+    height: 45%;}
+
+
+.banner {
     height: 100%;
     background-color: #ffab6f;
+    position: relative;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-  }
-   .sun {
-  
-    width: 100px;
-    height: 80px;
-  }
-  
-   .text_container {
+    text-align: center;}
+
+.sun {
     position: absolute;
-    bottom: 15%;
-    left: 0;
-    right: 0;
-    max-width: 600px;
-    padding: 2rem;
-    margin: 0 auto;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+    bottom :  -45%;
+    width: 90px;
+    height: 80px;
+ }
   
-  
+
   
   /*---------------------
    * intro
@@ -183,12 +176,6 @@
     background-color: #ec5d66;
   }
   
-  .sun {
-    display: flex;
-    justify-content: flex-start;
-    width: 84px;
-    height: 80px;
-  }
   .intro {
     padding-top: 20px;
   }

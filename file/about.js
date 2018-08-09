@@ -4,10 +4,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
+
 let $sun = $(".sun");
 
 let sunRise = function () {
+    TweenMax.fromTo($sun, 3, { autoAlpha: 0 }, { autoAlpha: 1 });
+    new TweenMax($sun, 2, { y: -140 });
+    new TweenMax($sun, 2, {}).delay(2);
 }
+
+sunRise();
+
 
 
 let sunAnimation = function () {
@@ -29,5 +36,3 @@ let sunAnimation = function () {
 };
 
 sunAnimation();
-
-
