@@ -81,7 +81,7 @@ nav {
 .menu_list {
   display: inline-block;
   margin: 1rem;
-  font-family: Rubik-regular;
+  font-family: "Rubik-regular";
   font-size: 16px;
   color: #000000;
   letter-spacing: 0.71px;
@@ -134,7 +134,7 @@ nav {
   padding-top: 5px;
   line-height: 40px;
 /* Seonyu Kim: */
-  font-family: Rubik;
+  font-family: "Rubik";
   font-size: 20px;
   color: #000000;
   letter-spacing: 0.71px;
@@ -208,7 +208,7 @@ main {
 
 .banner_title {
   font-size: 32px;
-  font-family: Rubik;
+  font-family: "Rubik";
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -225,7 +225,7 @@ main {
 .banner_subtitle {
   font-size: 14px;
   padding-top: 5px;
-  font-family: Rubik;
+  font-family: "Rubik";
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -268,7 +268,7 @@ intro
 
 .intro-title {
   margin-bottom: 0.5rem;
-  font-family: Rubik;
+  font-family: "Rubik";
   font-size: 14px;
   color: #B7B7B7;
   letter-spacing: 0.46px;
@@ -397,7 +397,7 @@ body
   padding-top: 10px;
   margin: 0 auto;
   max-width: 600px;
-  font-family: Rubik;
+  font-family: "Rubik";
   font-size: 30px;
   font-weight: bold;
   font-style: normal;
@@ -735,7 +735,7 @@ body
 }
 
 .custom-text-title {
-  font-family: Rubik;
+  font-family: "Rubik";
   font-size: 16px;
   font-weight: 600;
 }
@@ -849,7 +849,7 @@ body
   font-size: 24px;
   color: #ffffff;
   padding : 30px;
-  font-family: Rubik;
+  font-family: "Rubik";
 }
 
 #takeaway-bg {
@@ -904,11 +904,11 @@ body
 .txt_connect {
   text-align: center;
   font-size: 14px;
-  font-family: Rubik;
+  font-family: "Rubik";
   opacity: 0.3;
 }
 .tit_magazine {
-  font-family: Rubik;
+  font-family: "Rubik";
   margin-top: 10px;
   font-size: 30px;
   color: #000000;

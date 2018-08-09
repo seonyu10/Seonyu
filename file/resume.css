@@ -82,7 +82,7 @@ body {
   .menu_list {
     display: inline-block;
     margin: 1rem;
-    font-family: Rubik-regular;
+    font-family: "Rubik-regular";
     font-size: 16px;
     color: #000000;
     letter-spacing: 0.71px;
@@ -137,7 +137,7 @@ body {
   /* Seonyu Kim: */
     padding-top: 5px;
     line-height: 40px;
-    font-family: Rubik;
+    font-family: "Rubik";
     font-size: 20px;
     color: #000000;
     letter-spacing: 0.71px;
@@ -171,7 +171,7 @@ body {
 
 .name-title{
     width: 100%;
-    font-family: Rubik;
+    font-family: "Rubik";
     font-weight: 900;
     font-size: 32px;
     color: #000000;
@@ -182,14 +182,14 @@ body {
 
     width: 100%;
     padding-top: 16px;
-    font-family: Rubik;
+    font-family: "Rubik";
     font-size: 18px;
     color: #000000;
     letter-spacing: 0;
 }
 
 .name-more{
-    font-family: Rubik;
+    font-family: "Rubik";
 }
 
 .img-sun{
