@@ -399,9 +399,10 @@ line-height: 40px;
   display: inline-block;
   color:rgba(16, 162, 173, 0.8);
   background-color: rgba(16, 162, 173, 0.05);
-  border-radius: 6px;
-  padding: 8px 16px;
-  margin-right: 8px;
+  border-radius: 8px;
+  margin-right: 10px;
+  border: 0.5px dotted;
+  padding: 7px 15px;
 }
 
 
@@ -410,9 +411,10 @@ line-height: 40px;
   display: inline-block;
   color: rgba(145, 118, 255, 0.8);
   background-color: rgba(145, 118, 255, 0.06);
-  border-radius: 6px;
-  padding: 8px 16px;
-  margin-right: 8px;
+  border-radius: 8px;
+    margin-right: 10px;
+    border: 0.5px dotted;
+    padding: 7px 15px;
 }
 
 
@@ -421,9 +423,10 @@ line-height: 40px;
   display: inline-block;
   color: rgba(255, 109, 0, 0.8);
   background-color: rgba(255, 109, 0, 0.05);
-  border-radius: 6px;
-  padding: 8px 16px;
-  margin-right: 8px;
+  border-radius: 8px;
+    margin-right: 10px;
+    border: 0.5px dotted;
+    padding: 7px 15px;
 }
 
 #subtitle-04{
@@ -431,9 +434,10 @@ line-height: 40px;
   font-size: 12px;
   display: inline-block;
   background-color: rgba(62, 137, 196, 0.05);
-  border-radius: 6px;
-  padding: 8px 16px;
-  margin-right: 8px;
+  border-radius: 8px;
+    margin-right: 10px;
+    border: 0.5px dotted;
+    padding: 7px 15px;
 }
 
 #subtitle-05{
@@ -442,9 +446,10 @@ line-height: 40px;
   display: inline-block;
   background:#ffffff;
   background-color: rgba(255, 88, 115, 0.05);
-  border-radius: 6px;
-  padding: 8px 16px;
-  margin-right: 8px;
+  border-radius: 8px;
+  margin-right: 10px;
+  border: 0.5px dotted;
+  padding: 7px 15px;
 }
 
 #subtitle-06{
@@ -452,9 +457,10 @@ line-height: 40px;
   font-size: 12px;
   display: inline-block;
   background-color: rgba(18,26,104,0.05);
-  border-radius: 6px;
-  padding: 8px 16px;
-  margin-right: 8px;
+  border-radius: 8px;
+    margin-right: 10px;
+    border: 0.5px dotted;
+    padding: 7px 15px;
 }
 
 
