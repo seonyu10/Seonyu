@@ -478,7 +478,7 @@ body
   font-style: normal;
   font-stretch: normal;
   letter-spacing: -0.18px;
-  font-size: 13px;
+  font-size: 14px;
   color: #7f7f7f;
   letter-spacing: -0.48px;
   text-align: center;
@@ -678,8 +678,8 @@ body
 /*layout*/
 
 #ideas {
-  padding-top: 30px;
-  padding-bottom: 120px;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 /*custom*/
 
