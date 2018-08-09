@@ -253,7 +253,7 @@ line-height: 40px;
 }
 
 .card-subtitle-container{
-  margin-top: 30px;
+  margin-top: 26px;
   border-radius: 4px;
   margin-bottom: 4px;
   text-align: center;
@@ -371,11 +371,11 @@ line-height: 40px;
 
 
 #des01{
-  color:rgb(16, 162, 173);
+  color:#20C57E;
 }
 
 #des02{
-  color: rgb(145, 118, 255);
+  color: rgb(88, 29, 255);
 }
 
 #des03{
@@ -383,7 +383,7 @@ line-height: 40px;
 }
 
 #des04{
-  color: #3E89C4;
+  color: rgb(0, 109, 220);
 }
 
 #des05{
@@ -397,8 +397,8 @@ line-height: 40px;
 #subtitle-01{
   font-size: 12px;
   display: inline-block;
-  color:rgba(16, 162, 173, 0.8);
-  background-color: rgba(16, 162, 173, 0.05);
+  color:rgba(32, 197, 126, 0.8);
+  background-color: rgba(32, 197, 126, 0.05);
   border-radius: 8px;
   margin-right: 10px;
   border: 0.5px dotted;
@@ -409,12 +409,12 @@ line-height: 40px;
 #subtitle-02{
   font-size: 12px;
   display: inline-block;
-  color: rgba(145, 118, 255, 0.8);
-  background-color: rgba(145, 118, 255, 0.06);
+  color: rgba(88, 29, 255, 0.8);
+  background-color: rgba(88, 29, 255, 0.05);
   border-radius: 8px;
-    margin-right: 10px;
-    border: 0.5px dotted;
-    padding: 7px 15px;
+  margin-right: 10px;
+  border: 0.5px dotted;
+  padding: 7px 15px;
 }
 
 
@@ -430,10 +430,10 @@ line-height: 40px;
 }
 
 #subtitle-04{
-  color: rgba(62, 137, 196, 0.8);
+  color: rgba(0, 109, 220, 0.8);
   font-size: 12px;
   display: inline-block;
-  background-color: rgba(62, 137, 196, 0.05);
+  background-color: rgba(0, 109, 220, 0.05);
   border-radius: 8px;
     margin-right: 10px;
     border: 0.5px dotted;
