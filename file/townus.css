@@ -477,10 +477,9 @@ body
   margin: 0 auto;
   font-style: normal;
   font-stretch: normal;
-  letter-spacing: -0.18px;
+  letter-spacing: normal;
   font-size: 14px;
   color: #7f7f7f;
-  letter-spacing: -0.48px;
   text-align: center;
   line-height: 23px;
 }
