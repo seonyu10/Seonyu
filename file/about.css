@@ -345,16 +345,42 @@
 .modal-content {
     border-radius: 4px;
     background-color: #fefefe;
-    margin: 10% auto; /* 15% from the top and centered */
-    padding: 20px;
+    margin: 2% auto; /* 15% from the top and centered */
+    padding: 10px;
     border: 1px solid #888;
-    width: 50%; 
+    width: 90%; 
+    margin-top: 30%;
 }
 
+
+
+@media (min-width: 768px) {
+    .modal-content {
+        border-radius: 4px;
+        background-color: #fefefe;
+        margin: 10% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 50%; 
+    }
+  }
+
+.modal-content-inner{
+    padding: 10px;
+}
 .sun_easteregg{
+    width: 90%;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+
+
+@media (min-width: 768px) {
+    .sun_easteregg{
     width: 70%;
     margin: 30px;
-    border-radius: 2px;
+    border-radius: 2px; }
 }
 
 .modal-text{
@@ -375,9 +401,9 @@
 .modal-title{
     /* I’m Sun yu!: */
     font-family: 'Rubik';
+    font-weight: 800;
     margin-top: 10px;
     margin-bottom: 30px;
-    font-family: Rubik-Medium;
     font-size: 24px;
     color: #F08068;
     letter-spacing: 0.47px;
