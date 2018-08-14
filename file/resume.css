@@ -30,7 +30,7 @@ body {
     text-align: center;
     font-weight: 400;
     font-size: 16px;
-    font-family: "Libre Franklin", sans-serif;
+    font-family: 'Rubik', sans-serif;
   }
   
   /*---------------------
@@ -189,7 +189,7 @@ body {
 }
 
 .name-more{
-    font-family: "Rubik";
+   font-family: 'Rubik', sans-serif;
 }
 
 .img-sun{
@@ -235,7 +235,6 @@ body {
 }
 
 
-
 @media (min-width: 768px){
     .mobile-line{
     opacity: 0;
@@ -278,6 +277,7 @@ body {
   text-align: left;
   color: #000000;
   letter-spacing: 0;
+  font-family: 'Rubik', sans-serif;
 }
 
 
@@ -293,6 +293,7 @@ body {
         text-align: left;
         color: #000000;
         letter-spacing: 0;
+        font-family: 'Rubik', sans-serif;
       }
 }
 
@@ -351,7 +352,6 @@ body {
 
 
 .job_title{
- font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: bold;
   font-style: normal;
@@ -364,7 +364,6 @@ body {
 
 
 .job_period{
-font-family: 'Roboto', sans-serif;
   font-size: 13px;
   font-weight: normal;
   font-style: normal;
@@ -377,7 +376,6 @@ font-family: 'Roboto', sans-serif;
 
 .job_des{
     opacity: 0.5;
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #000000;
     letter-spacing: 0;
@@ -389,7 +387,6 @@ font-family: 'Roboto', sans-serif;
 
 .job_des01{
     opacity: 0.7;
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #000000;
     letter-spacing: 0;
@@ -401,7 +398,6 @@ font-family: 'Roboto', sans-serif;
 
 .job_des02{
     opacity: 0.5;
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #000000;
     letter-spacing: 0;
@@ -447,7 +443,6 @@ font-family: 'Roboto', sans-serif;
     float: left;
     text-align: left;
     font-weight: 200;
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #A5A5A5;
     letter-spacing: 0.11px;
@@ -458,7 +453,6 @@ font-family: 'Roboto', sans-serif;
 
 
 #resume-btn{
-    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
@@ -535,6 +529,7 @@ font-family: 'Roboto', sans-serif;
   }
   
   .footer-seonyu {
+    font-family: "Libre Franklin", sans-serif;
     margin-top: 30px;
     text-align: center;
     color: #bec2c9;
