@@ -1,5 +1,6 @@
 
 
+
 // Get the modal
 var modal = document.getElementById('myModal');
 
@@ -72,3 +73,4 @@ let sunAnimation = function () {
 };
 
 sunAnimation();
+

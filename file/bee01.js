@@ -1,7 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
-  window.sr = ScrollReveal();
-  sr.reveal('.reveal');
-});
+
 
 
 var num = 1;
