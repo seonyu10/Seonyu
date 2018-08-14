@@ -29,7 +29,6 @@ $.ajax({
     "https://api.behance.net/v2/users/seonyu10/projects?client_id=ADC7ff9sfVnDp8uUxdQdK50eLgYyxSZp",
   success: function (data) {
     attachEvent(data);
-    animation();
   },
   error: function (error) {
     console.log(error);
