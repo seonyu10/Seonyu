@@ -173,6 +173,10 @@
 
   
 
+ .blog-link{
+  text-decoration: underline;
+  color: white;
+}
 
   /*---------------------
    * intro
