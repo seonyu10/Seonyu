@@ -230,6 +230,27 @@
     opacity: 0.9;
   }
   
+
+
+
+  /*-------resume------*/
+  
+
+
+.email{
+  color: white;
+  text-decoration-line: underline;
+}
+
+
+.resume{
+  color: #ec5d66;
+  border-radius: 2px;
+  padding: 10px 20px;
+  background-color: white;
+}
+
+
   /*-------skills------*/
   
   .skills-container {

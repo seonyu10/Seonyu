@@ -57,12 +57,9 @@
         </li>
 
         <li>
-          <a class="menu_list" id="menu_inactive" style="color: black;" href="./file/about.html">About</a>
+          <a class="menu_list" id="menu_inactive" style="color: black;" href="./file/about.html">About Me</a>
         </li>
 
-        <li>
-          <a class="menu_list" id="menu_inactive" href="./file/resume.html" style="color:#000000">Resume</a>
-        </li>
       </ul>
     </nav>
   </header>
@@ -70,14 +67,31 @@
 
   <div class="banner-container">
     <div class="banner">
-      <div class="text_container">
-        <h1 class="cover-heading"></h1>
-        <p class="lead">
-        </p>
+      <div id="root">
+        <div class="content">
+          <div class="sun-container">
+            <img class="sun" src="imgs/sun_index.png"> </div>
+          <br>
+          <div class="tape" id="tape01">I’m a Seoul based product designer </div>
+          <br>
+          <div class="tape" id="tape02">focusing on mobile app design,</div>
+          <br>
+          <div class="tape" id="tape03">interactive web experiences,</div>
+          <br>
+          <div class="tape" id="tape04">and prototyping.</div>
+          <br>
+        </div>
+
+        <div class="more-container">
+          <img class="more-icon" src="./imgs/ic_seemore.png">
+          <p class="more"> My recent works
+          </p>
+        </div>
+
       </div>
+
     </div>
   </div>
-
 
 
 
@@ -361,6 +375,9 @@
 
 
   <!-- jS -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <script src="main.js"></script>
 

@@ -146,6 +146,107 @@ line-height: 40px;
     line-height: 40px;
 }
 
+/*banner -------------------------*/
+
+.banner-container{
+  height: 100%;
+}
+
+.banner{
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+
+/*tape -------------------------*/
+.content{
+ padding: 30px;
+ padding-top: 230px;
+}
+
+
+@media (min-width: 768px) {
+  .content{
+    max-width: 600px;
+    padding-top: 30%;
+    margin : 0 auto;
+    text-align: center;
+  }
+}
+
+.sun{
+  width: 50px;
+  height: 50px;
+}
+
+.tape {
+  text-align: center;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 800;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+@media (min-width: 768px) {
+  .tape {
+    text-align: center;
+    line-height: 48px;
+    font-size: 36px;
+    font-weight: 800;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Rubik', sans-serif;
+  }
+}
+
+
+.cover {
+  background-image: linear-gradient(to right, #FACF6C  0%, #FAAF6C 50%, #FF936E 100%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+#tape01 {
+  color: #FACF6C;
+}
+
+#tape02 {
+  color: #FAAF6C;
+}
+
+#tape03 {
+  color: #FF936E;
+}
+
+#tape04 {
+  color: #E85C65;
+}
+
+
+.more-container{
+  padding-top: 40px;
+}
+.more-icon{
+ width: 16px;
+}
+.more{
+  padding-top: 20px;
+  color: #C5C5C5;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+
+
 /*-----------------
  Card- 01
 ------------------*/
@@ -154,7 +255,7 @@ line-height: 40px;
 .row {
   padding: 20px;
   display: inline-block;
-  margin-top: 140px;
+  margin-top: 40px;
 }
 
 .card {
