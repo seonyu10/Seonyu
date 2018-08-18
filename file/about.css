@@ -244,9 +244,12 @@
 
 
 .resume{
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 900;
   color: #ec5d66;
   border-radius: 2px;
-  padding: 10px 20px;
+  padding: 14px 36px;
   background-color: white;
 }
 
@@ -413,7 +416,7 @@
 
 .modal-des{
     /* I knew you were goin: */
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-weight: 600;
     font-size: 12px;
     color: #BEBEBE;
@@ -424,7 +427,7 @@
 
 .modal-title{
     /* I’m Sun yu!: */
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-weight: 800;
     margin-top: 10px;
     margin-bottom: 30px;
