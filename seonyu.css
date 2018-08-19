@@ -125,7 +125,6 @@ line-height: 40px;
 /*logo--------------------------*/
 
 .logo{
-
   font-family: 'Rubik', sans-serif;
 }
 
@@ -149,7 +148,7 @@ line-height: 40px;
 /*banner -------------------------*/
 
 .banner-container{
-  height: 100%;
+  height: 80%;
 }
 
 .banner{
@@ -183,7 +182,7 @@ line-height: 40px;
   text-align: center;
   line-height: 24px;
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 900;
   display: inline-block;
   position: relative;
   overflow: hidden;
@@ -196,7 +195,7 @@ line-height: 40px;
     text-align: center;
     line-height: 48px;
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 900;
     display: inline-block;
     position: relative;
     overflow: hidden;
@@ -206,7 +205,7 @@ line-height: 40px;
 
 
 .cover {
-  background-image: linear-gradient(to right, #FACF6C  0%, #FAAF6C 50%, #FF936E 100%);
+  background-color: white;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -220,7 +219,7 @@ line-height: 40px;
 }
 
 #tape02 {
-  color: #FAAF6C;
+  color: #FFB963;
 }
 
 #tape03 {
@@ -259,17 +258,24 @@ line-height: 40px;
 }
 
 .card {
-  padding-top: 120px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding-top: 30px;
   width: 100%;
   text-align: center;
+  background-color: white;
 }
 
 
 @media (min-width: 768px) {  
   .card {
+   background-color: white;
+    border-radius: 10px;
     padding-top: 0px;
     max-width: 1000px;
-    height: 550px;
+    height: 440px;
+    margin-bottom: 120px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -313,6 +319,22 @@ line-height: 40px;
   width: 100%;
 }
 
+
+.card-num{
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 14px;
+  font-family: 'Rubik-Medium', sans-serif;
+}
+
+@media (min-width: 768px) {
+  .card-num{
+    font-size: 18px;
+    text-align: left;
+    padding-bottom: 14px;
+    font-family: 'Rubik-Medium', sans-serif;
+  }
+}
 
 
 .card-title {
@@ -471,13 +493,15 @@ line-height: 40px;
 /*--------*/
 
 
+
 #des01{
-  color:#20C57E;
+  color: rgb(88, 29, 255);
 }
 
 #des02{
-  color: rgb(88, 29, 255);
+  color:#20C57E;
 }
+
 
 #des03{
   color: #FF6D00;
