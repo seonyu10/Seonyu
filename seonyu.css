@@ -229,15 +229,15 @@ line-height: 40px;
 
 
 #tape01 {
-  color: #FACF6C;
+  color: #FEE284;
 }
 
 #tape02 {
-  color: #FFB963;
+  color: #FFBA65;
 }
 
 #tape03 {
-  color: #FF936E;
+  color: #FF8966;
 }
 
 #tape04 {
@@ -666,12 +666,13 @@ line-height: 40px;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
-
-.card:hover, .card:focus, .card:active {
-  -webkit-transform: translateY(-8px);
-  transform: translateY(-8px);
-  box-shadow: 10px 32px 36px -14px hsla(0, 0%, 70%, 0.2);
+  .card:hover, .card:focus, .card:active {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+    box-shadow: 10px 32px 36px -14px hsla(0, 0%, 70%, 0.2);}
 }
+
+
 
 /*-----------------
  footer
