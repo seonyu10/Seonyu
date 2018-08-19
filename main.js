@@ -4,25 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
-let hoverEvent = function () {
-  $(".card").on("mouseenter", function () {
-    TweenMax.to($(this), 0.6, {
-      scale: 1.05,
-      ease: Elastic.easeOut.config(1, 0.7)
-    });
-
-
-  });
-
-  $(".card").on("mouseleave", function () {
-    TweenMax.to($(this), 0.6, {
-      scale: 1,
-      ease: Power2.easeOut
-    });
-  });
-};
-
-hoverEvent();
 
 
 

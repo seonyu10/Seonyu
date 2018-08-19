@@ -147,7 +147,16 @@
   
   
 .banner-container {
-    height: 45%;}
+    height: 50%;}
+
+
+
+
+@media (min-width: 768px) {
+    .banner-container {
+      height: 45%;}
+}
+  
 
 
 .banner {
