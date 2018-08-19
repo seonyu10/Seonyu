@@ -6,6 +6,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+let $sun = $(".sun");
+
+let sunRise = function () {
+
+  TweenMax.fromTo($sun, 1,
+    { autoAlpha: 0 }, { autoAlpha: 1, delay: 0 });
+};
+
+
+sunRise();
+
+
+
 
 
 let tapeAnim = function ($el) {
