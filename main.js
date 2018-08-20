@@ -55,7 +55,7 @@ let tapeAnim = function ($el) {
 
     // 2. 테잎 빠지는 애니메이션
     // 1의 애니메이션 속도만큼 딜레이와 더해야 테잎이 들어온 후 color가 검정으로 바뀜.
-    TweenMax.set($tape01, { color: '#FEE284', delay: _delay + 0.5 });
+    TweenMax.set($tape01, { color: '#FFD342', delay: _delay + 0.5 });
     TweenMax.set($tape02, { color: '#FFBA65', delay: _delay + 0.5 });
     TweenMax.set($tape03, { color: '#FF8966', delay: _delay + 0.5 });
     TweenMax.set($tape04, { color: '#E85C65', delay: _delay + 0.5 });
