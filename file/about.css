@@ -171,14 +171,40 @@
 .sun {
     position: absolute;
     bottom: -48%;
-    width: 110px;
-    height: 110px;
+    width: 86px;
+    height: 63px;
  }
   
- .sun-02{
+ .sun02-container{
     width: 88px;
-    height: 20px; 
+    height: 30px; 
+    margin: 0 auto;
+    position: relative;
  }
+
+ .sun-02{
+  width : 100%;
+  position: absolute;
+  left: 0;
+  top : 0;
+ }
+
+ .sun-03{
+  width : 100%;
+  position: absolute;
+  left: 0;
+  top : 0;
+ }
+
+ .sun-04{
+  width : 100%;
+  position: absolute;
+  left: 0;
+  top : 0;
+ }
+
+
+
 
   
 

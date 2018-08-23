@@ -31,14 +31,14 @@ window.onclick = function (event) {
 //----------------------//
 
 let $sun = $(".sun");
-let $sun02 = $(".sun-02");
+
 
 let sunRise = function () {
     TweenMax.fromTo($sun, 3,
         { css: { bottom: "-100" } },
         {
             css: {
-                bottom: "-32",
+                bottom: "-2",
                 ease: Elastic.easeOut.config(1, 0.7)
             }
         });
@@ -46,10 +46,20 @@ let sunRise = function () {
 
 sunRise();
 
+
+let $sun02 = $(".sun-02");
+let $sun03 = $(".sun-03");
+let $sun04 = $(".sun-04");
+
 let sunRise02 = function () {
     TweenMax.fromTo($sun02, 2,
-        { autoAlpha: 0 }, { autoAlpha: 0.4, delay: 2 });
+        { autoAlpha: 0 }, { autoAlpha: 0.8, delay: 3 });
+    TweenMax.fromTo($sun03, 2,
+        { autoAlpha: 0 }, { autoAlpha: 0.8, delay: 4 });
+    TweenMax.fromTo($sun04, 2,
+        { autoAlpha: 0 }, { autoAlpha: 0.8, delay: 5 });
 }
+
 sunRise02();
 
 
