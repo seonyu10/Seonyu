@@ -290,12 +290,11 @@ line-height: 40px;
     background-color: white;
     border-radius: 10px;
     max-width: 1000px;
-    margin-bottom: 120px;
-    margin-left: auto;
-    margin : 60px;
-    margin-right: auto;
+    margin : 0 auto;
     display: flex;
-    align-items: center;}
+    align-items: center;
+    margin-bottom: 100px;
+  }
 }
 
 
