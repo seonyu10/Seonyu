@@ -271,8 +271,7 @@ line-height: 40px;
 }
 
 .card {
-
-  border: 0.5px solid rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.04);
   border-radius: 10px;
   margin-top: 60px;
   padding-top: 30px;
@@ -284,23 +283,30 @@ line-height: 40px;
 
 @media (min-width: 768px) {  
   .card {
-    border: 0.5px solid rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.04);
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: white;
     border-radius: 10px;
     max-width: 1000px;
-    margin : 0 auto;
+    margin-bottom: 120px;
     display: flex;
     align-items: center;
-    margin-bottom: 100px;
-  }
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;}
+
+  .card:hover, .card:focus, .card:active {
+
+    border: 0.5px solid rgba(0,0,0,0.05);
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+      box-shadow: 0 62px 120px -34px rgba(0,0,0,0.10);
+      border-radius: 8px;}
 }
-
-
-
-
-
 
 
 
@@ -656,29 +662,6 @@ line-height: 40px;
 }
 
 
-
-/*-----------------
- card hover
-------------------*/
-
-@media (min-width: 768px) {  
-  .card {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-    border-radius: 8px;
-}
-  .card:hover, .card:focus, .card:active {
-    -webkit-transform: translateY(-8px);
-    transform: translateY(-8px);
-    box-shadow: 0 62px 120px -34px rgba(0,0,0,0.10);
-    border-radius: 8px;}
-}
 
 
 
