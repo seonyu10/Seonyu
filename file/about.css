@@ -154,7 +154,7 @@
 
 @media (min-width: 768px) {
     .banner-container {
-      height: 45%;}
+      height: 50%;}
 }
   
 
@@ -202,10 +202,6 @@
   left: 0;
   top : 0;
  }
-
-
-
-
   
 
  .blog-link{
@@ -224,6 +220,7 @@
   
   .intro {
     padding-top: 20px;
+    background-image: linear-gradient(-180deg, #EA5C66 30%, #1D1730 100%);
   }
   
   .intro-box {
@@ -231,6 +228,7 @@
     max-width: 900px;
     margin: 0 auto;
     margin: 30px;
+    margin-bottom: 200px;
   }
   
   
@@ -281,7 +279,6 @@
 
 .resume{
   font-family: 'Rubik', sans-serif;
-  font-size: 14px;
   font-weight: 900;
   color: #ec5d66;
   border-radius: 2px;
@@ -290,53 +287,186 @@
 }
 
 
-  /*-------skills------*/
+
+  /*-----------------
+   info
+  ------------------*/
+
+.info{
+    background-color: #1D1730;
+ }
   
-  .skills-container {
-    display: block;
-    max-width: 600px;
-    margin: 0 auto;
-    padding-top: 100px;
+
+.info-container{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    display: inline-block;
+ }
+
+.info-container-02{
+  display: inline;
+}
+
+
+
+@media (min-width: 768px) {
+  .info-container{
+     max-width: 900px;
+     margin: 0 auto;
+     display: block;
   }
-  
-  .skills-header {
-    max-width: 600px;
-    margin: 0 auto;
+}
+
+
+@media (min-width: 768px) {
+  .info-container-02{
+     max-width: 900px;
+     padding-top: 20px;
+     margin: 0 auto;
+     display: block;
+  }
+}
+
+.info-row{
+
+  padding-bottom: 100px;
+}
+
+.info-li{
+  padding: 30px;
+
+}
+
+
+@media (min-width: 768px) {
+  .info-li{
+    float: left;
+    padding-left: 5%;
+    width: 40%;
+  }
+}
+
+
+.info-row:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.info-title-container{
     padding-bottom: 30px;
+}
+
+.info-title{
+    font-family: Rubik-BoldItalic;
+    font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 1.82px;
+    line-height: 28px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+
+.info-line{
+    border: 2px solid white;
+    width: 40px;
+}
+
+
+.info-des{
+    padding-top: 8px;
+}
+
+
+.info-position{
+    padding-top: 20px;
+    padding-bottom: 8px;
+    opacity: 0.84;
+    font-family: Rubik-Medium;
     font-size: 16px;
     color: #FFFFFF;
-    letter-spacing: 0.8px;
-    text-align: center;
-    line-height: 28px;
-  }
-  
-  .skills-list {
-    text-align: center;
-    border : 0.5px dotted;
-    margin: 4px;
-    display: inline-block;
-    border-radius: 19px;
-    padding: 2px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background: rgba(255, 255, 255, 0.1);
-  }
-  
-  .skills-text {
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2;
-    letter-spacing: 0.4px;
-    text-align: center;
-  }
-  
-  
+    letter-spacing: -0.59px;
+    line-height: 26px;  
+    text-align: left;
+}
+
+.info-company{
+    padding-bottom: 8px;
+    text-align: left;
+    opacity: 0.6;
+    font-family: Rubik-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: -0.59px;
+    line-height: 26px;
+}
+
+.info-date{
+    padding-bottom: 8px;
+    text-align: left;
+    opacity: 0.3;
+    font-family: Rubik-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: -0.59px;
+    line-height: 26px;
+}
+
+
+
+/*------------------------------- */
+
+.info-set{
+  padding-bottom: 8px;
+  text-align: left;
+  opacity: 0.9;
+  font-family: Rubik-Regular;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: -0.59px;
+  line-height: 38px;
+}
+
+
+#title-01{
+  color: #F2CD85;
+}
+
+
+#title-02{
+  color: #E65B65;
+}
+
+
+#info-line-01{
+  border: 2px solid #F2CD85;
+  width: 40px;
+}
+
+
+#info-line-02{
+  border: 2px solid #E65B65;
+  width: 40px;
+}
+
+
+
+
+
+
+
+
+
   /*-----------------
    footer
   ------------------*/
-  
+ 
+  footer{
+    background-color: #1D1730;
+  }
+
   .social-box {
     margin-top: 100px;
     padding: 50px;
