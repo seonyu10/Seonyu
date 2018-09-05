@@ -359,9 +359,9 @@
 }
 
 .info-title{
-    font-family: 'Rubik-bold', sans-serif;
+    font-family: 'Rubik-Medium', sans-serif;
     font-style: italic;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 30px;
     color: #FFFFFF;
     letter-spacing: 1.82px;
