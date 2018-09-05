@@ -20,7 +20,6 @@
   
   html,
   body {
-    font-family: "Libre Franklin", sans-serif;
     height: 100%;
     width: 100%;
     background-color: #ffab6f;
@@ -294,6 +293,7 @@
 
 .info{
     background-color: #1D1730;
+    font-family: 'Rubik', sans-serif;
  }
   
 
@@ -359,13 +359,16 @@
 }
 
 .info-title{
-    font-family: Rubik-BoldItalic;
+    font-family: 'Rubik-bold', sans-serif;
+    font-style: italic;
+    font-weight: 600;
     font-size: 30px;
     color: #FFFFFF;
     letter-spacing: 1.82px;
     line-height: 28px;
     text-align: left;
     padding-bottom: 20px;
+
 }
 
 
@@ -384,7 +387,8 @@
     padding-top: 20px;
     padding-bottom: 8px;
     opacity: 0.84;
-    font-family: Rubik-Medium;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
     font-size: 16px;
     color: #FFFFFF;
     letter-spacing: -0.59px;
@@ -396,7 +400,8 @@
     padding-bottom: 8px;
     text-align: left;
     opacity: 0.6;
-    font-family: Rubik-Regular;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
     font-size: 16px;
     color: #FFFFFF;
     letter-spacing: -0.59px;
@@ -407,7 +412,8 @@
     padding-bottom: 8px;
     text-align: left;
     opacity: 0.3;
-    font-family: Rubik-Regular;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
     font-size: 16px;
     color: #FFFFFF;
     letter-spacing: -0.59px;
@@ -422,7 +428,8 @@
   padding-bottom: 8px;
   text-align: left;
   opacity: 0.9;
-  font-family: Rubik-Regular;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
   font-size: 16px;
   color: #FFFFFF;
   letter-spacing: -0.59px;
