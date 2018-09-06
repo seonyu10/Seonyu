@@ -527,23 +527,20 @@
   
   @media (min-width: 768px) {
     #done-intro {
-      padding-top: 100px;
-      max-width: 380px;
+      padding-top: 40px;
+      max-width: 800px;
     }
   }
   
   #interaction01 {
-    margin-top: 50px;
-    width: 80%;
-    box-shadow: 0 20px 30px 0 rgba(191, 197, 209, 0.22),
-      0 10px 10px 0 rgba(93, 97, 104, 0.1),
-      inset 0 -20px 30px 0 rgba(239, 242, 246, 0.77), inset 0 1px 3px 0 #eff2f6;
+    margin-top: 10px;
+    width: 100%;
   }
   
   @media (min-width: 768px) {
     #interaction01 {
       margin-top: 50px;
-      max-width: 280px;
+      max-width: 800px;
     }
   }
   
@@ -554,38 +551,20 @@
   
   @media (min-width: 768px) {
     #interaction02 {
-      max-width: 700px;
+      max-width: 800px;
     }
   }
   
-  #bg-ideation {
-    background-color: #fafafa;
-  }
-  
-  #bg-interaction01 {
-    background-color: #fafafa;
-  }
-  
-  #bg-interaction02 {
-    background-color: #f4f4f4;
-  }
-  
-  #bg-interaction03 {
-    background-color: #e6e6e8;
-  }
-  
-  #bg-interaction04 {
-    background-color: #f4f4f4;
-  }
   
   #img-calender {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 10px;
   }
   
   @media (min-width: 768px) {
     #img-calender {
-      margin-top: 50px;
+      max-width: 900px;
+      margin-top: 0px;
     }
   }
   
@@ -596,7 +575,7 @@
   
   @media (min-width: 768px) {
     #img-percentage {
-      max-width: 700px;
+      max-width: 800px;
       margin-top: 50px;
     }
   }
@@ -608,7 +587,7 @@
   
   @media (min-width: 768px) {
     #img-color {
-      max-width: 800px;
+      max-width: 1000px;
     }
   }
 
