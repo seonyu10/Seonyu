@@ -787,17 +787,8 @@ body
 }
 
 .custom-img {
-  width: 92%;
+  max-width: 300px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -806,7 +797,10 @@ body
   color: white;
   padding: 6%;
   text-align: left;
+  max-width: 300px;
+  margin: 0 auto;
 }
+
 .custom-text-02 {
   padding-top:1%;
   padding-left: 6%;
@@ -819,6 +813,7 @@ body
   font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 600;
+  line-height: 30px;
 }
 
 .custom-text-des {
@@ -826,7 +821,14 @@ body
   display: block;
   text-align: left;
   padding-top: 10px;
+  line-height: 24px;
 }
+
+
+#custom-container{
+  padding-top: 100px;
+}
+
 
 #final-img {
   width: 95%;
