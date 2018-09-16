@@ -795,7 +795,12 @@ body
 
 .custom-text {
   color: white;
-  padding: 6%;
+
+  padding-top: 4%;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 20%;
+
   text-align: left;
   max-width: 300px;
   margin: 0 auto;
