@@ -608,7 +608,7 @@ body
 .layout-text-title {
   text-align: left;
   font-weight: 600;
-  height: 120px;}
+}
 }
 
 
@@ -633,7 +633,7 @@ body
     text-align: left;
     font-weight: 600;
     color: #FF8015;
-    padding-top:30px;
+    padding-top: 8%;
   }
 }
 
