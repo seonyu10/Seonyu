@@ -442,8 +442,14 @@
 
 
 #title-02{
+  color: #FF8966;
+}
+
+
+#title-03{
   color: #E65B65;
 }
+
 
 
 #info-line-01{
@@ -453,9 +459,17 @@
 
 
 #info-line-02{
+  border: 2px solid #FF8966;
+  width: 40px;
+}
+
+
+
+#info-line-03{
   border: 2px solid #E65B65;
   width: 40px;
 }
+
 
 
 
