@@ -564,7 +564,7 @@ line-height: 40px;
     letter-spacing: 0.78px;
     text-align: left;
     padding: 0%;
-    padding-bottom: 3%;
+    padding-bottom: 5%;
   }
 }
 
@@ -587,7 +587,7 @@ line-height: 40px;
     margin-top: 0px;
     color: black;
     text-align: left;
-    
+    padding-bottom: 0px;
   }
 }
 
