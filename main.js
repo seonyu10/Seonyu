@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   window.sr = ScrollReveal();
   sr.reveal('.card');
-
+  sr.reveal('.card-02');
 });
 
 
