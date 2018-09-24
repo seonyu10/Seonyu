@@ -60,15 +60,15 @@ let tapeAnim = function ($el) {
     TweenMax.set($tape03, { color: '#FF8966', delay: _delay + 0.5 });
     TweenMax.set($tape04, { color: '#E85C65', delay: _delay + 0.5 });
 
-    TweenMax.to($cover, 0.5, {
+    TweenMax.to($cover, 1, {
       // cover의 width만큼 오른쪽으로 이동
-      x: $cover.width() + 1,
+      x: $cover.width() + 4,
       // 마찬가지로 1의 애니메이션 속도와 딜레이를 더해준다
       delay: _delay + 0.5,
       ease: Power4.easeOut,
     });
 
-    _delay += 0.12;
+    _delay += 0.22;
   }
 };
 
