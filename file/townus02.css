@@ -474,7 +474,7 @@ body
 }
 
 .image-des {
-  padding-top: 5px;
+  padding-top: 10px;
   max-width: 600px;
   margin: 0 auto;
   font-style: normal;
@@ -516,8 +516,36 @@ body
 
 /*--------list---------------*/
 
+#as-is-bg{
+  max-width: 410px;
+
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+
+#flow_map{
+  width: 95%;
+  max-width: 360px;
+}
+
+
+
+@media (min-width: 768px) {
+  #flow_map{
+    width: 100%;
+    max-width: 380px;
+  }
+}
+
+
+#flow_map-02{
+  margin-bottom: 10px;
+}
+
 
 /*--------list---------------*/
+
 
 .list {
   max-width: 900px;
@@ -548,11 +576,11 @@ body
   }
 }
 
-/*page ui layout*/
+
 
 .layout-container {
   padding-top: 100px;
-  max-width: 960px;
+  max-width: 1000px;
   margin: 0 auto;
   display: inline-block;
 }
@@ -576,8 +604,8 @@ body
 @media (min-width: 768px) {
   .layout-list {
     float: left;
-    width: 26%;
-    padding: 3%;
+    width: 240px;
+    padding: 20px;
     font-size: 16px;
     color: #121214;
     letter-spacing: -0.39px;
@@ -585,6 +613,16 @@ body
     line-height: 26px;
   }
 }
+
+.variation_01{
+  padding: 10px;
+  background-color: white;
+}
+
+.variation_02{
+  padding: 10px;
+}
+
 
 .layout-img {
   width: 100%;
@@ -599,16 +637,41 @@ body
   text-align: left;
 }
 
+
+.layout-text-title-var-02{
+  text-align: left;
+  font-weight: 900;
+  color:black;
+  padding: 20px;
+  margin-top:30px;
+}
+
+
+
+.layout-text-title-var{
+  text-align: left;
+  font-weight: 900;
+  color:black;
+  margin: 14px;
+}
+
+
 .layout-text-title {
   text-align: left;
   font-weight: 600;
+  margin: 10px;
+  font-size: 14px;
+  color: #7f7f7f;
 }
+
 
 @media (min-width: 768px) {
 .layout-text-title {
   text-align: left;
   font-weight: 600;
-}
+  font-size: 14px;
+  color: #7f7f7f;
+  }
 }
 
 
@@ -644,7 +707,7 @@ body
 
 .layout-img-bg {
   margin: 0 auto;
-  width: 80%;
+  width: 98%;
   position: relative;
 }
 
@@ -656,8 +719,9 @@ body
 }
 
 
-
-
+#img-container-var{
+  max-width: 1200px;
+}
 /*---------*/
 
 .map-container {
@@ -731,16 +795,6 @@ body
   }
 }
 
-
-#flow_map{
-  margin-top: 50px;
-  max-width: 360px;
-}
-
-#flow_map-02{
-  max-width: 380px;
-  margin-bottom: 20px;
-}
 
 
 /*layout*/
