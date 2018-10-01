@@ -350,8 +350,8 @@ line-height: 40px;
   .card-container{
     margin : 0 auto;
     max-width: 800px;
-    padding-top: 80px;
-    padding-bottom: 140px;}
+    padding-top: 60px;
+    padding-bottom: 160px;}
 }
 
 
@@ -367,8 +367,8 @@ line-height: 40px;
   .card-container-02{
     margin : 0 auto;
     max-width: 800px;
-    padding-top: 80px;
-    padding-bottom: 140px;}
+    padding-top: 60px;
+    padding-bottom: 160px;}
 }
 
 .card-list{
