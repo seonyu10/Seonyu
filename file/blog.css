@@ -1,0 +1,318 @@
+/*-------------
+ CSS RESET 
+--------------*/
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+  
+  /*
+   * Base structure
+   */
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  /*---------------------
+   * Header
+  ----------------------*/
+  
+  .header_global {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 9;
+  }
+  
+  nav {
+    margin: 0 auto;
+    max-width: 800px;
+    box-sizing: border-box;
+  }
+  
+  .header_global .logo {
+    font-weight: 500;
+  }
+  
+  @media (min-width: 768px) {
+    .header_global .logo {
+      float: left;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .header_global .nav_menu {
+      float: right;
+    }
+  }
+  
+  
+  .header_global .nav_menu li {
+    display: inline;
+  }
+  
+  @media (min-width: 768px) {
+    .header_global .nav_menu li {
+      float: left;
+    }
+  }
+  
+  
+  .menu_list {
+    display: inline-block;
+    margin: 1rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color:black;
+    letter-spacing: 0.71px;
+    text-align: center;
+    line-height: 40px;
+  }
+  
+  
+  @media (min-width: 768px) {
+    .menu_list {
+      display: inline;
+      margin: 1rem;
+      font-weight: 100;
+     line-height: 40px;}
+  }
+  
+  .header_global:after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+  
+  .header_global nav:after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+  
+  #menu_active {
+    opacity: 1;
+  }
+  
+  #menu_inactive {
+    opacity: 0.5;
+  }
+  
+  .logo{
+  }
+  
+  .logo-sun{
+    padding-top: 3px;
+    width: 36px;
+    float: left;
+  }
+  
+  .logo-name{
+    padding-top: 5px;
+    line-height: 40px;
+  /* Seonyu Kim: */
+  font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 0.71px;
+    text-align: center;
+    line-height: 40px;
+  }
+  
+/*-----------------
+   banner
+  ------------------*/
+  
+
+
+  /*---------------------
+   * body
+  ----------------------*/
+  
+  .project {
+    width: 100%;
+  }
+  
+  .project-container {
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  @media (min-width: 768px) {
+    .project-container {
+      padding: 130px;
+      padding-top:200px;
+    }
+  }
+  
+  .text-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .subheader {
+    max-width: 600px;
+    height: 29px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: 2.07;
+    letter-spacing: 1.1px;
+    text-align: center;
+    color: #131315;
+  }
+  
+  .title {
+    max-width: 600px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;
+    text-align: center;
+    color: #000000;
+  }
+  
+  @media (min-width: 768px) {
+    .title {
+      text-align: center;
+    }
+  }
+  
+  .body {
+    padding-top: 100px;
+    max-width: 600px;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    text-align: left;
+    color: #121214;
+  }
+  
+  @media (min-width: 768px) {
+    .body {
+      text-align: justify;
+    }
+  }
+  
+  .project-image {
+    padding-top: 50px;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .image-des {
+    max-width: 600px;
+    margin: 0 auto;
+    height: 44px;
+    font-size: 13px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.69;
+    text-align: center;
+    color: #8c8c8c;
+  }
+
+  /*-----------------
+   footer
+  ------------------*/
+ 
+  footer{
+    background-color:white;
+  }
+
+  .social-box {
+    margin-top: 100px;
+    padding: 50px;
+    max-width: 800px;
+    display: inline-block;
+  }
+  
+  .social-container {
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+
+.social {
+  margin-top: 30px;
+  text-align: center;
+  display: block;
+  float: right;
+}
+
+
+.social-list {
+  float: left;
+  margin: 4px;
+}
+
+.social-list:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.social:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+  
+.social-icon {
+   width: 30px;
+   height: 30px;
+   opacity: 0.7;
+}
+  
+.social-icon-img {
+   width: 100%;
+}
+  
+.footer-seonyu {
+  margin-top: 30px;
+  text-align: center;
+  color: black;
+  opacity: 0.8;
+  max-width: 800px;
+  color: #BEC2C9;
+  font-family: 'Rubik', sans-serif;
+}
+
+.footer-seonyu:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+
+

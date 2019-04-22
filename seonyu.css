@@ -694,6 +694,11 @@ line-height: 40px;
 
 /*--------*/
 
+
+#bg-swingvy{
+  background-color: #ecf3ff;
+}
+
 #bg-beecanvas{
   background-color: #C5C4E1;
 }
